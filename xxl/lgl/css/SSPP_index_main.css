@@ -1,0 +1,27 @@
+.tmd{
+    width: 696px;
+}
+section{
+    margin-bottom: 60px;
+}
+.ttt>article>section:nth-child(1)>h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 25px;
+    margin-bottom: 100px;
+}
+.bt{
+    font-size: 18px;
+    color: #333333;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.bt_span{
+    font-size: 14px;
+    color: #333333;
+    padding-left: 15px;
+}
+.img_r{
+    margin-right: 20px;
+}

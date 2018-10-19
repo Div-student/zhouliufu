@@ -1,0 +1,136 @@
+.head_bg{
+  width: 100%;
+  height: 1000px;
+  background-image: url(../img/waibaobg.jpg);
+  background-repeat: no-repeat
+}
+.head_gb_content{
+  width: 70%;
+  height: inherit;
+  border: solid 0.1px transparent;
+  text-align: center;
+  margin: 0 auto
+}
+.head_bg h1{
+  font-size: 70px;
+  color: #00FFEA;
+  margin-top: 195px
+}
+.head_bg hr{
+  margin: 0 auto;
+  width: 70px;
+  height: 10px;
+  background-color: #00FFEA;
+  border: none;
+}
+.head_bg h2{
+  font-size: 57px;
+  color: white;
+  margin-top: 20px
+}
+.head_bg .p1{
+  font-size: 26px;
+  color: white
+}
+.head_bg .p2{
+  font-size: 21px;
+  color: white;
+  margin-top: 225px
+}
+.jiantou{
+  margin-top: 55px
+}
+.body{
+  height: 1550px;
+  width: 100%;
+}
+.body_content{
+  width: 70%;
+  height: inherit;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+.body_head{
+  margin-top: 75px
+}
+.bodytitle{
+  font-size: 41.27px;
+  margin:0 50px;
+}
+.lineleft, lineleft{
+  display: inline-block;
+  width: 75px;
+  height: 5px;
+  margin-bottom: 10px;
+  background-color: black
+}
+.body_head>p{
+  font-size: 14px
+}
+.jiaofu{
+  margin:80px 0 88px
+}
+.bodylist{
+  border: solid 0.1px transparent
+}
+.bodylist>p{
+  width: 770px;
+  height: 58px;
+  background-image: url(../img/bg03.png);
+  margin: 28px auto;
+  text-align: left
+}
+.bodylist>p>span{
+  display: inline-block;
+  line-height: 58px;
+  font-size: 23px;
+  color: white;
+  margin-left: 20px
+}
+.bodylist>p>span:last-child{
+  margin-left: 67px
+}
+.body_foot{
+  margin: 0 auto;
+  position: relative;
+}
+.body_foot>span{
+  display: inline-block;
+  width: 200px;
+  height: 415px;
+  padding: 50px 20px;
+  color: white;
+  background-image: url(../img/bg04.png)
+}
+.body_footleft{
+  position: absolute;
+  top: 125px;
+  left: 200px
+}
+.body_footright{
+  position: absolute;
+  top: 125px;
+  right: 200px
+}
+.body_foot>span>p:first-child{
+font-size: 28px;
+margin-bottom: 30px
+}
+.body_foot>span>p:nth-child(3){
+  font-size: 18px;
+  margin-top: 159px
+}
+.bgleft{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left:-200px;
+  top: 438px
+}
+.bgright{
+  position: absolute;
+  top: 1080px;
+  right: 0px
+}
+

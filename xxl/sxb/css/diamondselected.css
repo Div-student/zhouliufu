@@ -1,0 +1,432 @@
+.diamondselected{
+  width:1200px;
+  margin:auto;
+}
+h4{
+  height: 50px;
+  line-height: 50px;
+  font-weight: 500;
+}
+.diamontprograng>li{
+  width: 33.3%;
+  height: 73px;
+  line-height: 73px;
+  float: left;
+  text-align: center;
+  font-size: 24px;
+  border:1px solid #EEDFBA;
+  box-sizing: border-box;
+  margin-bottom:15px;
+}
+.diamontprograng>li b{
+  display: inline-block;
+  overflow: hidden;
+  clear: both;
+  height: 73px;
+  padding: 0 3px;
+  font-weight: 500;
+}
+.diamontprograng>li span{
+  font-weight: 300;
+}
+.diamontprograng>li span:nth-child(2){
+  font-size: 36px;
+  font-weight: 500;
+}
+/* 钻石详情表左边设置 */
+.diamoned-details{
+  position:relative;
+}
+.diamoned-details>div{
+  float:left;
+}
+.details-left>div:first-child{
+  border:1px solid  #e5e5e5;
+  height:440px;
+  overflow: hidden;
+}
+.details-left>div:first-child img{
+  height:440px;
+}
+.details-left>div:last-child span{
+  display: inline-block;
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+}
+.details-left>div:last-child img{
+
+  width:100%;
+}
+.details-left>div:last-child li{
+  width: 33.3%;
+  padding: 20px 0;
+  float: left;
+  text-align: center;
+}
+/* 左右箭头 */
+.details-left>div:last-child{
+  position:relative;
+}
+.left-arrow{
+  position:absolute;
+  left:0px;
+  top:52px
+}
+.right-arrow{
+  position:absolute;
+  right:0px;
+  top:52px
+}
+/* 钻石详情右边设置 */
+.details-right{
+  width:56%;
+  position: absolute;
+  top:0px;
+  right:0px;
+}
+.details-right h3{
+   margin-top: 30px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #333;
+}
+.details-right P b{
+  font-size: 30px;
+  margin: 0 5px;
+  font-weight: 500;
+  color: #fe6000;
+}
+.details-right>.price{
+  margin-top: 30px;
+  border-top: 1px dashed #dcdcdc;
+  border-bottom: 1px dashed #dcdcdc;
+  background: #f6f6f6;
+  padding: 8px 19px;
+}
+.preview span{
+  display: inline-block;
+  padding-left: 13px;
+  height: 26px;
+  line-height: 27px;
+  background: #ff5f00;
+  color: #fff;
+  position: relative;
+  margin-top:30px;
+}
+.certified a{
+  margin: 0 10px;
+  color: #dab866;
+  font-size: 14px;
+}
+.certified p{
+  margin-top:15px;
+}
+.buttons{
+  margin-top: 69px;
+  text-align: center;
+}
+.buttons a{
+  display: inline-block;
+  width: 34%;
+  text-align: center;
+  height: 56px;
+  line-height: 56px;
+  font-size: 18px;
+  border: 1px solid #dab866;
+  border-radius: 3px;
+  background: #f7f3e8;
+  color: #dab866;
+  margin-left: 12.5%;
+  cursor:pointer;
+}
+.buttons .buttonsactive{
+  background: #dab866;
+  color: #fff;
+}
+
+/* 查看证书遮罩层 */
+.mask{
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background:rgba(0, 0, 0, .5);
+}
+.mask>div{
+  position:fixed;
+  width:50%;
+  height:60%;
+  top:25%;
+  left:20%;
+}
+.imgbox{
+  height:90%;
+  text-align:center;
+  overflow: hidden
+}
+.imgbox img{
+  height:100%;
+}
+.close{
+  position:absolute;
+  top:5px;
+  right:100px;
+}
+
+/* 证书信息 */
+.wraps{
+  border-top:1px solid  #dab866;
+}
+.certifidetails{
+  width:1200px;
+  margin:10px auto ;
+}
+.certifidetails p{
+  text-align: center
+}
+.giaimf{
+  text-align:left!important;
+  position:relative;
+  text-indent: 2em;
+  margin-top:10px;
+}
+.giaimf img{
+  float: left;
+  margin-right:10px;
+}
+.wraps1, .wraps3{
+  background-color:#F2F2F2;
+}
+.wraps1>div{
+  width:1200px;
+  margin:auto;
+}
+.wraps1>div>div{
+  float:left;
+}
+
+
+/* 钻石参数左边设置 */
+.diaparaleft table{
+  width:500px;
+  margin-top: 10px;
+  border-collapse:collapse;
+}
+.diaparaleft table em{
+  display: block;
+  margin-bottom: 5px;
+  font-size:normal;
+  font-style:normal;
+  text-decoration:none;
+}
+.diaparaleft table tr{
+  height: 90px;
+  text-align: center;
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.diaparaleft {
+  margin-right:62px;
+}
+/* 钻石重量设置 */
+.wraps2>div{
+  width:1200px;
+  margin:10px auto;
+  text-align:center;
+}
+.wraps2>div>div{
+  margin-top:100px;
+  position:relative;
+}
+.wraps2>div>div p{
+  padding: 13px 0 7px;
+  text-align: center;
+  width: 120px;
+  color: #fff;
+  background: #dab866;
+  position: absolute;
+  top: -74px;
+  left: 423px;
+}
+.wraps2>div>div p em{
+  display: inline-block;
+  width: 18px;
+  height: 9px;
+  background: url(../image/gold-arrow.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  margin-left: -9px;
+}
+/* 切工设置 */
+.diamontcut, .diamondcolor, .priceinfr{
+  width:1200px;
+  margin:10px auto;
+  position:relative;
+}
+.diamontcut h3, .diamondcolor h3{
+  padding:40px;
+  text-align: center;
+}
+.cutright{
+  float: right;
+  position:relative;
+}
+.cutright li{
+  height:40px;
+  width:150px;
+  line-height:40px;
+  background-color:#E7E7E7;
+  text-align:center;
+  border-bottom:1px solid #CECECE;
+}
+.cutright ul{
+  border:1px solid #CECECE;
+}
+.cutright>p{
+  width: 264px;
+  padding: 30px 20px;
+  position: absolute;
+  top: 53px;
+  left: -322px;
+  color: #fff;
+  background: #dab866;
+  font-size: 14px;
+  line-height: 30px;
+}
+i{
+  display: inline-block;
+  width: 10px;
+  height: 17px;
+  background: url(../../png/diam_point_rig.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 19px;
+  right: -10px;
+}
+/* 颜色设置 */
+.diamondcolor>div{
+  text-align: center;
+  margin-bottom: 150px;
+}
+.diamondcolor>div:last-child p{
+  width: 264px;
+  padding: 13px 15px 7px;
+  background: #dab866;
+  color: #fff;
+  line-height: 25px;
+  position: absolute;
+  top: 196px;
+  left: 0;
+}
+.diamondcolor>div:last-child p em{
+  display: inline-block;
+  width: 18px;
+  height: 9px;
+  background: url(../../png/gold-arrow.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  margin-left: -9px;
+}
+.diamondcolor>div:last-child p b{
+  font-size: 29px;
+  font-weight: 500;
+  margin-right: 2px;
+}
+/* 价格说明 */
+.priceinfr{
+  border:1px solid #E5E5E5;
+  padding:30px 12px;
+}
+
+/* 全部评论 */
+.allcomments{
+  width:1200px;
+  margin:10px auto;
+  position:relative;
+}
+.allcomments li{
+  background: #f8f8f8;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+.allcomments li a{
+  min-height: 125px;
+  display: inline-block;
+  padding: 25px 170px 25px 115px;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+}
+.allcomments li a em{
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  display: inline-block;
+  text-align: center;
+  width: 75px;
+}
+.allcomments li a em i{
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  border: 1px solid #e5e5e5;
+ }
+ .allcomments li a em i img{
+   width:100%;
+ }
+ .allcomments li a em p{
+  margin-top: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+ }
+ .allcomments li a>p{
+  color: #999999;
+  line-height: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+ }
+ .allcomments li a>p img{
+  width: 60px;
+  height: 60px;
+  margin-right: 11px;
+  vertical-align: top;
+ }
+ .allcomments li a h3 b{
+  display: inline-block;
+  width: 20px;
+  height: 19px;
+  background: url(../../png/mycenter_comment_xj3.png) 0 0 no-repeat;
+  margin-right: 3px;
+ }
+ .allcomments li a h3{
+  position: absolute;
+  top: 25px;
+  right: 15px;
+ }
+ .allcomments>p{
+  text-align: center;
+  margin: 35px 0 75px 0;
+ }
+ .allcomments>p>a{
+  display: inline-block;
+  width: 110px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #dab866;
+  border: 1px solid #dab866;
+  border-radius: 3px;
+}

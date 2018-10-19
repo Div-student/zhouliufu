@@ -1,0 +1,166 @@
+body{
+    width: 1920px;
+    margin: 0 auto;
+}
+.Main{
+    position: relative;
+}
+.bg{
+    height: 900px;
+    width: 100%;
+    background-image: url('../img/waibo2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bg>.content{
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+}
+.bg>.content>p{
+    text-align: center;
+    padding: 6px 0;
+}
+.bg>.content>p:first-child{
+    font-size: 65px;
+    color: #00ffea;
+    padding: 0  510px;
+    padding-top:190px; 
+}
+.bg>.content>hr{
+    width:71px;
+    height: 8px;
+    background: #00ffea;
+    margin: 0 auto;
+}
+.bg>.content>.two{
+    font-size: 60px;
+    color: #fff;
+}
+.bg>.content>.three{
+    font-size: 26px;
+    color: white;
+    margin-bottom: 330px;
+}
+.bg>.content>.four{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 40px;
+}
+.Main>.title{
+    width: 410px;
+    height: 220px;
+    margin: 0 auto;
+    position: relative;
+}
+.Main>.title>hr{
+    height: 5px;
+    width: 410px;
+    background: #000;
+    position: absolute;
+    top:105px;
+}
+.Main>.title>div{
+    width: 260px;
+    height: 200px;
+    background: #fff;
+    line-height: 200px;
+    text-align: center;
+    position: absolute;
+    top:5px;
+    left:75px;
+}
+.Main>.title>div>p:first-child{
+    width: 260px;
+    height: 50px;
+    font-size: 40px;
+}
+.Main>.title>div>p:last-child{
+    font-size: 14px;
+    height: 50px;
+}
+.Main>.getpay{
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+    margin-top:40px; 
+    background-image: url('../img/waibo4.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 85px;
+}
+.Main>.getpay>p{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom:50px;
+    left: 60px;
+}
+.Main>.txt{
+    width: 770px;
+    height: 250px;
+    margin: 0 auto;
+}
+.Main>.txt>div{
+    width: 768px;
+    height: 58px;
+    background-image: url('../img/waibo5.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: white;
+    line-height: 58px;
+}
+.Main>.txt>div>span:first-child{
+    padding-left:20px;
+}
+.Main>.txt>div>span:last-child{
+    padding-left:70px;
+}
+.Main>.txt1{
+    width: 707px;
+    height: 517px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.Main>.txt1>div{
+    width: 238px;
+    height: 517px;
+    background-image: url('../img/waibo6.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 22px;
+    color: white;
+}
+.Main>.txt1>div:first-child{
+    float: left;
+}
+.Main>.txt1>div:last-child{
+    float: right;
+}
+.Main>.txt1>div>p:first-child{
+    font-size: 28px;
+    padding: 50px 60px 20px;
+}
+.Main>.txt1>div>p:nth-child(2){
+    font-size: 14px;
+    padding: 0 38px;
+}
+.Main>.txt1>div>p:last-child{
+    font-size: 19px;
+    padding: 150px 22px;
+}
+.vector>img:first-child{
+    position: absolute;
+    top:1360px;
+    left:56px;
+}
+.vector>img:last-child{
+    position: absolute;
+    right: 145px;
+    bottom:325px;
+}

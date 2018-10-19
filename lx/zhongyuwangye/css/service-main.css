@@ -1,0 +1,155 @@
+/* 上半部分内容  背景*/
+#content-top{
+  height:1000px;
+  background: url(../img/top-back.jpg) no-repeat;
+  background-size: cover;
+}
+/* 标题部分 */
+#cont-main>.main-title{
+  height:208px;
+  background: white;
+}
+/* 内容区域 */
+#cont-main>.main-title>div{
+  width:1200px;
+  height:208px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  border: 0.1px solid transparent;
+}
+/* 大标题文字 */
+#cont-main>.main-title>div>h2{
+  font:45px '';
+  color: black;
+  margin-top:74px;
+}
+/* 英文文字 */
+#cont-main>.main-title>div>p{
+  font:20px '宋体';
+}
+/* 文字两边的线条 */
+#cont-main>.main-title>div>span{
+  position: absolute;
+  width:222px;
+  height:3px;
+  background: #AAAAAA;
+  top:55%;
+}
+/* 左边线条 */
+#cont-main>.main-title>div>span:first-child{
+  left:222px;
+}
+/* 右边线条 */
+#cont-main>.main-title>div>span:last-child{
+  right: 222px;
+}
+#cont-main>.main-synopsis{
+  background: #1CC1C7;
+  color: white;
+  border: 0.1px solid transparent;
+}
+#cont-main>.main-synopsis>div{
+  width: 1200px;
+  height:388px;
+  margin:0 auto;
+  text-align: center;
+}
+#cont-main>.main-synopsis>div>p{
+  line-height: 50px;
+}
+#cont-main>.main-synopsis>div>div{
+  width:390px;
+  height:75px;
+  border:1px solid #45ccd0;
+  outline: #78d9dd;
+  margin:53px auto;
+  position: relative;
+}
+#cont-main>.main-synopsis>div>div>div{
+  width:262px;
+  height:100px;
+  position: absolute;
+  bottom:0;
+  left:64px;
+  z-index: 1;
+  background: #1CC1C7;
+}
+#cont-main>.main-synopsis>div>div>div>h3{
+  font:30px '';
+  margin-bottom:15px;
+}
+#cont-main>.main-synopsis>div>div>div>p{
+  color: #ADE3E5;
+  
+}
+#cont-main>.main-cont{
+  height:1022px;
+  background: white;
+}
+/* 实际内容区域 */
+#cont-main>.main-cont>div{
+  width:1200px;
+  margin:0 auto;
+  color: black;
+  text-align: center;
+}
+/* 标题区域大小 */
+#cont-main>.main-cont>div>div:first-child{
+  height:267px;
+  line-height: 267px;
+}
+/* 标题文字样式 */
+#cont-main>.main-cont>div>div:first-child>p{
+  font-size: 36px;
+}
+ /* 标题下 横线 */
+#cont-main>.main-cont>div>div:first-child>span{
+  display: block;
+  width:93px;
+  height:3px;
+  background: black;
+  margin:-80px auto 0 auto;
+}
+/* 下半部分内容区域 */
+#cont-main>.main-cont>div>div:last-child{
+  height:645px;
+}
+#cont-main>.main-cont>div>div:last-child>div:first-child>div{
+  float: left;
+  margin-left:7px;
+}
+#cont-main>.main-cont>div>div:last-child>div>div:first-child{
+  margin:0;
+}
+#cont-main>.main-cont>div>div:last-child>div:last-child{
+  height:385px;
+  padding:0 84px;
+  background: #1CC1C7;
+  text-align: left;
+  color: #EEEEEE;
+  border: 0.1px solid transparent;
+}
+#cont-main>.main-cont>div>div:last-child>div:last-child>p{
+  color: white;
+  font-size: 43px;
+  line-height:80px;
+  position: relative;
+  margin-top: 40px;
+}
+#cont-main>.main-cont>div>div:last-child>div:last-child>p>span{
+  font-size: 23px;
+}
+#cont-main>.main-cont>div>div:last-child>div:last-child>p>span:last-child{
+  display: block;
+  width:87px;
+  height:3px;
+  background:white;
+  position: absolute;
+  bottom:10px;
+}
+#cont-main>.main-cont>div>div:last-child>div:last-child>div>p{
+  margin-top:30px;
+  text-indent: 2em;
+  line-height: 40px;
+}

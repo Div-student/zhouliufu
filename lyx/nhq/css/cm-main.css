@@ -1,0 +1,50 @@
+
+/*轮播图*/
+.sowingMap{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.slideShow>div{
+    position: relative;
+}
+.slideShow>div>img{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    display: none;
+}
+.slideShow>div>img:first-child{
+    display: block;
+}
+.block{
+    display: block;
+}
+.navcircle{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.navcircle>ul{
+    width: 90px;
+    height: 30px;
+    margin: 0 auto;
+}
+.navcircle>ul>li{
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    margin: 5px;
+    list-style: none;
+}
+.navcircle .active{
+    background: blue;
+}
+/*导航栏的高亮*/
+.cur{
+    color: #dab866;
+}
+

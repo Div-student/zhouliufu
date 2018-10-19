@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*头上部分*/
+.phone{
+    padding-left: 20px;
+    background: url(../image/icon-phone.png) left center no-repeat;
+    background-size: 15px 15px;
+}
+.headerTop{
+    height: 35px;
+    line-height: 35px;
+    background: #f0f0f0;
+    position: relative;
+}
+.headerTopLeft{
+    height: 35px;
+    line-height: 35px;
+    width: 120px;
+    margin-left: 50px;
+}
+.headerTopLeft>a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.headerTopRight {
+    height: 35px;
+    line-height: 35px;
+    width: 460px;
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+.lists>li{
+    list-style-type: none;
+    float: left;
+    width: 80px;
+    text-align: center;
+    position: relative;
+}
+.lists>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.lists>li:last-child{
+    width: 140px;
+}
+
+/*头底部*/
+.headerBottom{
+    margin: 0 50px;
+    position: relative;
+    height: 100px;
+}
+.headerBottomRight{
+    position: absolute;
+    right: 0;
+    top: 27px;
+    width: 370px;
+    height: 73px;
+    text-align: left;
+}
+.headerBottomRight>div:last-child>input{
+    height: 26px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: gray;
+    font-size: 16px;
+    outline: none;
+    padding-left: 10px;
+}
+.headerBottomRight>div:first-child>span:first-child{
+    padding: 0 10px;
+    padding-left: 20px;
+    color: #606060;
+    float: left;
+    background: url(../image/icon-map.png) left center no-repeat;
+    background-size: 15px;
+    cursor: pointer;
+    line-height: 28px;
+}
+.headerBottomRight>div:first-child>span:nth-child(2){
+    padding: 0 10px;
+    padding-right: 20px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    line-height: 28px;
+    height: 28px;
+    color: #606060;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+.less1:before{
+    content: '';
+    display: block;
+    width: 8px;
+    height: 1px;
+    background: gray;
+    position: absolute;
+    top: 17px;
+    left: 72px;
+    transform: rotate(45deg);
+}
+.less1:after{
+    content: '';
+    display: block;
+    width: 8px;
+    height: 1px;
+    background: gray;
+    position: absolute;
+    top: 17px;
+    left: 77px;
+    transform: rotate(-45deg);
+}
+/*导航栏*/
+.main{
+    zoom: 1;
+    *zoom: 1;
+}
+.main:after{
+    clear: both;
+    height: 0px;
+    visibility: hidden;
+    display: block;
+    content:'';
+}
+.main>ul{
+    margin: 0 auto;
+    width: 1200px;
+    height: 40px;
+}
+.main>ul>li{
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+.main>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+.main>ul>li>a:hover{
+    color: #dab866;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script>
+    // tab标签切换
+    $(function(){
+        $("button").click(function(){
+        $("button").removeClass("bgcolor")
+        $(this).addClass("bgcolor")
+        $(".box div").addClass("active")
+        $(".box div").eq($(this).index()).removeClass("active")
+      })
+    })
+    //jq中的ajax请求
+    $.get("http://demo.xiangmingit.com:9082/user/loginbyphone/18681559071/1123", function(data, status){
+      console.log(data)
+    })
+
+  </script>
+  <style>
+    div{
+      width:200px;
+      height:200px;
+      border:1px solid red;
+    }
+    .bgcolor{
+      background-color:green;
+    }
+    .active{
+      display: none;
+    }
+    .wrap{
+      position:fixed;
+      width: 100%;
+      height: 100%;
+      top:0px;
+      left:0px;
+      background-color:rgba(0, 0, 0, .5);
+    }
+    .wrap >div{
+      margin: 200px auto;
+    }
+  </style>
+</head>
+<body>
+    <button class="bgcolor">登录</button><button>注册</button>
+    <div class="box">
+        <div >登录页面</div>
+        <div class="active">注册页面</div>
+    </div>
+    <div class="wrap">
+        <div>
+          <p><label for="">用户名：</label> <input type="text"> </p>
+          <p><label for="">密码：</label> <input type="text"> </p>
+          <p><label for="">验证码</label> <span></span> </p>
+          <p><input type="button" value="注册"> <input type="button" value="取消"></p>
+        </div>
+    </div>
+</body>
+</html>

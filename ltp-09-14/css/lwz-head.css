@@ -1,0 +1,181 @@
+*{
+  margin:0;
+  padding:0;
+  font-size:20px;
+  color:white;
+}
+/* 居中对齐 */
+.center{
+  width:80%;
+  margin:0 auto;
+}
+ul{
+  list-style:none;
+}
+.head{
+  background:url(../image/lwz/lwz-companyBg.png) 0px 0px / 100% 994px;
+  background-repeat:no-repeat;
+  height:994px;
+  /* background-size:100%; */
+  position:relative;
+}
+.head>.headTop{
+  background:rgba(0,0,0,.5);
+  height:60px;
+}
+.head>.headTop>div{
+  width:40%;
+  margin:0 auto;
+  padding:0 10% 0 30%;
+
+}
+.head>.headTop>div>ul{
+  height:60px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.head>.headTop>div>ul a{
+  font-size:0.4em;
+  color:white;
+  text-decoration:none;
+}
+.head>.headTop>div>ul a:hover{
+  color:#00f5e1;
+  border-bottom:2px solid #00f5e1;
+}
+/* 口号样式 */
+.head>.slogan{
+  position:absolute;
+  top:45%;
+  left:36%;
+}
+.head>.slogan>h1{
+  font-size:3em;
+  text-align:center;
+  font-weight:normal;
+}
+.head>.slogan>h3{
+  font-size:2em;
+  text-align:center;
+  font-weight:normal;
+}
+/* 下箭头图标 */
+.head>img{
+  position:absolute;
+  bottom:9%;
+  left:49%;
+}
+/* main主页面 */
+  /* 合作案例-中国平安 */
+main .coopration{
+   margin:0 auto;
+  margin-top:98px;
+  margin-bottom:20px;
+  width:412px;
+  height:45px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+main .coopration>div:nth-child(odd){
+  content:"";
+  width:20%;
+  height:5px;
+  background:black;
+}
+main .coopration>div:nth-child(2){
+  font-size:2em;
+  color:black;
+}
+main .coopration +div{
+  text-align:center;
+  color:black;
+  margin-bottom:92px;
+}
+main img{
+  margin:0 auto;
+  display:inherit;
+  margin-bottom:41px;
+}
+main>.center>div:last-child{
+  color:black;
+  text-align:center;
+  font-size:23px;
+  font-weight:bold;
+  margin-bottom:50px;
+}
+  /* 全方位定位 */
+main>.allLocation{
+  overflow:hidden;
+  height:823px;
+  background:url(../image/lwz/lwz-layoutBg.png) 0 0 / 100% 823px;
+  margin-bottom:130px;
+}
+.locationText{
+  color:#039e92;
+  margin-bottom:15px;
+  width:80px;
+  text-align:center;
+}
+main>.allLocation .delivery{
+  margin-top:44px;
+  padding:0 70px;
+  display:flex;
+  justify-content:space-between;
+}
+  /* 全方位关系 */
+main>.allLocation>.center>div:nth-child(2){
+  margin:0 auto;
+  margin-top:246px;
+  width:250px;
+  height:67px;
+  background:rgba(0,0,0,.5);
+  font-size:35px;
+  line-height:67px;
+  font-weight:bold;
+  text-align:center;
+}
+  /* 平安集团业务 */
+  main>.allLocation>.center>div:last-child{
+    height:416px;
+    padding:150px 45px 37px 45px;
+  }
+  main>.allLocation>.center .PINGAN_business{
+  margin:0 auto;
+  height:190px;
+  background:rgba(0,0,0,.5);
+  /* 字体颜色不能继承？ */
+  /* color:#039e92; */
+  padding:12px 23px;
+  text-align:center;
+  position:relative;
+}
+main>.allLocation>.center .PINGAN_business>div{
+  color:#039e92;
+}
+main>.allLocation>.center .PINGAN_business>.business{
+  display:flex;
+  justify-content:space-between;
+  margin-top:32px;
+}
+  /* 三角形样式设置 */
+.triangle{
+  position:absolute;
+  top:117px;
+  right:219px;
+  width: 0px;
+  height: 0px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 15.36px solid #039e92;
+}
+  /* 公司介绍以及外包公司介绍 */
+.introduce{
+  padding:0 56px 0 100px;
+  margin-bottom:210px;
+}
+.introduceBg{
+  height:128px;
+  background:#1cc1c7;
+}

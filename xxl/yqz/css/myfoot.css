@@ -1,0 +1,82 @@
+.foot > .line_1 {
+    height:3px;
+    background: #dab866;
+    color:#dab866 ;
+}
+.foot > .list_1 > li {
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.foot > .list_1 > li > span{
+    display: inline-block;
+    width: 66px;
+    height:66px;
+    border: solid 1px #dab866;
+    border-radius: 50%;
+    position: relative;
+}
+.foot > .list_1 > li > span > img {
+    position: relative;
+    top:11px
+}
+.foot > .list_1 > li:hover{
+    transform: translate(0,-10px);
+}
+.foot > ul {
+    list-style: none;
+    display: flex;
+    margin-top: 40px !important;
+}
+.foot > ul > li {
+    display: inline-block;
+    flex: 1;
+}
+.foot > ul > li > img {
+    width:70px;
+    height:70px;
+}
+
+.foot .line_2 {
+    margin-top: 40px !important;
+}
+
+.foot > .list_2  {
+    margin: 40px 50px 70px !important;
+}
+.foot > .list_2 >li > p{
+    margin-top: 15px !important;
+    text-align: left;
+    cursor: pointer;
+}
+.changecolor {
+    cursor: pointer;
+}
+/*改变字体颜色*/
+.foot > .list_2 >li > p:hover, .changecolor:hover {
+    color: #dab866;
+}
+/*二维码*/
+.erweima > div {
+    display: inline-block;
+    margin: 20px 30px 0 0 !important;
+}
+/*联系我们*/
+.contact > div {
+    margin-top: 20px !important;
+}
+.contact > div > p {
+    position: relative;
+    display: inline-block;
+}
+.contact > div > p > img {
+    position: relative;
+    top: -2px;
+    width: 18px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 3px !important;
+}
+.contact > div > div {
+    margin: 6px 18px !important;
+}

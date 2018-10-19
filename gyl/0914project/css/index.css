@@ -1,0 +1,356 @@
+body{
+    height: 1000px;
+}
+.header{
+    width: 100%;
+    height: 95px;
+    background-color: #004F91;
+    color: white
+}
+.header_content{
+    width: 70%;
+    height: 95px;
+    line-height: 95px;
+    margin: 0 auto;
+}
+.header_content>img{
+    vertical-align: middle
+}
+.header_list{
+    margin-left: 80px
+}
+.header_list>span{
+    margin-left: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.header_active {
+    color: #00DCD8;
+    border-bottom: solid 2px #00DCD8
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.login {
+    height: 700px;
+    position: relative;
+    padding-bottom: 150px;
+    background: white;
+}
+.login>img:first-child{
+    height: 600px;
+    width: 100%;
+}
+.login>img:last-child{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 46.8%;
+}
+.login>div:last-child{
+    position: absolute;
+    left: 700px;
+}
+.hang{
+    height: 40px;
+    line-height: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+.hang>div:nth-child(odd){
+    height: 3px;
+    width: 80px;
+    background: black;
+    display: inline-block;
+}
+.hang>div:nth-child(2){
+    font-size: 20px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 20px;
+}
+.hang>div:nth-child(4){
+    background: white;
+}
+.ok{
+    text-align: center;
+}
+.ok>div{
+    height: 200px;
+    width: 140px;
+    background: lightgreen;
+    display: inline-block;
+    margin: 20px 30px;
+}
+.ok>div>div{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: white;
+    color: dodgerblue;
+    display: block;
+    margin-top: 120px;
+}
+.bth{
+    height: 150px;
+}
+.bth>div{
+    height: 40px;
+    line-height: 38px;
+    width: 80px;
+    margin: auto;
+    text-align: center;
+    border: solid 1px mediumspringgreen;
+    color:mediumspringgreen ;
+    font-weight: bold;
+}
+.login2{
+    position: relative;
+    padding-bottom: 100px;
+}
+.login2>img{
+    height: 700px;
+    width: 100%;
+}
+.login2>.img2>img{
+    height: 250px;
+    width: 180px;
+    padding: 80px;
+    display: inline-block;
+}
+.login2>.img2{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+}
+.login3>img{
+    height: 230px;
+    width: 100%;
+}
+.login4{
+    display: flex;
+    position: relative;
+    padding-bottom: 100px;
+}
+.loginback1,.loginback2,.loginback3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.loginback1>img,.loginback2>img,.loginback3>img{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+    padding-bottom: 20px;
+}
+.loginback1>span,.loginback2>span,.loginback3>span{
+    height: 180px;
+    width: 100px;
+    display: inline-block;
+    flex: 2;
+}
+.login4>img{
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+    width: 80px;
+    height: 80px;
+}
+.login5{
+    position: relative;
+    padding-bottom: 100px;
+}
+.title{
+   position: absolute;
+    left: 42%;
+    padding-bottom: 80px;
+}
+.title>div:nth-child(odd){
+    height: 3px;
+    width: 80px;
+    display: inline-block;
+    background: black;
+}
+.title>div:nth-child(2){
+    font-size: 20px;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.title>.zi{
+    height: 80px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left:22%;
+}
+.right{
+    height: 400px;
+    width: 320px;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+.right>div:first-child{
+    height: 40px;
+    line-height: 40px;
+    background: mediumspringgreen;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+}
+.right>div:first-child>div{
+    position:absolute;
+    right: 2px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.center{
+    position: relative;
+}
+.center>.t1{
+    position: absolute;
+    bottom: -800px;
+    left: 200px;
+}
+.center>.t2{
+     position: absolute;
+     bottom: -800px;
+     right: 200px;
+ }
+.center>.t3{
+    position: absolute;
+    bottom: -1000px;
+    left: 200px;
+}
+.center>.t4{
+    position: absolute;
+    bottom: -1000px;
+    right: 200px;
+}
+.center>div{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 14px;
+    text-align: center;
+    background: blue;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+}
+.center>div:first-child{
+    position: absolute;
+    top:200px;
+    left: 300px;
+}
+
+.center>div:nth-child(2){
+    position: absolute;
+    top:200px;
+    left: 750px;
+}
+.center>div:nth-child(3){
+    position: absolute;
+    top:200px;
+    top:200px;
+    right: 300px;
+    background:blue ;
+}
+.center>div:nth-child(4){
+    position: absolute;
+    top:500px;
+    right: 500px;
+}
+.center>div:nth-child(5){
+    position: absolute;
+    top:500px;
+    left: 500px;
+}
+.center>.bthout{
+   position: absolute;
+    top: 600px;
+    left: 48%;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    background: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5px  ;
+}
+.login6{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 3200px;
+    left: 50%;
+    margin-left: -105px;
+}
+.login6>div:nth-child(odd){
+    height: 3px;
+    width: 80px;
+    background: black;
+    display: inline-block;
+}
+.login6>div:nth-child(2){
+    font-size: 20px;
+    display: inline-block;
+}
+.login6>div:last-child{
+    padding: 20px 50px;
+}
+.footer{
+    width: 100%;
+    height: 355px;
+    background-color: #434343;
+    position: absolute;
+    top: 3600px;
+}
+.footer_content{
+    width: 1100px;
+    height: inherit;
+    margin: 0 auto;
+}
+.footer_content ul{
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px 40px 0;
+}
+.footer_content ul:last-child{
+    width: 320px
+}
+.footer_content li{
+    list-style: none;
+    color: white;
+    margin-bottom: 28px;
+    cursor: pointer;
+}
+.footer_content li:first-child{
+    font-weight: bolder
+}
+.footer_content li>img{
+    vertical-align: middle
+}
+.lianxi span:last-child{
+    display: inline-block;
+    width: 260px;
+    margin-left: 10px;
+}
+.lianxi span:first-child{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center
+}
+

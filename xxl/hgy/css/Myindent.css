@@ -1,0 +1,39 @@
+.indent{
+  height: 58px;
+  line-height: 58px;
+  border: 1px solid #E8E8E8;
+  background: #f9f9f9;
+  margin-top: 20px;
+}
+.indent span{
+  display: inline-block;
+  width: 16.66%;
+  text-align: center;
+  font-size:14px;  
+}
+.axba{
+    border-bottom: 1px solid #E8E8E8;
+}
+.Atr{
+
+  margin-top:50px ;
+}
+.left_td{
+  width: 50%;
+  float: left;
+}
+.text_a{
+  display: inline-block;
+}
+.text_a p{
+ height: 40px;
+ line-height: 40px;
+}
+.right_td{
+width: 50%;
+float: right;
+text-align: right;
+}
+.right_td p{
+  margin:20px  70px 59px 0px;
+}

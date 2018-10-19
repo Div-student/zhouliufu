@@ -1,0 +1,56 @@
+/* 清除浮动 */
+  .clear:after{
+    content:"";
+    display: block;
+    height:0px;
+    width:0px;
+    clear: both;
+    visibility: hidden;
+  }
+
+/* 公共样式 */
+p,ul,li,body{
+  margin:0px;
+  padding:0px;
+}
+li{
+  list-style: none;
+}
+body,html{
+  font-family: "微软雅黑","宋体",Arail,Tabhoma;
+  font-size: 14px;
+  text-align: left;
+  color: #666;
+}
+a{
+  text-decoration: none;
+}
+ /* 向下的箭头设置 */
+ .arrowdown{
+  display: inline-block;
+  transform:rotate(90deg);
+  margin:0px 10px;
+}
+/* 左右箭头 */
+.left-arrow:after{
+  content:'';
+  display:inline-block;
+  height: 17px;
+  width:17px;
+  border-left:2px solid #999;
+  border-bottom:2px solid #999;
+  transform:rotate(45deg)
+}
+.right-arrow:after{
+  content:'';
+  display:inline-block;
+  height: 17px;
+  width:17px;
+  border-left:2px solid #999;
+  border-bottom:2px solid #999;
+  transform:rotate(-135deg)
+}
+/* 隐藏样式 */
+.hidden{
+  display:none;
+}

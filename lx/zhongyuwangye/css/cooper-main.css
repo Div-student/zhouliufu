@@ -1,0 +1,79 @@
+/* 上半部分内容  背景*/
+#content-top{
+  height:1000px;
+  background: url(../img/ico-img-bg-01.jpg) no-repeat;
+  background-size: cover;
+}
+#content-top>.cont-top-mask>.mask-ct>h1{
+  margin-bottom:42px!important;
+  font-size: 75px;
+}
+#content-top>.cont-top-mask>.mask-ct>p{
+  color:white!important;
+  font-size: 44px;
+  letter-spacing:3px;
+  font-weight: normal;
+  font-family: '黑体';
+}
+#content-top>.cont-top-mask>.mask-ct>div{
+  margin-top:230px!important;
+}
+#cont-main>.main-top{
+  height:462px;
+}
+#cont-main>.main-top>div{
+  width:1200px;
+  margin:0 auto;
+  text-align: center
+}
+#cont-main>.main-top>div>img{
+  width:534px;
+  
+}
+#cont-main>.main-middle{
+  height:823px;
+  color:#00FFEA;
+  background: url(../img/icon-img-cont-03.jpg) no-repeat center;
+  position: relative;
+}
+#cont-main>.main-middle>div{
+  width:1200px;
+  margin:0 auto;
+  border:0.1px solid transparent;
+}
+#cont-main>.main-middle>div>ul{
+  margin-top:45px;
+}
+#cont-main>.main-middle>div>ul>li{
+  display: block;
+  width:300px;
+  float: left;
+  text-align: center
+}
+#cont-main>.main-middle>div>div:nth-of-type(1){
+  width:248px;
+  height:66px;
+  background: rgba(0,0,0, 0.5);
+  color:white;
+  text-align: center;
+}
+#cont-main>.main-middle>div>div:nth-of-type(1)>h2{
+  font:36px '';
+  line-height: 66px;
+}
+#cont-main>.main-middle>div>div:nth-of-type(2){
+  width:1111px;
+  height:195px;
+  background: rgba(0, 0, 0, 0.5);
+  margin:600px auto 0 auto;
+  text-align: center;
+}
+#cont-main>.main-middle>div>div:nth-of-type(2)>p{
+  line-height:35px; 
+}
+#cont-main>.main-middle>div>div:nth-of-type(2) li{
+  width:138.8px;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+}

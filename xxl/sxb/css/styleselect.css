@@ -1,0 +1,78 @@
+/* 钻石款式选择头部设置 */
+.diamondselected{
+  width:1200px;
+  margin:auto;
+}
+h4{
+  height: 50px;
+  line-height: 50px;
+  font-weight: 500;
+}
+.diamontprograng>li{
+  width: 33.3%;
+  height: 73px;
+  line-height: 73px;
+  float: left;
+  text-align: center;
+  font-size: 24px;
+  border:1px solid #EEDFBA;
+  box-sizing: border-box;
+  margin-bottom:15px;
+}
+.diamontprograng>li b{
+  display: inline-block;
+  overflow: hidden;
+  clear: both;
+  height: 73px;
+  padding: 0 3px;
+  font-weight: 500;
+}
+.diamontprograng>li span{
+  font-weight: 300;
+}
+.diamontprograng>li span:nth-child(2){
+  font-size: 36px;
+  font-weight: 500;
+}
+
+/* 样式选择详情 */
+.diamentlist1 li label {
+  display: inline-block;
+  width: 95px;
+  height: 100%;
+  background: #f6f2ea;
+  color: #bca368;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.diamentlist1 li label span{
+  display: inline-block;
+  width: 95px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0,-50%);
+}
+.diamentlist1 li {
+  padding: 10px 10px 10px 95px;
+  position: relative;
+  overflow: hidden;
+  clear: both;
+  border-bottom: 1px dashed #e6e1d6;
+}
+li{
+  list-style:none;
+}
+.diamentlist1{
+  border: 1px solid #ece3cc;
+  border-bottom: 3px solid #ece3cc;
+  position: relative;
+}
+.diamentlist1 li div{
+  margin-left:30px;
+}
+.diamentlist1 li div span{
+  margin-right:30px;
+}

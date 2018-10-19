@@ -1,0 +1,620 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>钻石定制</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="../yqz/js/jQuery.js" type="application/javascript"></script>
+
+  <!-- 头部和底部样式的引入 -->
+  <script src="../yqz/js/myhead.js"></script>
+  <link rel="stylesheet" href="../yqz/css/myhead.css">
+  <link rel="stylesheet" href="../yqz/css/main.css">
+  <link rel="stylesheet" href="../yqz/css/myfoot.css">
+
+  <!-- 翻页插件的样式引入 -->
+  <link rel="stylesheet" href="topages/jquery.page.css">
+  <script src="topages/jquery.page.js"></script>
+
+  <script>
+   // 钻石定制表格钻石xingzhuan图片地址数组
+    var picarray = [
+      "http://p5zcir255.bkt.clouddn.com/upload/20180601/3418b6d976f64746881ddd907d634fb8",
+      "http://p5zcir255.bkt.clouddn.com/upload/20180602/800c29bbbbec46f4811bcbadcbd6e201",
+      "http://p5zcir255.bkt.clouddn.com/upload/20180601/17d04f545bc243f88898245bb48a6ce3",
+      "http://p5zcir255.bkt.clouddn.com/upload/20180601/848a14dbc542458b911e52312c350174",
+      "http://p5zcir255.bkt.clouddn.com/upload/20180601/1a37819f2fc34e9d9ccae86698cafac5",
+      "http://p5zcir255.bkt.clouddn.com/upload/20180602/3e7dc94cf7c14404a30917ad218ea5ad",
+      "http://p5zcir255.bkt.clouddn.com/upload/20180601/3e150cfeb0ef4dd1a3f8a7dc2b02b44a",
+      "http://p5zcir255.bkt.clouddn.com/upload/20180601/8bcd89fbf5714a1f8af7408eb761494c",
+      "http://p5zcir255.bkt.clouddn.com/upload/20180601/b5e48dc9c9c84208b9079b4a102c2011",
+      "http://p5zcir255.bkt.clouddn.com/upload/20180602/8b579c7a7f0544688212c54e3221aead"
+    ]
+    // 钻石隐藏列表数组
+    var diamontarray = [
+         {labels:"颜色", contents:["D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R"]},
+         {labels:"净度", contents:["FL", "IF", "VVS1", "VVS2", "VS1", "VS2", "SI1", "SI2"]},
+         {labels:"荧光", contents:["N", "VSL", "F", "F", "M", "S", "VS"]},
+         {labels:"抛光", contents:["EX", "VG", "GD", "FR"]},
+         {labels:"切工", contents:["EX", "VG", "GD", "FR", "NN"]},
+         {labels:"对称", contents:["EX", "VG", "GD", "FR"]},
+         {labels:"证书", contents:["GIA", "HRD", "IGI"]},
+         {labels:"库存", contents:["订货", "现货"]}
+      ]
+    // 产品列表数组
+    var productionsarray = ["证书GIA", "钻重0.31ct", "颜色J", "净度SI1", "切工EX", "抛光EX", "对称EX", "荧光None"]
+    // 导航条点击高亮设置
+    $(function(){
+      $(".nav-tag >div").click(function(){
+        if($(this).hasClass("active")===false){
+          $(".nav-tag >div").removeClass("active")
+          $(this).addClass("active")
+        }
+      })
+      // 循环生成钻石形状图片
+      $.each(picarray,function(index,item){
+        var imgs = $("<img src="+item+">")
+        $(".diamonshape").append(imgs)
+      })
+      // 循环生成钻石隐藏列表
+      $.each(diamontarray, function (index, item) {
+        var lis = $("<li><label><span>"+item.labels+"</span></label><div class=div"+index+"></div></li>")
+        $(".diamentlist1").append(lis)
+        $.each(item.contents, function(index1, item1){
+          var contents1 = $("<span>"+item1+"</span>")
+          $(".div"+index).append(contents1)
+        })
+      })
+      // 点击显示隐藏列表
+      $(".bottombar>span:last-child").click(function(){
+       $(".diamentlist1").slideUp(1000)
+       if($(".diamentlist1").attr("style") === "display: none;"){
+        $(".bottombar>span:last-child").html("收起更多<span class=arrowdown>＞</span>")
+        $(".diamentlist1").slideDown(1000)
+       }
+      })
+      // 价格导航高亮切换
+      $(".pricenavy>ul>li").click(function(){
+        $(".pricenavy>ul>li").removeClass("pricenavyactive")
+        $(this).addClass("pricenavyactive")
+      })
+      //生成 产品列表
+      $.each(productionsarray, function(index, item){
+        //创建一个span元素
+        var lists = $("<span>"+item+"</span>")
+        //将span元素添加到p元素中
+         $(".product-list p").append(lists)
+      })
+      //分页插件
+      $(function(){
+			$("#page").Page({
+          totalPages: 9,//分页总数
+          liNums: 7,//分页的数字按钮数(建议取奇数)
+          activeClass: 'activP', //active 类样式定义
+          callBack : function(page){
+          		//console.log(page)
+          }
+      });
+		})
+
+    })
+  </script>
+
+  <style>
+    p,h4,body,ul{
+      margin:0px;
+      padding:0px;
+    }
+    body{
+      font-size: 14px;
+      font-family:微软雅黑;
+    }
+    .clear:after{
+      content:'';
+      display:block;
+      width:0px;
+      height:0px;
+      visibility:hidden;
+      clear: both;
+    }
+    .diamontcustom{
+     width:1200px;
+     margin:auto;
+    }
+    h4{
+      height: 50px;
+      line-height: 50px;
+      font-weight: 500;
+    }
+    .nav-tag{
+      height:40px;
+      background-color:darkcyan;
+    }
+    /* 导航条的设置 */
+    .navTagGia, .navTagLove{
+      background-color:#F2F2F2;
+      width:600px;
+      height:40px;
+      float:left;
+      line-height:40px;
+      text-align:center;
+      cursor: pointer;
+    }
+    .active{
+      background-color:#DAB866;
+      color:white;
+    }
+    /* 钻石详情表格 */
+    .diamonttable{
+      border: 1px solid #ece3cc;
+      border-bottom: 3px solid #ece3cc;
+      margin-top: 20px;
+      position: relative;
+    }
+    .diamonttable li label{
+      display: inline-block;
+      width: 95px;
+      height: 100%;
+      background: #f6f2ea;
+      color: #bca368;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .diamonttable li label span{
+      display: inline-block;
+      width: 95px;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(0,-50%);
+    }
+    .diamonttable>li{
+      padding: 10px 10px 10px 95px;
+      position: relative;
+      overflow: hidden;
+      clear: both;
+      border-bottom: 1px dashed #e6e1d6;
+    }
+    .diamonttable>li>div,.diamonttable>li>label{
+      float: left;
+    }
+    .table-title{
+      height:30px;
+      line-height:30px;
+    }
+    .table-title>span{
+      display: inline-block;
+      cursor: pointer;
+      width: 60px;
+      text-align: center;
+      margin: 0 15px;
+    }
+    /* 钻石等级样式 */
+    .diamonrangbox{
+      padding: 5px 46px;
+      width:460px;
+    }
+    .diamonrangbox input{
+      width: 100px;
+      height: 24px;
+      text-indent: 3px;
+      border: 1px solid #eee;
+    }
+    .diamonrangbox>span:last-child{
+      float: right;
+    }
+    .diamonrangbox>span>span{
+      position: absolute;
+      top: -1px;
+      right: 3px;
+      color: #ccc;
+    }
+    /* 滑动条样式 */
+    .slidebar{
+      padding: 5px 46px;
+      width: 460px;
+      height: 5px;
+      border: none;
+      position:relative;
+    }
+    .slidebar div{
+      height:5px;
+      width:460px;
+      background:linear-gradient(#EEDBB3, #DAB866)
+    }
+    .slidebar>span{
+      display:inline-block;
+      width: 13px;
+      height: 15px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      background:url("../png/jslider.png") 0 -40px;
+    }
+    .slidebarleft{
+      position:absolute;
+      top:0px;
+      left:40px;
+    }
+    .slidebarright{
+      position:absolute;
+      top:0px;
+      right:40px;
+    }
+    .table-title2{
+      float: left;
+      height: 30px;
+      line-height: 30px;
+      padding-left: 16px;
+    }
+    .table-title2>span{
+      margin: 0 15px;
+      cursor: pointer;
+    }
+    .diamonshape{
+      margin-left:30px;
+    }
+    .diamonshape img{
+      margin-right:30px;
+    }
+    /* 钻石定制的隐藏列表样式 */
+    .diamentlist1 li label {
+      display: inline-block;
+      width: 95px;
+      height: 100%;
+      background: #f6f2ea;
+      color: #bca368;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .diamentlist1 li label span{
+      display: inline-block;
+      width: 95px;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(0,-50%);
+    }
+    .diamentlist1 li {
+      padding: 10px 10px 10px 95px;
+      position: relative;
+      overflow: hidden;
+      clear: both;
+      border-bottom: 1px dashed #e6e1d6;
+    }
+    li{
+      list-style:none;
+    }
+    .diamentlist1{
+      border: 1px solid #ece3cc;
+      border-bottom: 3px solid #ece3cc;
+      position: relative;
+    }
+    .diamentlist1 li div{
+      margin-left:30px;
+    }
+    .diamentlist1 li div span{
+      margin-right:30px;
+    }
+    /* 显示隐藏导航条 */
+    .bottombar{
+      text-align: right;
+    }
+    .bottombar>span:first-child{
+      color:red;
+      margin-right:10px;
+      cursor:pointer;
+    }
+    .bottombar>span:last-child{
+      color:#bca368;
+      background-color:#ECE3CC;
+      padding-left:10px;
+      cursor:pointer;
+    }
+    /* 向下的箭头设置 */
+    .arrowdown{
+      display: inline-block;
+      transform:rotate(90deg);
+      margin:0px 10px;
+    }
+    /* 价格导航栏设置 */
+    .pricenavy{
+      margin: 23px 0px;
+      padding: 10px 15px;
+      overflow: hidden;
+      clear: both;
+      border: 1px solid #f2eee3;
+      background: #f7f6f1;
+    }
+    .pricenavy>ul{
+      float:left;
+    }
+    .pricenavy>div{
+      float:right;
+    }
+    .pricenavy>ul>li{
+      height: 25px;
+      line-height: 25px;
+      border-right: 1px solid #eee4cb;
+      padding: 0 20px 0 10px;
+      background: #fff;
+      color: #b8aa89;
+      float: left;
+      cursor: pointer;
+      position: relative;
+      background: #faf9f4;
+    }
+    .pricenavy>ul>li:last-child img{
+      display: inline-block;
+      width: 11px;
+      height: 6px;
+      background-size: 10px 6px;
+      position: absolute;
+    }
+    .pricenavy>ul>.pricenavyactive{
+      background-color:#DAB866;
+      color:white;
+    }
+    /* 产品列表设置 */
+    .product-list li{
+      height: 16px;
+      padding: 25px 88px 25px 70px;
+      margin: 0px 0 20px;
+      border: 1px solid #f2eee3;
+      position: relative;
+      clear: both;
+    }
+    .product-list li>span{
+      display: inline-block;
+      width: 70px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: center;
+    }
+    .product-list li>span>img{
+      width: 48px;
+      position: absolute;
+      top: 50%;
+      left: 11px;
+      transform: translate(0,-50%);
+    }
+    .product-list li>p{
+      float: left;
+      overflow: hidden;
+      clear: both;
+      height: 16px;
+      line-height: 16px;
+    }
+    .product-list li>p>span{
+      display: inline-block;
+      padding: 0 20px;
+      border-left: 1px solid #666;
+    }
+    .product-list li>h3{
+      height: 16px;
+      position: absolute;
+      top: 24px;
+      right: 100px;
+      padding: 0 10px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .product-list li>h3>span{
+      color: #fe6000;
+    }
+    .product-list li>a{
+      display: inline-block;
+      height: 100%;
+      width: 88px;
+      color: #fff;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: #dab866;
+      text-align: center;
+      line-height:62px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 头部 -->
+<header>
+    <!--顶部-->
+    <div class="header_top">
+        <div class="header_top_left"> <span>登录</span> <span>注册</span> </div>
+        <div class="header_top_right">
+            <span>购物车(0)</span>
+            <span>我的订单</span>
+            <span>个人中心 <img src="../png/arrow-down.png" alt=""></span>
+            <span>门店管理 <img src="../png/arrow-down.png" alt=""></span>
+            <span><img src="../png/icon-phone.png" alt="">4008-608388</span>
+        </div>
+    </div>
+    <div class="header_title">
+        <img src="../png/logo.png" alt="">
+        <div class="header_title_right">
+            <span><img src="../png/icon-map.png" alt=""> 深圳</span>
+            <span class="header_top_right_1">深圳周六福店 <img src="../png/arrow-down.png" alt=""></span><br>
+            <input type="text" placeholder="请搜索戒托试试">
+            <img src="../png/icon-seacher.png" alt="">
+        </div>
+    </div>
+    <div class="header_menu">
+        <ul>
+            <li>首页</li>
+            <li>钻石定制</li>
+            <li>全部分类</li>
+            <li>系列</li>
+            <li>专卖店</li>
+            <li>搜索品牌</li>
+        </ul>
+    </div>
+    <div class="header_pic">
+        <img src="http://p5zcir255.bkt.clouddn.com/upload/20180518/97bb1aaada2c448686e50b2394ba2699" alt="">
+        <!--<img src="http://p5zcir255.bkt.clouddn.com/upload/20180518/5734aa9a826d40ce8924b3ad47691c1e" alt="">-->
+        <!--<img src="../../png/banner1.jpg" alt="">-->
+        <!--三个小圆点-->
+        <div><span></span><span></span><span></span></div>
+    </div>
+</header>
+
+<!-- 钻石定制页面 -->
+<div class="diamontcustom">
+  <h4><a>首页</a><span>></span><a>钻石定制</a></h4>
+  <div class=" nav-tag clear">
+    <div class="navTagGia active"><p>GIA<span class="arrowdown">＞</span></p></div>
+    <div class="navTagLove"><p>一心一爱<span class="arrowdown">＞</span></p></div>
+  </div>
+  <ul class="diamonttable">
+    <li class="clear">
+      <label><span>钻重</span></label>
+      <div>
+        <p class="table-title">
+            <span>不限</span>
+            <span>30分</span>
+            <span>50分</span>
+            <span>70分</span>
+            <span>80分</span>
+            <span>100分</span>
+        </p>
+        <div>
+          <div class="diamonrangbox clear">
+            <span style="position:relative"><input type="text" value="0.03"><span>ct</span></span>
+            <span style="position:relative"><input type="text" value="20"><span>ct</span></span>
+          </div>
+          <div class="slidebar">
+              <div></div>
+            <span class="slidebarleft"></span>
+            <span class="slidebarright"></span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="clear">
+      <label for=""><span> 价格</span></label>
+      <div>
+          <p class="table-title2">
+              <span>不限</span>
+              <span>￥3000以下</span>
+              <span>￥3000-5999</span>
+              <span>￥6000-9999</span>
+              <span>￥10000-20000</span>
+              <span>￥20000以上</span>
+          </p>  
+          <div>
+            <div class="diamonrangbox clear">
+              <span style="position:relative"><input type="text" value="0"><span>rmb</span></span>
+              <span style="position:relative"><input type="text" value="20000"><span>rmb</span></span>
+            </div>
+            <div class="slidebar">
+                <div></div>
+              <span class="slidebarleft"></span>
+              <span class="slidebarright"></span>
+            </div>
+          </div>
+      </div>
+    </li>
+    <li class="clear">
+      <label for=""><span> 形状</span></label>
+      <div class="diamonshape"></div>
+    </li>
+  </ul>
+
+  <!-- 显示隐藏列表 -->
+  <ul class="diamentlist1" style="display: none;">
+  </ul>
+
+  <div class="bottombar clear"><span>清除筛选项</span><span>展开更多<span class="arrowdown">＞</span></span></div>
+  <div class="pricenavy clear">
+    <ul>
+      <li class="pricenavyactive">综合<em><img src="../png/icon-arrow-down.png"></em></li>
+      <li>重量<em><img src="../png/icon-arrow-down.png"></em></li>
+      <li>净度<em><img src="../png/icon-arrow-down.png"></em></li>
+      <li>价格<em><img src="../png/price-arrow-active-top.png"></em><em><img src="../png/price-arrow-active-down.png"></em></li>
+    </ul>
+    <div>
+      <p>
+        <span>共23456件商品</span>
+        <span>1/23</span>
+        <button><span class="arrowdown">＞</span></button><button><span class="arrowdown">＞</span></button>
+      </p>
+    </div>
+  </div>
+  <div class="product-list">
+    <ul>
+      <li>
+        <span><img src="http://p5zcir255.bkt.clouddn.com/upload/20180601/3418b6d976f64746881ddd907d634fb8"></span>
+        <p></p>
+        <h3>价格 : <span>￥5998.00</span></h3>
+        <a href="http://127.0.0.1:5500/xxl/sxb/diamondselected.html">立即查看</a>
+      </li>
+    </ul>
+  </div>
+  <!-- 翻页插件 -->
+  <div id="page"></div>
+</div>
+
+<!-- 底部 -->
+<footer class="foot">
+    <!--横线-->
+    <div class="line_1"></div>
+    <ul class=" list_1">
+        <li><span><img src="../png/foot-icon1.png" alt=""></span><br><br>专业认证</li>
+        <li><span><img src="../png/foot-icon2.png" alt=""></span><br><br>终身保养</li>
+        <li><span><img src="../png/foot-icon3.png" alt=""></span><br><br>以旧换新</li>
+        <li><span><img src="../png/foot-icon4.png" alt=""></span><br><br>7天退货</li>
+        <li><span><img src="../png/foot-icon5.png" alt=""></span><br><br>全国免运费</li>
+        <li><span><img src="../png/foot-icon6.png" alt=""></span><br><br>全程保险</li>
+    </ul>
+    <hr class="line_2">
+    <ul class="list_2">
+        <li>
+            <h3>新手指南</h3>
+            <p>注册新会员</p>
+            <p>购买流程</p>
+        </li>
+        <li>
+            <h3>会员中心</h3>
+            <p>如何成为会员</p>
+            <p>等级/优惠政策</p>
+            <p>会员卡申诉</p>
+        </li>
+        <li>
+            <h3>便捷配送</h3>
+            <p>配送方式</p>
+            <p>验货与签收</p>
+        </li>
+        <li>
+            <h3>无忧售后</h3>
+            <p>售后服务政策</p>
+            <p>退货/换货办理</p>
+            <p>商品核验</p>
+            <p>订单自动查询</p>
+        </li>
+        <li class="erweima">
+            <h3>关注我们</h3>
+            <div><img src="../../png/erweima1.png" alt=""><br>新浪微博</div>
+            <div><img src="../../png/erweima1.png" alt=""><br>官方微信</div>
+        </li>
+        <li class="contact">
+            <h3>联系我们</h3>
+            <div>
+                <p><img src="../../png/icon-phone.png" alt=""><span>4008-60838</span></p>
+                <div class="changecolor"><span>9:30-17:30 周一至周五 </span><br><span>节假日除外</span></div>
+                <p class="changecolor"><img src="../../png/icon-mai.png" alt=""><span>8:15-23:45(全年无休)</span></p>
+            </div>
+
+        </li>
+    </ul>
+</footer>
+</body>
+</html>

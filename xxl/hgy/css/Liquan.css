@@ -1,0 +1,43 @@
+.p_img img{
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin: 10px 0px 30px 0px;
+}
+.p_header{
+  min-height: 44px;
+  line-height: 44px;
+  padding: 10px 90px 10px 10px;
+  position: relative;
+  font-size: 15px;
+  color: #505050;
+}
+.p_header img{
+  vertical-align: middle;
+}
+.p_header span{
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.r_td > div {
+   width: 200px;
+ text-align: center;
+}
+.r_td  h1{
+ color: #ff0000;
+}
+.r_td p {
+  font-size: 14px;
+    color: #666666;
+    margin: 10px 0px;
+}
+.r_td button{
+  color: #fff;
+  text-align: center;
+  background: #dab866;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 15px;
+  border-radius: 5px;
+  border: none;
+}

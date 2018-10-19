@@ -1,0 +1,126 @@
+*{
+  padding:0;
+  margin:0;
+}
+a{
+  text-decoration:none;
+}
+ul{
+  list-style:none;
+}
+.clearfloat::after{
+  content:'';
+  display: block;
+  height:0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfloat{
+  *zoom:1;
+}
+/* 位置居中 */
+.cont-center{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+}
+body{
+  font-size: 16px;
+  font-family:"微软雅黑";
+}
+/* 头部导航条 */
+#content-top>.heade{
+  background:rgba(0, 0, 0, 0.4);
+}
+/* 导航条实际内容区 */
+#content-top>.heade>.heade-cont{
+  width:1200px;
+  height:88px;
+  margin:0 auto;
+}
+/* 导航条LOG  */
+#content-top>.heade>.heade-cont>.log-top{
+  margin:21.5px 0 0 10px;
+}
+/* 导航按钮区 */
+#content-top>.heade>.heade-cont>ul{
+  float: right;
+}
+/* 单个导航按钮样式 */
+#content-top>.heade>.heade-cont>ul>li{
+  float:left;
+  margin:0 20px;
+}
+/* 单个导航按钮样式 */
+#content-top>.heade>.heade-cont>ul>li>a{
+  color: white;
+  font:16px/88px '';
+  padding:10px 0;
+}
+/* 单个导航按钮样式 鼠标悬停效果 */
+#content-top>.heade>.heade-cont>ul>.Active-a>a,
+#content-top>.heade>.heade-cont>ul>li>a:hover{
+  color: #05fae6;
+  border-bottom: 3px solid #05fae6;
+}
+/* 上部分内容区的半透明遮罩 */
+#content-top>.cont-top-mask{
+  height:912px;
+  background: rgba(0, 0, 0, 0.3);
+}
+/* 遮罩层上的实际内容显示区 */
+#content-top>.cont-top-mask>.mask-ct{
+  width:1200px;
+  margin:0 auto;
+  text-align: center;
+  color: white;
+  font-weight:bold;
+  border:0.1px solid transparent;
+}
+#content-top>.cont-top-mask>.mask-ct>h1{
+  font:60px '';
+  margin:380px 0 128px 0 ;
+}
+#content-top>.cont-top-mask>.mask-ct>p{
+  font-size: 18px;
+  line-height:39px;
+}
+#content-top>.cont-top-mask>.mask-ct>p:nth-of-type(1){
+  color: #05fae6;
+}
+#content-top>.cont-top-mask>.mask-ct>p:nth-of-type(2){
+  font-size: 18px;
+}
+ /* V 字图标 */
+#content-top>.cont-top-mask>.mask-ct>div{
+  width:36px;
+  height:36px;
+  border:3px solid white;
+  border-radius:50%;
+  margin:50px auto;
+  position: relative;
+}
+ /* V 字图标 */
+#content-top>.cont-top-mask>.mask-ct>div::before,
+#content-top>.cont-top-mask>.mask-ct>div::after{
+  content:'';
+  display: inline-block;
+  width:20px;
+  height:3px;
+  background: white;
+  position: absolute;
+  top:53%;
+}
+ /* V 字图标 */
+#content-top>.cont-top-mask>.mask-ct>div::before{
+  transform: rotate(55deg);
+  left:3px;
+}
+ /* V 字图标 */
+#content-top>.cont-top-mask>.mask-ct>div::after{
+  transform: rotate(-55deg);
+  left:13px;
+}

@@ -1,0 +1,19 @@
+.riqi > span{
+  float: right;
+  color: #666666;
+  font-size: 13px;
+}
+.riqi{
+  margin-top: 50px;
+}
+.ping_box{
+  border-bottom: 1px solid #e8e8e8;
+}
+.text_p{
+  margin-top: 50px;
+}
+.app_img > img{
+  float: left;
+  width: 24%;
+  margin:50px 4px;
+}

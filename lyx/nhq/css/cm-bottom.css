@@ -1,0 +1,98 @@
+
+/*页尾头部*/
+.footerTop{
+    padding: 40px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+.footerTop>div>ul{
+    margin: 0 auto;
+    width: 1200px;
+}
+.footerTop>div>ul{
+    overflow: hidden;
+    clear: both;
+    padding: 10px 0;
+    list-style: none;
+}
+.footerTop>div>ul>li{
+    text-align: center;
+    float: left;
+    margin: 0 5%;
+    transition: all 0.2s;
+    cursor: pointer;
+    color: #606060;
+    font-size: 15px;
+}
+.footerTop>div>ul>li:hover{
+    position: relative;
+    top: -8px;
+}
+/*图片样式*/
+.footerTop>div>ul>li>span{
+    display: block;
+    border: solid 1px #dab866;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    margin-bottom: 14px;
+    line-height: 94px;
+}
+/*页尾底部*/
+.footerBottom{
+    height: 200px;
+}
+.footerBottom>ul{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footerBottom>ul>li{
+    list-style: none;
+    float: left;
+    margin: 30px 40px;
+
+    text-align: center;
+}
+.footerBottom>ul>li>a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    display: block;
+    text-align: left;
+}
+.footerBottom>ul>li>ol{
+    list-style: none;
+}
+.footerBottom>ul>li>ol>li{
+    margin: 10px 0;
+    text-align: left;
+}
+.footerBottom>ul>li>ol>li>a{
+    text-decoration: none;
+    color: black;
+}
+.footerBottom>ul>li>ol>li>a:hover{
+    color: #dab866;
+}
+.bg1{
+    padding-left: 20px;
+    background: url(../image/icon-phone.png) left 5px no-repeat;
+    background-size: 15px;
+}
+.bg2{
+    padding-left: 20px;
+    background: url(../image/icon-mai.png) left 5px no-repeat;
+    background-size: 15px;
+}
+.olbox{
+    display: flex;
+}
+.xinlang,.weixin{
+    flex: 1;
+    margin:10px 10px;
+    padding-right: 10px;
+}
+.xinlang p,.weixin p{
+    font-size: 13px;
+}
