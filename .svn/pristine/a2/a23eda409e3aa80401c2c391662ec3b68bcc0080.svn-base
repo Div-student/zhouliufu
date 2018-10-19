@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/aboutu.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../js/JQ.js"></script>
+    <script src="../js/header.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="header_content">
+        <img src="../img/logo.png" alt="">
+        <span class="header_list">
+        <span>首页</span>
+        <span>外包模式</span>
+        <span>企业技能服务</span>
+        <span>服务行业</span>
+        <span>专家介绍</span>
+        <span>合作案例</span>
+        <span>关于我们</span>
+      </span>
+    </div>
+</div>
+<!--大图区-->
+<div class="bbg">
+    <img src="../img/bg1.png" alt="">
+    <img src="../img/bottom.png" alt="">
+</div>
+<!--关于我们头部-->
+<div class="header1">
+  <div id="left"></div>
+  <div id="right"></div>
+</div>
+<div class="abus">
+    <span>关于我们</span> <span>ABOUT US</span>
+</div>
+<!--头部图片文字-->
+<div id="w1">
+    <span>展望</span>
+    <div id="w11">更广阔的未来</div>
+    <div id="w12">LOOKING FORWARD TO THE FUTURE</div>
+    <div id="w13">成就客户 信誉为先 服务为本 携手共赢</div>
+</div>
+<!--文字区-->
+<div id="w2">
+    <div class="w2content">
+        <img src="../img/about1.png" alt="">
+    </div>
+</div>
+<div class="w3"><h3>众誉信息技术</h3>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;众誉信息技术心(深圳)有限公司成立于 2016 年，是专业的 IT 服务与技术解
+    决方案提供商。总部位于深圳市南山区，在北京、上海、广州、厦门、武汉、长沙、
+    成都等城市设立多家分支机构。<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;乘承“专注、专业、创新”的经营理念．为客户提供全球领先的业务解决方案，
+    为合作伙伴提供技术人才和项目外包，以及企业高级定制化内训等服务。<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;众誉已汇聚 IT 行业顶尖的技术专家，众誉在过去的信息技术服务与探索中，
+    积累了丰富的实战技术资源、专业人才资源、标杆客户资源．并构建了逐步成熟的过
+    程实施与质量管控体系．这些软实力构成了众誉优秀的资源基础。在此基础上众誉紧
+    随时代前沿技术．是首批对大数据、云计算、物联网、人工智能、移动、社交、信息
+    安全等核心技术做成功应用的服务商之一，有着领先的技术能力。同时，众誉基于客
+    户的实际业务的应用场景做深入研究，以洞察行业特性和本质，开发并成功实践行业
+    解决方案。
+</div>
+<h2>寄语<br>Message</h2>
+<div class="w4">
+    <img src="../img/about2.png" alt="">
+</div>
+<div class="tp1"></div>
+<div class="w5"><h3>总经理寄语</h3><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自2016年创立以来众誉始终致力于帮助客户提升业务实现能力和商业<br>
+    价值，创造可持续的竞争优势，为包括世界顶级公司和本土领先企业在内<br>
+    的众多客户提供最具价值的 IT 专业资源服务、软件定制开发和软件测试<br>
+    服务。这几年来，我们在助力客户成长的同时也成就了自身的迅速发展。<br>
+    如今，我们在北京、上海、广州、南京、杭州、武汉、长沙、成都、西安<br>
+    、厦门设有1O个分支机构布局，总共拥有约 500 名IT开发、测试和专业<br>
+    顾问。我们的团队将国际经验和本土知识相结合，努力为众多行业客户实<br>
+    现真正的价值。我们在引领技术创新的同时，始终贴合行业和客户的诉求<br>
+    ，收获大批行业客户的认可。在未来几年我们将继续用心服务好客户，决<br>
+    心做好以下几件事情。
+</div>
+<!--高层介绍-->
+<div class="tp2">
+    <img src="../img/bg.png" alt="">
+    <img src="../img/renwu1.png" alt="">
+    <img src="../img/renwu2.png" alt="">
+</div>
+<div class="w6">
+    <span>高层介绍</span><br><span> INTRODUCE</span>
+</div>
+<div class="w71">凌建辉&nbsp;&nbsp;&nbsp;CEO</div>
+<div class="w7">
+    深圳大学软件工程专业硕士研究生<br>
+    众誉集团创始人<br>
+    11 年产品开发研发理及项目理经验。曾服务于国内某大型通信企业、大型<br>
+    医疗企业和著名互联网公司，先后担任开发经理、研发总监、测试总监、<br>
+    研发管理中心总监、 pMO 总监、研发副总裁等职位，带领过中国电信广<br>
+    东省测试团队、唯品会测试团队、鹏为股份研发团队等，有丰富的软件开<br>
+    发团队管理和软件测试管理经验。
+</div>
+<div class="w8">
+    曾永洪&nbsp;&nbsp;&nbsp;CIO<br>
+    Testner圈创始人<br>
+    热衷公益事业 Selenium自动化测试中国社发起者 OWASP 国际安全组织<br>
+    中国区高级会员，现效力于某移动互联网企业 CTO 兼高级测试总监；先<br>
+    后在酷派集团、唯品会、酷配养车担任测试管理与技术负责人
+</div>
+<div class="tp3">
+    <img src="../img/bottom.png" alt="">
+</div>
+<div class="footer">
+    <div class="footer_content">
+        <ul>
+            <li>服务项目</li>
+            <li>外包服务</li>
+            <li>企业技能升级服务</li>
+        </ul>
+        <ul>
+            <li>服务行业</li>
+            <li>互联网行业</li>
+            <li>通信行业</li>
+            <li>游戏行业</li>
+            <li>金融行业</li>
+            <li>房地产行业</li>
+        </ul>
+        <ul>
+            <li>关于我们</li>
+            <li>企业文化</li>
+            <li>企业介绍</li>
+            <li>人员介绍</li>
+        </ul>
+        <ul>
+            <li>合作企业</li>
+            <li>中国平安</li>
+            <li>酷派集团</li>
+            <li>唯品会</li>
+            <li>鹏为股份</li>
+        </ul>
+        <ul class="lianxi">
+            <li>联系我们</li>
+            <li>
+                <span><img src="../img/phone.png" alt=""></span>
+                <span>0755-26601867</span>
+            </li>
+            <li>
+                <span> <img src="../img/pc.png" alt=""></span>
+                <span>lingjianhui@zyxinx</span>
+            </li>
+            <li>
+                <span><img src="../img/iton.png" alt=""></span>
+                <span>深圳市南山区留仙大道南山云谷新产业园山水楼B-211</span>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

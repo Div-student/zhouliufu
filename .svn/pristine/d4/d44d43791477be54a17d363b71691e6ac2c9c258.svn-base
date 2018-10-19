@@ -1,0 +1,118 @@
+#tp>img{
+    height: 500px;
+    width: 100%;
+}
+.tb{
+    position: absolute;
+}
+.tb>img{
+    position: relative;
+    top: -65px;
+    left:660px;
+}
+.tb1{
+    position: relative;
+    width: 220px;
+    height: 160px;
+    left: 720px;
+    top: -10px;
+    background: #0ab1a3;
+    text-align: center;
+    color: white;
+}
+.tb2{
+    position: absolute;
+}
+.tb2>img{
+    position: relative;
+    left: 494px;
+    top: 40px;
+}
+.tb3{
+    position: absolute;
+}
+.tb3>img{
+    position: relative;
+    top: 210px;
+    left: 280px;
+}
+.w1{
+    position: relative;
+    width: 290px;
+    height: 150px;
+    background: gray;
+    left: 720px;
+    top: 80px;
+    color: white;
+}
+.tb4{
+    position: absolute;
+}
+.tb4>img{
+    position: relative;
+    top: 380px;
+    left: 620px;
+}
+.tb5{
+    position: absolute;
+}
+.tb5>img{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    top: 470px;
+    left: 770px;
+}
+.w2{
+    position: relative;
+    width: 290px;
+    height: 175px;
+    background: gray;
+    left: 480px;
+    top: 580px;
+    color: white;
+}
+.tb6{
+    position: absolute;
+}
+.tb6>img{
+    position: relative;
+    top: 620px;
+    left: 770px;
+}
+.tb7{
+    position: absolute;
+}
+.tb7>img{
+    width: 420px;
+    height: 300px;
+    position: relative;
+    top: 710px;
+    left: 410px;
+}
+.w3{
+    position: relative;
+    width: 290px;
+    height: 165px;
+    background: gray;
+    left: 720px;
+    top: 880px;
+    color: white;
+}
+.tb8{
+    position: absolute;
+}
+.tb8>img{
+    position: relative;
+    top: 820px;
+    left: 760px;
+}
+/*底部加样式*/
+.footer{
+    position: absolute;
+    top: 2200px;
+}
+.lianxi{
+    position: absolute;
+    left: 900px;
+}

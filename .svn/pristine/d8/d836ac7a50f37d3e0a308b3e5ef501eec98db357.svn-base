@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>产品详情</title>
+    <link rel="icon" href="../../png/QQ图片20180911154112.png">
+    <link type="text/css" href="../css/details.css" rel="stylesheet">
+    <script src="../javascript/jQuery.js"></script>
+    <script src="../javascript/details.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="content">
+        <!--指引部分-->
+        <div class="guide">
+            <a href="#">首页</a>&gt;<a href="#">全部分类</a>&gt;<a href="#">钻石</a>&gt;<a href="#">永恒之吻1.00 克拉 L色 VS1圆形钻石</a>
+        </div>
+        <!--展示部分-->
+        <div class="exhibit">
+            <div class="leftexh">
+                <div class="exhbg"></div>
+                <div class="exhlb">
+                    <span class="leftj">
+                        <a></a>
+                    </span>
+                    <div class="exhlbt">
+                        <span>
+                            <img class="lbhover" src="../imgs/round2.png" alt="加载中.....">
+                        </span>
+                        <span>
+                            <img class="lbhover" src="../imgs/pro10.png" alt="加载中.....">
+                        </span>
+                        <span>
+                            <img class="lbhover" src="../imgs/round3.png" alt="加载中.....">
+                        </span>
+                    </div>
+                    <span class="rightj">
+                        <a></a>
+                    </span>
+                </div>
+            </div>
+            <!--中间间隔-->
+            <div class="centerexh"></div>
+            <div class="rightexh"></div>
+        </div>
+    </div>
+</body>
+</html>

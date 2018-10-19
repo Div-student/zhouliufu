@@ -1,0 +1,49 @@
+.order_img{
+  margin: 15px 0px 30px 0px;
+    width: 865px;
+    height: 358px;
+}
+.order_box{
+  width: 845px;
+  border: 1px solid #E8E8E8;
+}
+.order_header{
+  background: #F9F9F9;
+  height: 55px;
+  line-height: 55px;
+  font-size: 10px;
+  color: #666666;
+}
+.order_header > p{
+  margin-left: 20px;
+}
+.order_header > p span{
+  margin-right: 10px;
+}
+.order_body{
+  padding: 0px 20px;
+}
+.order_body >p{
+  font-size: 10px;
+  color: #666666;
+  height: 74px;
+  line-height: 74px;
+  border-bottom:1px dashed #E8E8E8;
+  margin-bottom: 20px;
+}
+.order_body >p span{
+  float: right;
+}
+.left_img{
+  float: left;
+  margin:0px  20px 100px 0px;
+
+}
+.right_text{
+  float: right;
+  font-size: 14px;
+  width: 50%;
+}
+.right_text p {
+  margin-bottom: 20px;
+}

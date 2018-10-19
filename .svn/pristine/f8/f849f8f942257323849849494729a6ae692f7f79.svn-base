@@ -1,0 +1,16 @@
+#cont-main>.main-list{
+  background: white;
+}
+#cont-main>.main-list>.list-cont{
+  width:1200px;
+  margin:0 auto;
+}
+#cont-main>.main-list>.list-cont>div{
+  margin:106px 0;
+}
+#cont-main>.main-list>.list-cont>div>ul>li{
+  width:1040px;
+  height:127px;
+  margin:26px auto;
+  background:url(../img/icon-img-gb-001.jpg) no-repeat center;
+}

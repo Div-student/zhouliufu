@@ -1,0 +1,68 @@
+body{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.top{
+    height: 1022px;
+    background-image: url('../img/enterprise1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.top>.Top{
+    height: 100px!important;
+    background: rgba(0,0,0,.5)!important;
+}
+.top>.bgtxt{
+    width: 1200px;
+    margin: 0 auto;
+}
+.top>.bgtxt>p{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+.top>.bgtxt>p:first-child{
+    padding:353px 435px 20px;
+}
+.top>.bgtxt>p:last-child{
+    margin-top:340px;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.main>.imgtop{
+    width: 293px;
+    height: 138px;
+    background: #1cc1c7;
+    box-shadow: 0 0 30px #000;
+    position: relative;
+    top:-50px;
+    left:1000px;
+    font-size: 42px;
+    color: white;
+    padding: 31px 41px;
+}
+.main>.imgtop>p:first-child{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.main>.imgtop>p:last-child{
+    text-align: right;
+}
+.main>.imgmiddle{
+    position: absolute;
+    width: 225px;
+    height: 198px;
+    background: #1cc1c7;
+}
+.main>.img1{
+    width: 440px;
+    height: 216px;
+}
+.main>.bg{
+    width: 625px;
+    height: 300px;
+}

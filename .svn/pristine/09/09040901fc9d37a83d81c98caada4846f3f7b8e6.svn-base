@@ -1,0 +1,17 @@
+.ttt>article h3{
+    font-size: 24px;
+    color: #666666;
+    margin: 10px 0;
+}
+.ttt>article p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 25px;
+}
+.fr{
+    float: right;
+    margin: 150px 0 150px 300px;
+}
+article{
+    padding-bottom: 300px;
+}

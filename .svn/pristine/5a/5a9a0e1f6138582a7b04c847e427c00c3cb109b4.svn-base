@@ -1,0 +1,139 @@
+/* 头部 */
+.header{
+background-size: cover;
+  height: 1000px;
+  background: url(../img/header.png) no-repeat top center;
+  position: relative;
+}
+.header_daohan{
+  height: 66px;
+  background:RGBA(0, 0, 0,0.5);
+  position: relative;
+}
+.header_ZJ{
+  width: 1204px;
+  height: 66px;
+  margin: 0 auto;
+  line-height: 66px;
+}
+.header_ZJ img{
+ margin: 0px 204px 0px 0px ;
+ vertical-align:middle
+}
+/* 导航 */
+.color_a{
+  color: #01FCE8!important;
+  border-bottom: 2px solid #01FCE8;
+
+}
+.baohan_a > a{
+  color: #ffffff;
+  margin-right:47px; 
+  vertical-align:middle;
+  cursor:pointer
+}
+.baohan_a > a:hover{
+  color: #01FCE8;
+}
+.dj{
+  width: 538px;
+  height: 508px;
+  position: absolute;
+  top: 395px;
+  left: 423px;
+  text-align: center
+}
+.dj > h1{
+  color: #EAEAEA;
+font-size:62px; 
+}
+.dj > p{
+  color: #0BEDE1;
+  font-size: 14px;
+  margin-top: 254px;
+}
+.dj > span{
+  width: 30px;
+  height: 30px;
+  border-radius:50%;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  margin-top: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+  font-size:20px; 
+}
+/* 专家介绍 */
+.header_h1{
+  text-align: center;
+  font-family: 微软雅黑;
+  font-size: 41px;
+  color: #000000;
+}
+.header_h1 > p {
+  font-size: 14px;
+}
+.heise{
+width: 100%
+}
+.renwu_box{
+  margin-top: 95px;
+ 
+}
+.diyi{
+   position: relative;
+}
+.wkao1{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.xiao1{
+  height: 180px;
+  width: 180px;
+  position: absolute;
+  top: 14px;
+  left: 209px;
+}
+.diyi div{
+  width: 147px;
+  height: 44px;
+  font-size: 30px;
+  color: #000000;
+  background: url(../img/nameBj.png) no-repeat center;
+  position: absolute;
+  left: 414px;
+  top: 14px;
+  padding: 6px 0px 6px 35px;
+}
+.c_p{
+  width: 93px;
+  height: 18px;
+  font-size: 11px;
+  background: url(../img/jinyan.png) no-repeat center;
+  position: absolute;
+  left: 412px;
+  top: 76px;
+  padding: 6px;
+  }
+  .text1{
+    width: 348px;
+    position: absolute;
+    top: 43px;
+    left: 638px;
+    font-size: 12px;
+  }
+.text2{
+  width: 499px;
+  position: absolute;
+  top: 116px;
+  left: 540px;
+  font-size:12px;
+}
+.text3{
+  width: 1001px;
+  position: absolute;
+    bottom: 84px;
+    left: 210px;
+    font-size: 12px;
+}

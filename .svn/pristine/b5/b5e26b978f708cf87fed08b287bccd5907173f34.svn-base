@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AboutUs</title>
+    <script src="../jQurey.main.js"></script>
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="../css/AboutUs.css">
+    <script src="../js/aboutUs.js"></script>
+</head>
+<body>
+<!--顶部-->
+<header>
+    <!--顶部导航&logo-->
+    <div class="head_nav">
+        <div>
+            <img src="../img/logo.png">
+        </div>
+        <div></div>
+    </div>
+    <!--顶部文字&图标-->
+    <div class="head_main">
+      <div>
+        <p>展望</p>
+        <p>更广阔的未来</p>
+        <p>Looking forward to the future</p>
+        <p><span>成就客户</span><span>信誉为先</span><span>服务为本</span><span>携手共赢</span></p>
+      </div>
+      <img src="../img/xiayuan.png">
+    </div>
+</header>
+<!--内容-->
+<main>
+    <!--关于我们logo-->
+    <div class="about_txt">
+      <div class="line"></div>
+      <div class="Txt">
+        <div>关于我们</div>
+        <div>about us</div>
+      </div>
+      <div class="line"></div>
+    </div>
+    <!--简介-->
+    <div class="syn">
+      <div><img src="../img/logo2.png"></div>
+      <div>
+        <h3>众誉信息技术</h3>
+        <p>众誉信息技术心(深圳)有限公司成立于 2016 年，是专业的 IT 服务与技术解决方案提供商。总部位于深圳市南山区，在北京、上海、广州、厦门、武汉、长沙、成都等城市设立多家分支机构。</p>
+        <p>乘承“专注、专业、创新”的经营理念．为客户提供全球领先的业务解决方案，为合作伙伴提供技术人才和项目外包，以及企业高级定制化内训等服务。</p>
+        <p>众誉已汇聚 IT 行业顶尖的技术专家，众誉在过去的信息技术服务与探索中，积累了丰富的实战技术资源、专业人才资源、标杆客户资源．并构建了逐步成熟的过程实施与质量管控体系．这些软实力构成了众誉优秀的资源基础。在此基础上众誉紧随时代前沿技术．是首批对大数据、云计算、物联网、人工智能、移动、社交、信息安全等核心技术做成功应用的服务商之一，有着领先的技术能力。同时，众誉基于客户的实际业务的应用场景做深入研究，以洞察行业特性和本质，开发并成功实践行业解决方案。</p>
+      </div>
+    </div>
+    <!--寄语-->
+    <div class="msg">
+      <div>寄语</div>
+      <div>Message</div>
+    </div>
+    <div class="msg_pic">
+        <div><img src="../img/building.png"></div>
+        <div class="msg_txt">
+            <h2>总经理寄语</h2>
+            <p>自2016年创立以来众誉始终致力于帮助客户提升业务实现能力和商业价值，创造可持续的竞争优势，为包括世界顶级公司和本土领先企业在内的众多客户提供最具价值的 IT 专业资源服务、软件定制开发和软件测试服务。这几年来，我们在助力客户成长的同时也成就了自身的迅速发展。如今，我们在北京、上海、广州、南京、杭州、武汉、长沙、成都、西安、厦门设有1O个分支机构布局，总共拥有约 500 名IT开发、测试和专业顾问。我们的团队将国际经验和本土知识相结合，努力为众多行业客户实现真正的价值。我们在引领技术创新的同时，始终贴合行业和客户的诉求，收获大批行业客户的认可。在未来几年我们将继续用心服务好客户，决心做好以下几件事情。</p>
+            <p>阅读更多&nbsp;<span></span></p>
+        </div>
+        <div></div>
+    </div>
+</main>
+<active>
+    <div class="boss_box">
+      <!--高层介绍-->
+        <div class="boss">
+            <div class="boss_txt">
+                <div>高层介绍</div>
+                <div>introduce</div>
+            </div>
+            <!--人物1-->
+            <div class="people_ceo">
+                <div>
+                    <div></div>
+                    <img src="../img/hunman1.png">
+                </div>
+                <div>
+                    <h1>凌建辉&nbsp;&nbsp;CEO</h1>
+                    <h3>深圳大学软件工程专业硕士研究生<br>众誉集团创始人</h3>
+                    <p>11 年产品开发研发理及项目理经验。曾服务于国内某大型通信企业、大型医疗企业和著名互联网公司，先后担任开发经理、研发总监、测试总监、研发管理中心总监、 pMO 总监、研发副总裁等职位，带领过中国电信广东省测试团队、唯品会测试团队、鹏为股份研发团队等，有丰富的软件开发团队管理和软件测试管理经验。
+                    </p>
+                </div>
+            </div>
+            <!--人物2-->
+            <div class="people_cio">
+                <div>
+                    <div></div>
+                    <img src="../img/hunman2.png">
+                </div>
+                <div>
+                    <h1>曾永洪CIO</h1>
+                    <h3>Testner圈创始人</h3>
+                    <p>热衷公益事业 Selenium自动化测试中国社发起者 OWASP 国际安全组织中国区高级会员，现效力于某移动互联网企业 CTO 兼高级测试总监；先后在酷派集团、唯品会、酷配养车担任测试管理与技术负责人</p>
+                </div>
+            </div>
+            <!--小图标-->
+            <img src="../img/xiayuan.png" class="icon">
+        </div>
+    </div>
+</active>
+<footer>
+    <div class="botstyle">
+        <div class="neirong">
+            <div>
+                <h3>服务项目</h3>
+                <a href="#">外包服务</a>
+                <a href="#">企业技能升级服务<a>
+            </div>
+            <div>
+                <h3>服务行业</h3>
+                <a href="#">互联网行业</a>
+                <a href="#">通信行业<a>
+                    <a href="#">游戏行业</a>
+                    <a href="#">金融行业</a>
+                    <a href="#">房地产行业</a>
+            </div>
+            <div>
+                <h3>关于我们</h3>
+                <a href="#">企业文化</a>
+                <a href="#">企业介绍<a>
+                    <a href="#">人员介绍</a>
+            </div>
+            <div>
+                <h3>合作企业</h3>
+                <a href="#">中国平安</a>
+                <a href="#">酷派集团<a>
+                    <a href="#">唯品会</a>
+                    <a href="#">鹏伟股份</a>
+            </div>
+            <div>
+                <h3>联系我们</h3>
+                <div>
+                    <span><img src="../img/souji.png"></span>
+                    <span>0755-26601867</span>
+                </div>
+                <div>
+                    <span><img src="../img/diannao.png"></span>
+                    <span>liangjianhui@zyxinxi.com</span>
+                </div>
+                <div>
+                    <span><img src="../img/dinwei.png"></span>
+                    <span>深圳市南山区留仙大道南山云谷新产业园山水楼B-211</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

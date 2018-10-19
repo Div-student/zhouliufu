@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="../../jQurey.main.js"></script>
+  <!-- JQuery js -->
+  <script src="../js/header.js"></script>
+  <!-- 公共样式 -->
+  <link rel="stylesheet" href="../../common.css">
+  <!-- 专家介绍 -->
+  <link rel="stylesheet" href="../css/expert.css">
+  <script src="../../fjh/js/botstyle.js" type="text/javascript"></script>
+  <link href="../../fjh/css/botstyle.css" type="text/css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 头部 -->
+  <div class="header">
+    <!-- 导航 -->
+    <div class="header_daohan">
+      <div class="header_ZJ">
+        <img class="baoh_img" src="../img/zhongyu.png" alt="">
+        <span class="baohan_a"></span>
+      </div>
+    </div>
+    <!--  -->
+    <div class="dj">
+      <h1 >专业团队  顶尖服务 </h1>
+      <p >专业的团队为您量身打造，我们用心为您提供高质量的服务</p>
+      <span>V</span>
+    </div>
+  </div>
+  <!-- 专家介绍 -->
+  <div class="header_h1">一 专家介绍 一 <p>Expert introduction</p></div>
+  <!-- 人物介绍 -->
+  <div class="renwu_box">
+    <!-- 1 -->
+    <div class="diyi">
+        <img class="wkao1" src="../img/wkao.png" alt="">
+        <img class="xiao1" src="../img/chengnenji.png" alt="">
+        <div>陈能技</div>
+        <p class="c_p">15年专业经验</p>
+        <p class="text1">企业高级培训讲师、企业软件质量优化顾问、赛宝软件测评中心特聘咨询顾问、AIA友邦咨询顾
+            问、CSDN博客专家、GJB/ISO  9000内审员
+        </p>
+        <p class="text2">
+            工作及项目经验：<br>15年软件研发与过程优化经验，多年企业培训经验。著有《软件测试技术大全》、《QTP自动化测试最佳实践》、《性能测试诊断分析与优化》等多本畅销书。曾主导多个大型软件项目的研发过程质量管理工作与测试工作,包括飞机维修跟踪管理系统、IETM技术资料管理系统、雷达管理系统、航弹管理系统、4A全军综合演练管理系统、北京警卫局信息管理系统、赛宝军用软件测试过程管理系统、柚子舍电子商务系统、贵州电网业务系统等。
+        </p>
+        <p class="text3">
+            企业咨询经验：<br>为多家企业进行软件设计优化、质量管理和测试项目实践方面的咨询顾问以及培训、指导：中国南车、中国北车、郑州思维、贵州电网、杭州益和、云电同方、广电运通、阿尔卡特、宇龙酷派、新思科技、友邦保险、易方达、平安科技、中信银行、广州建设银行、杭州凯捷、玫琳凯、环球市场、柚子舍、深圳创梦天地、厦门35互联、上海阿海珐、阿尔斯通、施耐德、深圳新科华核电所、武汉横新软件、深圳空管站、中国航信、深圳地税局、中山国税局、广东移动 、顺德移动 、汕头移动
+        </p>
+    </div>
+    <!-- 2 -->
+    <div class="diyi">
+        <img class="wkao1" src="../img/wkao.png" alt="">
+        <img class="xiao1" src="../img/penshaowen.png" alt="">
+        <div>彭少文</div>
+        <p class="c_p">10年专业经验</p>
+        <p class="text1">
+            顺丰集团  2014年5月至2017年5月  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 软件测试经理<br>
+            阳光保险集团  2009年4月至2014年4月 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;    软甲测试经理<br>
+            富士康科技集团  2005年7月至2009年3月&nbsp;&nbsp;&nbsp; &nbsp;  Java开发工程师
+        </p>
+        <p class="text2">
+            工作及项目经验：<br>深入研究Python+Unittest+selenium，Java+Junit+seleium搭建Web项目自动化测试框架与自动化测试的实施。熟练使用appium，robotium对android和ios等APP项目进行自动化测试的实施。
+            熟练使用LoadRunner和Jmeter开发性能测试脚本、分析和优化，熟悉常用Web服务器的性能监控和调优，熟悉JVM的性能监控和调优。
+            熟练Java开发语言，熟悉Spring MVC、Struts、hibernate、Mybatis、Spring等j2ee开发技术。
+            
+        </p>
+        <p class="text3">
+            企业咨询经验：<br>
+            熟练使用jenkins持续搭建平台，熟悉maven，ant。成功实施了多个项目的自动化测试，编译打包的持续构建。
+            熟悉使用soapui进行接口的自动化测试与负载测试。
+            则多次主导公司自动化测试技术的攻关与架构的设计，负责测试团队技术的培训与提升。
+          </p>
+    </div>
+    <!-- 3 -->
+    <div class="diyi">
+        <img class="wkao1" src="../img/wkao.png" alt="">
+        <img class="xiao1" src="../img/hetao.png" alt="">
+        <div>何   涛</div>
+        <p class="c_p">10年专业经验</p>
+        <p class="text1">
+            企业高级培训讲师、<br>
+            企业软件质量优化顾问<br>
+            平安特聘咨询顾问
+        </p>
+        <p class="text2">
+            工作及项目经验：<br>
+            10 年互联网软件技术从事经验 6 年从事对日软件开发及维护工作； 4 年多从事软件开发测试工作 3 年软件测试教学经验。<br>
+
+            曾任职：联想（集团）高级软件测试工程师江西攀维时空软件测试技术总监深圳市日本 iat 株式会社软件开发工程师
+          </p>
+        <p class="text3">
+            参与主导项目：<br>联想 SI 系统集成测试、地方优惠信息类网万象物流 app ( android ) 日本 iSt 公司网络监控软件熟练使用 java 、 C ＃进行编码和调试，可以编写详细设计文档，测试阶段文档，实践过匀上各个角色。熟悉敏捷开发流程，经历过多个完整的敏捷项目，在敏捷项目中积极沟通和协调，并上开展的自动化测试也保证了项目的成功。使用过 python 脚本和 iava 编写过自动化用例。使用过 iava ，麟． ne 雌行过开发．熟悉常用协议如 Tcp 印、 snmp 等协议以及 sql 、。 rade 数据库。精通 python 、 Java 等开发语言，精通算法，对机器学习、语音识别、指纹识别‘人脸识别，视网膜识别，虹膜识别，掌纹识别领域有很深的研究。</p>
+    </div>
+    <!-- 4 -->
+    <div class="diyi">
+        <img class="wkao1" src="../img/wkao.png" alt="">
+        <img class="xiao1" src="../img/aiyonxian.png" alt="">
+        <div>袁永先</div>
+        <p class="c_p">10年专业经验</p>
+        <p class="text1">10 年以上互联网技术工作经验 5 年以上！下教育行业技术讲师面授经验工作经历 8 年软件测试
+            及相关自动化测试性能测试经验 4 年 JZEE 开发经验。
+        </p>
+        <p class="text2">
+            工作及项目经验：<br>解件性能测试，构建性能分析模型精通软件测试原理，软件工程及各种软件测试方法熟悉面向对象 OOP 思想和分析解决问题的能力熟悉常用的 web 服务器技术 115  </p>
+        <p class="text3">
+            企业咨询经验：<br>解件性能测试，构建性能分析模型精通软件测试原理，软件工程及各种软件测试方法熟悉面向对象 OOP 思想和分析解决问题的能力熟悉常用的 web 服务器技术 115 、 Apache 、 Tomcat 及相关服务端脚本技术 perl 、 php 熟悉常用的自动化测试框架 Selenium 及 webdriVe 筋议自动化测试原理．掌握 Q 丁 p 等自动化测试技术精通常用 web 端服务器技术搭建 1 15 、 Apache 、 Tomcat ，前端 html 、 CSS 、 Javascripts 技术，熟悉 7 解后端常用技术 perl 、 php 、 shell 、 ASP . net 、 lava 等熟悉移动 aoo 测试技术．掌握 Android 自动化测试之 adb shell monkev 等技术．了解appium 等移动 app 框架精通 BugFree </p>
+    </div>
+    <!-- 5 -->
+    <div class="diyi">
+        <img class="wkao1" src="../img/wkao.png" alt="">
+        <img class="xiao1" src="../img/zhaocao.png" alt="">
+        <div>赵   灿</div>
+        <p class="c_p">11年专业经验</p>
+        <p class="text1">
+            15年前互联网软件技术从事经验
+            07--09：深圳市科瑞琪电子有限公司         测试工程师
+            09--14：中软国际科技服务有限公司         测试经理
+            14--15：宇龙计算机通讯科技（深圳）      测试经理
+            15--16：金环天朗信息技术服务有限公司   测试总监
+        </p>
+        <p class="text2">
+            工作及项目经验：<br>
+            拥有11年测试经验，2年项目管理经验，成功交付多个项目。
+            对测试质量管理有独到心得，负责的项目往往能以较快的速度获得较高的质量。
+            精通各种黑盒测试方法的运用，熟悉各功能测试、性能测试以及自动化测试。
+          </p>
+        <p class="text3">
+            企业咨询经验：<br>
+            学习能力强，注重团队凝聚力培养。能有效激起团队活力，提高成员贡献率。
+            熟悉C++、JAVA语言，熟悉网络协议，熟悉shell、python脚本。
+            精通Android、IOS平台的app测试。
+            精通基于selenium的web自动化测试，使用python独立搭建自动化测试框架。
+          </p>
+    </div>
+    <!--6  -->
+    <div class="diyi">
+        <img class="wkao1" src="../img/wkao.png" alt="">
+        <img class="xiao1" src="../img/hexuehng.png" alt="">
+        <div>何雪红</div>
+        <p class="c_p">16年专业经验</p>
+        <p class="text1">
+            深圳市考拉超课科技股份有限公司      测试经理；深圳德科科技股份有限公司    高级测试工程师
+            深圳市利鑫科技股份有限公司             测试经理；深圳市翔龙科技有限公司 
+        </p>
+        <p class="text2">
+            工作及项目经验：<br>
+            熟悉掌握各种测试的理论、测试方法、测试知识基础和思想原理
+            熟悉使用项目测试管理工具SVN、Quality Center、UR、ALM、GIT管理测试流程。
+            熟悉测试管理、环境配置、版本发布、编写测试计划、设计测试场景、编写测试脚本SQL脚本、设计测试用例编写缺陷问题瓶颈报告、优化系统方案、测试总结报告等文档
+            熟练使用数据库管理工具：SQL Server、Oracle、Sybase、Mysql等，了解、Hadoop数据库，会标准SQL语句
+          </p>
+        <p class="text3">
+            企业咨询经验：<br>
+            熟练使用Windows/linx/Unix/Mac系统的常用命令，熟悉网络 TCP/IP、Web服务器Tomcat、nginx、XML报文格式，了解shell脚本，了解正则表达式及grep/awk/sed命令。
+            熟悉面向过程语言C语言和面向对象语言C++语言，了解面向对象语言Java语法基础和MyEclipse工具的使用。
+          </p>
+    </div>
+  </div>
+  <!-- 尾部 -->
+  <div class="botstyle">
+      <div class="neirong">
+          <div>
+              <h3>服务项目</h3>
+                  <a href="#">外包服务</a>
+                  <a href="#">企业技能升级服务<a>
+          </div>
+          <div>
+              <h3>服务行业</h3>
+                  <a href="#">互联网行业</a>
+                  <a href="#">通信行业<a>
+                  <a href="#">游戏行业</a>
+                  <a href="#">金融行业</a>
+                  <a href="#">房地产行业</a>
+          </div>
+          <div>
+              <h3>关于我们</h3>
+                  <a href="#">企业文化</a>
+                  <a href="#">企业介绍<a>
+                  <a href="#">人员介绍</a>
+          </div>
+          <div>
+              <h3>合作企业</h3>
+              <a href="#">中国平安</a>
+              <a href="#">酷派集团<a>
+                  <a href="#">唯品会</a>
+                  <a href="#">鹏伟股份</a>
+          </div>
+          <div>
+              <h3>联系我们</h3>
+              <div>
+                  <span><img src="../../fjh/img/souji.png"></span>
+                  <span>0755-26601867</span>
+              </div>
+              <div>
+                  <span><img src="../../fjh/img/diannao.png"></span>
+                  <span>liangjianhui@zyxinxi.com</span>
+              </div>
+              <div>
+                  <span><img src="../../fjh/dinwei.png"></span>
+                  <span>深圳市南山区留仙大道南山云谷新产业园山水楼B-211</span>
+              </div>
+          </div>
+      </div>
+  </div>
+</body>
+</html>

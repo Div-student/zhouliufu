@@ -1,0 +1,31 @@
+.daohang{
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    line-height: 50px;
+    position: relative;
+    top: 0px;
+}
+.daohang img {
+    vertical-align: middle;
+}
+.daohang-lian{
+    float: right;
+}
+.daohang-lian a {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 0 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.daohang-lian a:hover {
+    border-bottom: 2px solid #00FFEA;
+    color: #00FFEA;
+}
+/*高亮*/
+.san{
+    border-bottom: 2px solid #00FFEA;
+    color: #00FFEA!important;
+}

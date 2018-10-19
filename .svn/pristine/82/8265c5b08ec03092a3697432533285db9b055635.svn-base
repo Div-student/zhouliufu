@@ -1,0 +1,390 @@
+.headstyle{
+    width: 100%;
+    background-image: url("../img/shouyebg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+    /*background-attachment: fixed;*/
+    /* 让背景图基于容器大小伸缩 */
+    background-size: cover;
+    height: 1000px;
+}
+/*遮罩*/
+.zezao {
+    width: 50%;
+    height: 950px;
+    background: rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+.xx {
+    width: 412px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    right: 20px;
+    color: #FFFFFF;
+    text-align: right;
+}
+.xx > h3 {
+    font-size: 38px;
+    margin: 0px;
+}
+.xx > span {
+    display: block;
+    float: right;
+}
+.xx > .w1 {
+    height: 48px;
+    width: 230px;
+    line-height: 48px;
+    font-size: 20px;
+    color: #00FFEA;
+    border-bottom: 3px solid #00FFEA;
+    margin: 10px 0px;
+}
+.xx > .w2 {
+    text-align: left;
+}
+.xx > .w2 > i{
+    color: #00FFEA;
+}
+.midd {
+    height: 120px;
+    position: absolute;
+    bottom: 11%;
+    right: -144px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+}
+.midd > p {
+    margin-bottom: 60px;
+}
+.midd > p span {
+    color: #00FFEA;
+}
+/*外包*/
+.waibao {
+    height: 480px;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-size: 42px;
+    color: #000;
+    padding-top: 40px;
+}
+.waibao > .zu {
+    display: block;
+    width: 600px;
+    position: relative;
+    margin: auto;
+}
+.waibao > .zu:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    top: 25px;
+    left: 70px;
+}
+.waibao > .zu:before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    top: 25px;
+    right: 70px;
+}
+.waibao > .fu {
+    display: block;
+    font-size: 11px;
+}
+.waibao > img {
+    margin-top: 60px;
+}
+/*了解更多*/
+.moress{
+    width: auto;
+    height: 800px;
+    background-image: url("../img/genduobg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 320px;
+}
+.moress > div {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+}
+.moress > div > div {
+    flex: 1;
+    margin:  0px 32px;
+    background: #1CC1C7;
+    height: 400px;
+    text-align: center;
+}
+.moress > div > div > img {
+    margin-top: 30px;
+}
+.moress > div > div > span {
+    display: block;
+    height: 74px;
+    background: white;
+    color: #0A9BC6;
+    font-size: 30px;
+    line-height: 74px;
+    margin-top: 85px;
+}
+.qiye{
+    margin-top: 300px;
+    background-image: url("../img/tiao.png");
+    height: 230px;
+    background-repeat: repeat-x;
+}
+.qiye > div {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.qiye > div > img {
+    margin-top: -7%;
+}
+.qiye > div > span {
+    display: block;
+    color: #1CC1C7;
+    width: 150px;
+    height: 53px;
+    font-size: 20px;
+    line-height: 53px;
+    margin: auto;
+    margin-top: 5%;
+    cursor: pointer;
+    border: 2px solid #1CC1C7;
+}
+/*技术*/
+.jisu {
+    width: 1200px;
+    height: 540px;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+}
+.jisu > div {
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+.jisu > div > div {
+    margin-top: 60px;
+    margin-left: 18%;
+}
+.jisu > div > span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    border-radius: 50%;
+    background: #1CC1C7;
+    position: absolute;
+    top: 27%;
+    left: 46%;
+}
+.jisu > div > div > p {
+    text-align: left;
+    font-size: 10px;
+    color: black;
+}
+/*服务*/
+.fuwu {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-size: 42px;
+    color: #000;
+    padding-top: 40px;
+}
+.fuwu > .zu {
+    display: block;
+    width: 600px;
+    position: relative;
+    margin: auto;
+}
+.fuwu > .zu:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    top: 25px;
+    left: 70px;
+}
+.fuwu > .zu:before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    top: 25px;
+    right: 70px;
+}
+.fuwu > .fu {
+    display: block;
+    font-size: 11px;
+}
+.fuwu > p {
+    font-size: 18px;
+    color: black;
+    width: 560px;
+    margin: 60px auto;
+    text-indent: 2em;
+}
+.fuwu > div {
+    width: 1200px;
+    display: flex;
+}
+.fuwu > div > div {
+    flex: 1;
+    height: 300px;
+    line-height: 300px;
+}
+.fuwu > div > div span {
+    display: inline-block;
+    width: 135px;
+    height: 135px;
+    background: #1CC1C7;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 135px;
+    color: white;
+    font-size: 18px;
+    flex: 1;
+}
+.fuwu > a {
+    display: inline-block;
+    width: 285px;
+    height: 78px;
+    background: #1CC1C7;
+    color: white;
+    font-size: 26px;
+    line-height: 78px;
+    border-radius: 15px;
+    margin: 60px auto;
+    text-decoration: none;
+}
+/*合作*/
+.hez {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-size: 42px;
+    color: #000;
+    padding-top: 40px;
+}
+.hez > .zu {
+    display: block;
+    width: 600px;
+    position: relative;
+    margin: auto;
+}
+.hez > .zu:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    top: 25px;
+    left: 70px;
+}
+.hez > .zu:before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    top: 25px;
+    right: 70px;
+}
+.hez > .fu {
+    display: block;
+    font-size: 11px;
+}
+.hez > div {
+    display: flex;
+    width: 1200px;
+    height: 400px;
+}
+.hez > div > div {
+    flex: 1;
+    text-align: center;
+    font-size: 23px;
+    margin: auto;
+}
+.hez > div > div:last-child {
+    padding-top: 2em;
+}
+.hez > div > div p {
+    margin: 20px 0px;
+}
+/*新闻*/
+.news{
+    width: 570px;
+    height: 790px;
+    position: fixed;
+    right: 0px;
+    top: 30%;
+}
+.news > .tou {
+    width: 100%;
+    height: 76px;
+    background: #60D3D8;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    line-height: 76px;
+    position: relative;
+}
+.news > .tou span {
+    cursor: pointer;
+}
+.news > .tou span:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 38px;
+    right: 22px;
+    width: 40px;
+    height: 3px;
+    background: white;
+    transform: rotate(45deg);
+}
+.news > .tou span:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 38px;
+    right: 22px;
+    width: 40px;
+    height: 3px;
+    background: white;
+    transform: rotate(-45deg);
+}
+.news > .nei {
+    width: 530px;
+    height: 674px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    word-wrap: break-word;
+    color: #FFFFFF;
+    font-size: 18px;
+}

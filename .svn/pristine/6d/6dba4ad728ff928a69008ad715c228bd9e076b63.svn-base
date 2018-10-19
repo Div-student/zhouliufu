@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/zjcss.css">
+    <script src="../js/jQurey.min.js"></script>
+    <script src="../js/JS.js"></script>
+</head>
+<body>
+<div id="box">
+    <div class="touy">
+        <span id="syi">首页
+        <span id="syi_yi"></span>
+        </span>
+        <span id="ser">外包模式
+        <span id="ser_er"></span>
+        </span>
+        <span id="ssan">企业升级技能服务
+        <span id="ssan_yi"></span>
+        </span>
+        <span id="ssi">服务行业
+        <span id="ssi_yi"></span>
+        </span>
+        <span id="swu">专家介绍
+        <span id="swu_yi"></span>
+        </span>
+        <span id="sliu">合作案例
+        <span id="sliu_yi"></span>
+        </span>
+        <span id="sqi">关于我们
+        <span id="sqi_yi"></span>
+        </span>
+    </div>
+</div>
+<!--中间内容-->
+<div class="zhong">专家介绍</div>
+<div class="zhong_yi">Expert introduction</div>
+<div class="zjyi"></div>
+<div class="zjer"></div>
+<div class="zjsan"></div>
+<div class="zjsi"></div>
+<div class="zjwu"></div>
+<div class="zjliu"></div>
+<div class="weiba">
+    <div>
+        <div>
+            <h4>服务项目</h4>
+            <p>外包服务</p>
+            <p>企业技能升级服务</p>
+        </div>
+        <div class="er">
+            <h4>服务行业</h4>
+            <p>互联网行业</p>
+            <p>通信行业</p>
+            <p>游戏行业</p>
+            <p>金融行业</p>
+            <p>房地产行业</p>
+        </div>
+        <div class="san">
+            <h4>关于我们</h4>
+            <p>企业文化</p>
+            <p>企业介绍</p>
+            <p>人员介绍</p>
+        </div>
+        <div class="si">
+            <h4>合作企业</h4>
+            <p>中国平安</p>
+            <p>酷派集团</p>
+            <p>唯品会</p>
+            <p>鹏为股份</p>
+        </div>
+        <div class="wu">
+            <h4>联系我们</h4>
+            <p id="p_yi">0755-26601867</p>
+            <p id="p_er">lingjianhui@zyxinxi.com</p>
+            <p id="p_san">深圳市南山区留仙大道南山云谷新
+                产业园山水楼B-211</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

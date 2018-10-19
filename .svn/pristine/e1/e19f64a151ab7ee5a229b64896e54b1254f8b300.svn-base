@@ -1,0 +1,311 @@
+/* 公共样式 */
+*,ul,p,h3,form{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* 外包头部初始化设置 */
+.box{
+    position: relative;
+}
+.mainbox{
+    height: 1001px;
+    width: 100%;
+    background: url(../image/waibaofuwu/topbg.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 外包头部样式 */
+.mainbox-top{
+    height: 97px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.mainbox-top .top{
+    position: relative;
+}
+.mainbox-top .top-bglogo{
+    position: absolute;
+    left: 15px;
+    top: 25px;
+}
+.top .top-navbar{
+    height: 94px;
+    line-height: 94px;
+    margin-left: 33%;
+}
+.top .top-navbar ul li{
+    float: left;
+    color: white;
+    font-size: 16px;
+    padding-left: 40px;
+    position: relative;
+}
+.top .top-navbar ul li:hover a{
+    color: #11ffea;
+    padding-bottom: 9px;
+    border-bottom: 2px solid #11ffea;
+}
+.top .top-navbar ul li.active a{
+    color: #11ffea;
+    padding-bottom: 9px;
+    border-bottom: 2px solid #11ffea;
+}
+/* 外包头部文字 */
+.mainbox-content .main{
+    text-align: center;
+    height: 300px;
+    margin-top: 190px;
+}
+.mainbox-content .mainbox-content-heading span{
+    font-size: 70px;
+    color: #00ffea;
+    position: relative;
+}
+.mainbox-content .mainbox-content-heading span:after{
+    content: '';
+    background-color: #00ffea;
+    position: absolute;
+    display: inline-block;
+    top: 89px;
+    width: 134px;
+    height: 8px;
+    left: 12px;
+}
+.mainbox-content .mainbox-content-middle{
+    margin-top: 40px;
+    color: white;
+    font-size: 57px;
+}
+.mainbox-content .mainbox-content-bottom{
+    color: white;
+    font-size: 26px;
+    margin-top: 17px;
+}
+.mainbox-content .mainbox-content-footer{
+    color: white;
+    font-size: 21px;
+    margin-top: 310px;
+}
+/* body */
+.body .main{
+    text-align: center;
+}
+.body .main .body-heading{
+    height: 198px;
+}
+.body .main .body-heading div:first-child{
+    margin-top: 70px;
+    font-size:41px;
+}
+.body .main .body-heading div:first-child span{
+    position: relative;
+}
+.body .main .body-heading div:first-child span:before{
+    position: absolute;
+    content: '';
+    width: 75px;
+    height: 5px;
+    background-color: black;
+    display: inline-block;
+    top: 26px;
+    left: -127px;
+}
+.body .main .body-heading div:first-child span:after{
+    position: absolute;
+    content: '';
+    width: 75px;
+    height: 5px;
+    background-color: black;
+    display: inline-block;
+    top: 26px;
+    right: -118px;
+}
+.body .main .body-heading div:first-child:last-child{
+    padding-top: 4px;
+    font-size: 14px;
+}
+.body .body-logo{
+    height: 290px;
+    line-height: 290px;
+}
+.body .body-logo-three-rows{
+    padding-top: 41px;
+    width: 770px;
+    height: 293px;
+    margin: auto;
+    background: url(../image/waibaofuwu/threerows.png) 0 40px no-repeat;
+}
+.body .body-logo-three-rows span{
+    color: white;
+    font-size: 23px;
+}
+.body .body-logo-three-rows > div{
+    height: 59px;
+    line-height: 59px;
+    text-align: left;
+}
+.body .body-logo-three-rows > div:nth-child(1){
+    margin-bottom: 26px;
+}
+.body .body-logo-three-rows > div:nth-child(2){
+    margin-bottom: 19px;
+}
+.body .body-logo-three-rows > div{
+    padding-left: 2%;
+}
+.body .body-logo-three-rows > div > span:first-child{
+    display: inline-block;
+    width: 20%;
+}
+.body .body-logo-three-rows > div > span:last-child{
+    display: inline-block;
+    width: 78%;
+}
+.body .body-logo-two-rows{
+    width: 770px;
+    height: 730px;
+    margin: auto;
+}
+.body .body-logo-two-rows .main{
+    text-align: center;
+    width: 770px;
+    height: 730px;
+}
+.body .body-logo-two-rows div.body-logo-two-content{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.body .body-logo-two-content-box1{
+    border-top: 1px solid transparent;
+    color: white;
+    height: 517px;
+    width: 237px;
+    text-align: center;
+    margin:63px 0 0 44px;
+    background: url(../image/waibaofuwu/tworows.png) 0 0 no-repeat;
+}
+.body .body-logo-two-content-box2{
+    border-top: 1px solid transparent;
+    height: 517px;
+    width: 237px;
+    text-align: center;
+    color: white;
+    margin:63px 0 0 127px;
+    background: url(../image/waibaofuwu/tworows.png) 0 0 no-repeat;
+}
+.body .content-box-heading{
+    margin-top: 46px;
+    font-size:28px; 
+}
+.body .content-box-middle{
+    margin-top: 26px;
+    font-size:16px; 
+}
+.body .content-box-footer{
+    margin-top: 146px;
+    font-size:18px; 
+}
+
+/* footer */
+.footer{
+    height: 352px;
+    background-color: #434343;
+}
+.footer .main{
+    text-align: center;
+    height: 352px;
+    padding-left: 12px;
+}
+.footer .main ul{
+    float: left;
+    padding: 12px 0 0 0px;
+}
+.footer .main ul li{
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer .main ul li:hover{
+    color: #1cc1c7;
+}
+.footer .main ul li:first-child{
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    cursor: default;
+}
+.footer .main ul li:first-child:hover{
+    color: white;
+}
+.footer .main ul.ul-adjust{
+    margin: 40px 100px 0 0px;
+}
+.footer .main ul:first-child{
+    margin-right: 57px;
+}
+.footer .main ul{
+    margin-top: 40px;
+}
+#link-span1,#link-span2,#link-span3{
+    display: inline-block;
+    width: 65px;
+    height: 46px;
+    margin-bottom: 12px;
+    vertical-align: top;
+}
+#link-span1{
+    background: url(../image/index/adress.png) 13px 6px no-repeat;
+}
+#link-span2{
+    background: url(../image/index/adress.png) 14px -39px no-repeat;
+}
+#link-span3{
+    background: url(../image/index/adress.png) 17px -87px  no-repeat;
+}
+.footer .main ul:last-child li{
+    margin-bottom: 12px;
+}
+/*  */
+div.left-bg-pic{
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    left: 48px;
+    top: 1446px;
+}
+div.left-bg-pic img{
+    width: 270px;
+    height: 270px;
+}
+div.right-bg-pic{
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    right: 100px;
+    top: 2078px;
+}
+div.right-bg-pic img{
+    width: 150px;
+    height: 140px;
+}
+
+
+
+
+
+
+

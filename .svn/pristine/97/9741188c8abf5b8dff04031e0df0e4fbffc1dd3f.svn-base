@@ -1,0 +1,10 @@
+/**
+ * Created by THINK on 2018/9/11.
+ */
+$(function () {
+    $(".lbhover").hover(function(){
+        $(".lbhover").css('border-color','#dab866');
+    },function () {
+        $(".lbhover").css('border-color','#e5e5e5');
+    });
+})

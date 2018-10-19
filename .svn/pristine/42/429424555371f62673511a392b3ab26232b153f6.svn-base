@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="../jQurey.main.js"></script>
+  <script>
+  $(function () {
+    // var AAlist = ['aa', 'bb', 'cc', 'dd', 'ee']
+    // $.each(AAlist, function(index, item) {
+    //   var xinde = $("<span class=aaa>"+ item + "</soan>")
+    //   $('div').append(xinde)
+    // })
+    var BB = [
+      {name='aa', lits:['AA','BB','CC']},
+      {name='aa', lits:['AA']},
+      {name='aa', lits:['AA']},
+      {name='aa', lits:['AA']}
+    ]
+    $.each(BB, function () {
+      var xinde1 = $("<div><span>" +item.name+"</span><div class=mm"+index+"></div></div>")
+      $('.oo').append(xinde1)
+    $.each(item.lits, function(item1, index1){
+      var xinde2 = $('<span>'+item1+'</span>')
+      $('.mm'+index).append(xinde2)
+    })
+    })
+  })
+  </script>
+  <style>
+  .aaa{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+  }
+  </style>
+</head>
+<body>
+  <div>
+
+  </div>
+  <div class="oo">
+
+  </div>
+</body>
+</html>

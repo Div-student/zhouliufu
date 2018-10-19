@@ -1,0 +1,214 @@
+body{
+  position:relative;
+  width:100%;
+  height:100%;
+}
+header{
+ width:100%;
+ height:1020px;
+ background:url(../img/headbg.jpg) no-repeat center top;
+ background-size: cover;
+ position: relative;
+ margin-bottom: 170px;
+}
+.headernavy{
+  width:1180px;
+  margin:auto;
+}
+header ul {
+  height:100px;
+  background-color: rgba(0,0,0,.5);
+  color:white;
+  display: flex;
+  justify-content: flex-end;
+}
+header ul li{
+  margin:0 30px;
+  height:100px;
+  line-height:100px;
+}
+header ul li p{
+  width: 34px;
+  height: 5px;
+  position: absolute;
+  top: 70px;
+  border-radius: 2px;
+}
+.active{
+  background-color: #00f5e1;
+}
+header ul li img{
+  margin-top:30px;
+}
+header>div:nth-child(2){
+  height:100px;
+  width:336px;
+  color:white;
+  font-size: 36px;
+  margin-top: 20%;
+  margin-left:38%;
+}
+header>div:nth-child(3){
+  text-align: center;
+  height:100px;
+  position: absolute;
+  bottom: 0px;
+  left:49%;
+}
+.flagpic{
+  width:297px;
+  height:120px;
+  background-color: #1cc1c7;
+  font-size: 44px;
+  color:white;
+  padding: 40px;
+  display: flex;
+  flex-direction:column;
+  position: absolute;
+  top: -216px;
+  right: 191px;
+}
+.flagpic p:last-child{
+  margin-left: 120px;
+}
+/* 中部内容设置 */
+section{
+  width:1180px;
+  height:2000px;
+  margin:auto;
+  position: relative;
+  margin-bottom: 100px;
+}
+section>img:nth-child(2){
+  position: absolute;
+  right:0px;
+  bottom: 0px;
+}
+section>img:nth-child(1){
+  position: absolute;
+  left:0px;
+  top: 0px;
+}
+
+
+/* dvoops技术 */
+.dvoops{
+  height:564px;
+  position: relative;
+}
+.dvoops>div{
+  width:594px;
+  height:300px;
+  background-color:#a0a0a0;
+  position: absolute;
+  right:0px;
+  top:132px;
+  color:white;
+  font-size: 30px;
+  padding-left:34px;
+  padding-top: 45px;
+  cursor: pointer;
+}
+.dvoops>img{
+  position: absolute;
+}
+.dvoops>img:first-child{
+  top: 6px;
+  left: 327px;
+}
+.dvoops>img:nth-child(2){
+  bottom: 43px;
+  left: 111px;
+}
+/* javeee技术 */
+
+.javeee{
+  height:678px;
+  position: relative;
+}
+.javeee>div{
+  width:545px;
+  height:352px;
+  background-color:#a0a0a0;
+  color:white;
+  font-size: 30px
+}
+.javeee>div{
+  padding-left: 40px;
+  padding-top:45px;
+  position: absolute;
+  bottom:40px;
+  left: 0px
+}
+.javeee>img{
+  position: absolute;
+}
+.javeee>img:first-child{
+  top: 43px;
+  left: 396px;
+}
+.javeee>img:nth-child(2){
+  bottom: 43px;
+  left: 585px;
+}
+
+/* 移动技术 */
+
+.mobitech{
+  height:678px;
+  position: relative;
+  margin-top: 30px;
+}
+.mobitech>div{
+  width:560px;
+  height:315px;
+  background-color:#a0a0a0;
+  color:white;
+  font-size: 30px;
+  padding-left: 40px;
+  padding-top:45px;
+  position: absolute;
+  bottom:0px;
+  right: 26px
+}
+.mobitech>img{
+  position: absolute;
+}
+.mobitech>img:first-child{
+  bottom: 540px;
+  right: 294px;
+}
+.mobitech>img:nth-child(2){
+  bottom: 150px;
+  left: 0px;
+  opacity: .8;
+}
+
+/* 点缀条设置 */
+.dot_bar1{
+  position: absolute;
+  top: 376px;
+  right: 178px;
+}
+.dot_bar11{
+  position: absolute;
+  top: 477px;
+  right: 149px;
+  z-index: -1;
+}
+.dot_bar2{
+  position: absolute;
+  top: 687px;
+  left: 30px;
+}
+.dot_bar3{
+  position: absolute;
+  top: 1226px;
+  left: 307px;
+}
+.dot_bar4{
+  position: absolute;
+  top: 1202px;
+  left: 188px;
+  z-index: -1;
+}

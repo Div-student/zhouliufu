@@ -1,0 +1,309 @@
+/* 公共样式 */
+*,ul,p,h3,form{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* 首页初始化设置 */
+.mainbox{
+    height: 1001px;
+    width: 100%;
+    background: url(../image/index/topbg.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 首页头部样式 */
+.top .top-navbar{
+    height: 94px;
+    line-height: 94px;
+    margin-left: 33%;
+}
+.top .top-navbar ul li{
+    float: left;
+    color: white;
+    font-size: 16px;
+    padding-left: 40px;
+    position: relative;
+}
+.top .top-navbar ul li:hover a{
+    color: #11ffea;
+    padding-bottom: 9px;
+    border-bottom: 2px solid #11ffea;
+}
+.top .top-navbar ul li.active a{
+    color: #11ffea;
+    padding-bottom: 9px;
+    border-bottom: 2px solid #11ffea;
+}
+.top-content{
+    width: 580px;
+    height: 188px;
+    margin-top: 140px;
+    text-align: right;
+    padding-right: 20px;
+}
+.top-content .top-content-title{
+    font-size: 37px;
+    color: white;
+    line-height: 40px;
+}
+.top-content .top-content-msg{
+    margin-top: 25px;
+}
+.top-content .top-content-msg span{
+    font-size: 21px;
+    color: #11ffeb;
+    border-bottom: 2px solid #11ffeb;
+    padding-bottom: 12px;
+}
+.top-content .top-content-detail{
+    font-size: 10px;
+    color: white;
+    margin-top: 50px;
+}
+.top-content .top-content-detail span{
+    color: #11ffeb;
+}
+.top-slogan{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 398px;
+}
+.top-slogan span{
+    color: #11ffeb;
+}
+/* 首页外包服务样式 */
+.outsourcing-service{
+    text-align: center;
+}
+.outsourcing-service-heading{
+    padding-top: 40px;
+    font-size: 41px;
+}
+.outsourcing-service-smheading{
+    padding-top: 4px;
+    font-size: 14px;
+}
+.outsourcing-service-logo{
+    padding-top: 70px;
+}
+/* 首页about-more样式-更多 */
+.mainbox2{
+    background: url(../image/index/morewaibao.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.mainbox2 .main{
+    position: relative;
+    height: 628px;
+}
+.mainbox2 .about-more-link{
+    height: 40px;
+    line-height: 40px;
+    width: 62%;
+    text-align: center;
+    padding-top: 576px;
+    margin: auto;
+}
+.mainbox2 .about-more-link a{
+    background: linear-gradient(to right, #1CC1C7,#0187C6);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 29px;
+    float: left;
+    line-height: 40px;
+    margin: 0px 0% 0 0%;
+    width: 25%;
+}
+/* 企业技能升级服务 */
+.mainbox3{
+    background: url(../image/index/moreskill.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    margin-top: 140px;
+    height: 305px;
+    position: relative;
+}
+.mainbox3 .main{
+    width: 100%;
+    text-align: center;
+    padding-top: 226px;
+}
+.mainbox3 .main a{
+    padding: 14px 30px;
+    border: 3px solid #17a3af;
+    font-size: 21px;
+    color: #17a3af;
+}
+/* net skill about */
+.net-skill-about > div > div{
+    display: inline-block;
+    width: 33%;
+    height: 568px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 125px;
+}
+.net-skill-about > div div.sm-text{
+    text-align: left;
+    padding-left: 35%;
+    font-size: 12px;
+    height: 26px;
+    line-height: 26px;
+}
+.net-skill-about > div div.first-txt{
+    margin-top: 47px;
+}
+/* our service */
+.our-service .main{
+    text-align: center;
+    height: 1231px;
+}
+.our-service .our-service-heading{
+    font-size: 41px;
+    padding: 70px 0 0px 0;
+} 
+.our-service .our-service-content div:first-child{
+    padding-top: 4px;
+    padding-bottom: 65px;
+    font-size: 14px;
+}
+.our-service .our-service-content div:last-child{
+    font-size: 18px;
+    line-height: 28px;
+}
+.our-service-detail{
+    margin-top: 153px; 
+}
+.our-service-detail-more{
+    padding-top: 155px;
+}
+.our-service-detail-more a{
+    padding: 22px 86px;
+    font-size: 29px;
+    color: white;
+    background-color: #1cc1c7;
+    border-radius: 10px;
+}
+/* 合作案例 */
+.case-of-coorperation .main{
+    text-align: center;
+    height: 916px;
+}
+.case-of-coorperation-heading div:first-child{
+    font-size: 41px;
+}
+.case-of-coorperation-heading div:last-child{
+    padding-top: 4px;
+    padding-bottom: 65px;
+    font-size: 14px;
+}
+.case-of-coorperation-heading-content{
+    text-align: center;
+}
+.case-of-coorperation-heading-content span{
+    display: inline-block;
+    padding: 40px 125px;
+}
+/* footer */
+.footer{
+    height: 352px;
+    background-color: #434343;
+}
+.footer .main{
+    text-align: center;
+    height: 352px;
+    padding-left: 12px;
+}
+.footer .main ul{
+    float: left;
+    padding: 12px 0 0 0px;
+}
+.footer .main ul li{
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer .main ul li:hover{
+    color: #1cc1c7;
+}
+.footer .main ul li:first-child{
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    cursor: default;
+}
+.footer .main ul li:first-child:hover{
+    color: white;
+}
+.footer .main ul.ul-adjust{
+    margin: 40px 100px 0 0px;
+}
+.footer .main ul:first-child{
+    margin-right: 57px;
+}
+.footer .main ul{
+    margin-top: 40px;
+}
+#link-span1,#link-span2,#link-span3{
+    display: inline-block;
+    width: 65px;
+    height: 46px;
+    margin-bottom: 12px;
+    vertical-align: top;
+}
+#link-span1{
+    background: url(../image/index/adress.png) 13px 6px no-repeat;
+}
+#link-span2{
+    background: url(../image/index/adress.png) 14px -39px no-repeat;
+}
+#link-span3{
+    background: url(../image/index/adress.png) 17px -87px  no-repeat;
+}
+.footer .main ul:last-child li{
+    margin-bottom: 12px;
+}
+/* dibuyangshi */
+div.left-bg-pic{
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    left: 48px;
+    top: 1446px;
+}
+div.left-bg-pic img{
+    width: 270px;
+    height: 270px;
+}
+div.right-bg-pic{
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    right: 100px;
+    top: 2078px;
+}
+div.right-bg-pic img{
+    width: 150px;
+    height: 140px;
+}
+
+
+
+
+
+
+

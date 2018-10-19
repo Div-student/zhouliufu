@@ -1,0 +1,145 @@
+<!Doctype <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="jquery.js"></script>
+  <script src="Service.js"></script>
+  <link rel="stylesheet" href="Service.css">
+</head>
+<body>
+  <div class="head">
+    <div class="main">
+      <div class="logo"></div>
+      <ul>
+        <li><a href="">首页 </a></li>
+        <li><a href="">外包模式</a></li>
+        <li><a href="">企业升级技能服务</a></li>
+        <li class="cuar"><a href="">服务行业</a></li>
+        <li><a href="">专家介绍</a></li>
+        <li><a href="">合作案例</a></li>
+        <li><a href="">关于我们</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="banner">
+    <div class="img1">
+        <img src="../0914project/img/banner1.png" alt="">
+    </div>
+    <a class="bottom" href=""><img src="../0914project/img/bottom.png" alt=""></a>
+  </div>
+  <div class="content">
+    <!-- 服务行业 -->
+    <div class="Service">
+      <div class="text">
+        <h2>服务行业</h2>
+        <p>our service </p>
+      </div>
+      <div class="title">
+        <div class="texmain">
+          <div>
+            <h3>众誉信息技术</h3>
+            <span>information technology  </span>
+          </div>
+          <p>是世界领先的专注于外包服务，企业技能升级服务的IT服务于技术解决方案提供商。</p>
+          <p>我们在全球为互联网行业、通信行业、游戏行业、金融行业、房地产行业等行业提供的一体化定向服务</p>
+        </div>
+      </div>
+    </div>
+    <!-- 服务五大行业 -->
+    <div class="industry">
+      <div class="indtext">
+        <h2>服务五大行业</h2>
+      </div>
+      <ul class="tab">
+        <li>
+          <img src="../0914project/img/img1.png" alt="">
+          <div class="boder"></div>
+        </li>
+        <li>
+          <img src="../0914project/img/img2.png" alt="">
+          <span><p>通信</p></span>
+        </li>
+        <li>
+          <img src="../0914project/img/img3.png" alt="">
+          <span><p>游戏</p></span>
+        </li>
+        <li>
+          <img src="../0914project/img/img4.png" alt="">
+          <span><p>金融</p></span>
+        </li>
+        <li>
+          <img src="../0914project/img/img5.png" alt="">
+          <span><p>房地产</p></span>
+        </li>
+      </ul>
+      <div class="indlist">
+          <div class="ind">
+            <div>
+              <span>互联网</span>
+              <p>行业</p>
+            </div>
+            <div class="new">
+              <p>   随着云计算、大数据、人工智能等新技术的兴起与发展,互联网已经深入影响着我们生活的方方面面。
+                它正在改变消费者的生活方式、消费和行为习惯,“互联网的浪潮也正在改变互联网企业的运营管理方式和商
+                务模式。众誉信息基于SaS、PaaS等移动互联平台,并结合在移动应用开发领域积累的多年经验和技术,持续
+                聚焦服务,积极面对新挑战,为客户提供“端到缡”服务和高附加值服务,与客户共同成长。</p>
+            </div>
+          </div>
+          <div class="ind">
+              <div>
+                  <span>通信</span>
+                  <p>行业</p>
+                </div>
+                <div class="new">
+                  <p>   随着云计算、大数据、人工智能等新技术的兴起与发展,互联网已经深入影响着我们生活的方方面面。
+                    它正在改变消费者的生活方式、消费和行为习惯,“互联网的浪潮也正在改变互联网企业的运营管理方式和商
+                    务模式。众誉信息基于SaS、PaaS等移动互联平台,并结合在移动应用开发领域积累的多年经验和技术,持续
+                    聚焦服务,积极面对新挑战,为客户提供“端到缡”服务和高附加值服务,与客户共同成长。</p>
+              </div>
+          </div>
+          <div class="ind">
+              <div>
+                  <span>游戏</span>
+                  <p>行业</p>
+                </div>
+                <div class="new">
+                  <p>   随着云计算、大数据、人工智能等新技术的兴起与发展,互联网已经深入影响着我们生活的方方面面。
+                    它正在改变消费者的生活方式、消费和行为习惯,“互联网的浪潮也正在改变互联网企业的运营管理方式和商
+                    务模式。众誉信息基于SaS、PaaS等移动互联平台,并结合在移动应用开发领域积累的多年经验和技术,持续
+                    聚焦服务,积极面对新挑战,为客户提供“端到缡”服务和高附加值服务,与客户共同成长。</p>
+            </div>
+          </div>
+          <div class="ind">
+              <div>
+                  <span>金融</span>
+                  <p>行业</p>
+                </div>
+                <div class="new">
+                  <p>   随着云计算、大数据、人工智能等新技术的兴起与发展,互联网已经深入影响着我们生活的方方面面。
+                    它正在改变消费者的生活方式、消费和行为习惯,“互联网的浪潮也正在改变互联网企业的运营管理方式和商
+                    务模式。众誉信息基于SaS、PaaS等移动互联平台,并结合在移动应用开发领域积累的多年经验和技术,持续
+                    聚焦服务,积极面对新挑战,为客户提供“端到缡”服务和高附加值服务,与客户共同成长。</p>
+              </div>
+          </div>
+          <div class="ind">
+              <div>
+                  <span>房地产</span>
+                  <p>行业</p>
+                </div>
+                <div class="new">
+                  <p>   随着云计算、大数据、人工智能等新技术的兴起与发展,互联网已经深入影响着我们生活的方方面面。
+                    它正在改变消费者的生活方式、消费和行为习惯,“互联网的浪潮也正在改变互联网企业的运营管理方式和商
+                    务模式。众誉信息基于SaS、PaaS等移动互联平台,并结合在移动应用开发领域积累的多年经验和技术,持续
+                    聚焦服务,积极面对新挑战,为客户提供“端到缡”服务和高附加值服务,与客户共同成长。</p>
+              </div>
+          </div>
+          <div class="right"></div>
+      </div>
+    </div>
+  </div>
+  <div class="tail"></div>
+</body>
+</html>

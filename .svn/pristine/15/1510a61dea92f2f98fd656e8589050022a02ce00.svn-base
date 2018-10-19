@@ -1,0 +1,40 @@
+.headstyle{
+    width: 100%;
+    background-image: url("../png/fwhy_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+    /*background-attachment: fixed;*/
+    /* 让背景图基于容器大小伸缩 */
+    background-size: cover;
+    height: 1000px;
+}
+.daohang{
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    line-height: 50px;
+}
+.daohang img {
+    vertical-align: middle;
+}
+.daohang-lian{
+    float: right;
+}
+.daohang-lian a {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 0 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.daohang-lian a:hover {
+    border-bottom: 2px solid #00FFEA;
+    color: #00FFEA;
+}
+/*高亮*/
+.san{
+    border-bottom: 2px solid #00FFEA;
+    color: #00FFEA!important;
+}

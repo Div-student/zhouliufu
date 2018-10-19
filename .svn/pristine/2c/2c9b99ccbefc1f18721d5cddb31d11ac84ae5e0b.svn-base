@@ -1,0 +1,170 @@
+.bbg{
+    position: absolute;
+}
+.bbg>img:last-child{
+    position: relative;
+    top: -40px;
+    left: 45%;
+}
+/*关于我们的样式*/
+.header1{
+    top: 570px;
+    position: absolute;
+}
+#left{
+    height: 3px;
+    width: 90px;
+    background: grey;
+    margin-top: 40px;
+    margin-left: 499px;
+    display: inline-block;
+}
+#right{
+    height: 3px;
+    width: 90px;
+    background: grey;
+    margin-top: 10px;
+    margin-left: 88px;
+    display: inline-block;
+}
+.abus{
+    width: 70px;
+    height: 70px;
+    font-size: 15px;
+    background: #0ab1a3;
+    color: white;
+    position: absolute;
+    top: 574px;
+    left: 44%;
+    box-shadow: 3px 3px 3px black;
+}
+.abus>span:first-child{
+    font-size: 16px;
+}
+.abus>span:last-child{
+    font-size: 12px;
+}
+/*大图文字区*/
+#w1{
+    height: 90px;
+    width: 360px;
+    position: absolute;
+    top: 300px;
+    left: 60%;
+    text-align: end;
+}
+#w1>span{
+    font-size: 24px;
+    color: white;
+}
+#w11{
+    font-size: 20px;
+    color: white;
+}
+#w12{
+    font-size:4px;
+    color: white;
+}
+#w13{
+    color: #0ab1a3;
+    font-size: 14px;
+}
+#w2{
+    width: 100%;
+    position: absolute;
+    top: 670px;
+}
+#w2>.w2content{
+    height: 140px;
+    line-height: 140px;
+}
+#w2>.w2content>img{
+    width: 140px;
+    height: 140px;
+    margin-left: 260px;
+}
+.w3{
+    position: absolute;
+    top: 660px;
+    margin-left:490px;
+    width: 500px;
+    font-size: 12px;
+}
+h2{
+    position: relative;
+    top: 780px;
+    margin-left: 520px;
+}
+.w4{
+    position: relative;
+    top: 790px;
+    margin-left: 260px;
+}
+.w4>img{
+    width: 310px;
+    height: 190px;
+}
+.tp1{
+    width: 100px;
+    height: 100px;
+    background:#0ab1a3 ;
+    position: relative;
+    top: 786px;
+    margin-left: 470px;
+}
+.w5{
+    position: relative;
+    top: 550px;
+    margin-left: 510px;
+    border: solid 1px white;
+    background: white;
+    font-size: 12px;
+}
+/*高层图片*/
+.tp2{
+    position: relative;
+    top: 610px;
+}
+.tp2>img:nth-child(2){
+   position: relative;
+    top: -950px;
+    left: 400px;
+}
+.tp2>img:nth-child(3){
+    position: relative;
+    top: -500px;
+    left: 190px;
+}
+/*高层介绍文字*/
+.w6{
+    position: relative;
+    top: -850px;
+    left: 750px;
+    color: white;
+}
+.w6>span:first-child{
+    font-size: 30px;
+}
+.w7,.w71{
+    position: relative;
+    top: -650px;
+    left: 750px;
+    color: white;
+}
+.w8{
+    position: relative;
+    left: 810px;
+    top: -240px;
+    color: white;
+}
+.tp3{
+    position: relative;
+    top: -170px;
+    left: 600px;
+}
+/*底部加样式*/
+.lianxi{
+    position: absolute;
+    top:2490px;
+    left: 800px;
+}

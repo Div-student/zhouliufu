@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>服务行业</title>
+    <script src="../js/jq.js" type="application/javascript"></script>
+    <script src="../js/headstyle.js"></script>
+    <link rel="stylesheet" href="../css/botstyle.css">
+    <link rel="stylesheet" href="../css/fwhy_head.css">
+    <link rel="stylesheet" href="../css/fwhy.css">
+    <link rel="stylesheet" href="../common.css">
+</head>
+<body>
+<div class="headstyle">
+    <div class="daohang">
+        <img src="../img/logo.png" alt="加载失败">
+        <div class="daohang-lian">
+        </div>
+        <div class="top_text">
+            <br>
+            <div>关于众誉</div>
+            <div>成就客户，信誉为先，服务为本，携手共赢</div>
+            <div>是我们的核心价值</div>
+            <div><img src="../img/tb1.png"></div>
+        </div>
+    </div>
+</div>
+<div class="wb">
+    <div class="w">
+        <div>
+            <div></div>
+            <div>服务行业</div>
+            <div></div>
+        </div>
+        <div>our service</div>
+    </div>
+    <div class="b">
+        <div>众誉信息技术</div>
+        <br>
+        <div>INFORMATION TECHNOLOGY</div>
+        <div>是世界领先的专注于外包服务，企业技能升级服务的IT服务于技术解决方案提供商。</div>
+        <div>我们在全球为互联网行业、通信行业、游戏行业、金融行业、房地产行业等行业提供的一体化定向服务</div>
+    </div>
+</div>
+<div class="ww">
+    <div>服务五大行业</div>
+    <hr>
+</div>
+<div class="img_box">
+    <img src="../img/cc.png" style="position: relative;top: 20px;" >
+    <img src="../img/c1.png">
+    <img src="../img/c2.png">
+    <img src="../img/c3.png">
+    <img src="../img/c4.png">
+</div>
+<div class="text_box">
+    <div>互联网 <span>行业</span></div>
+    <hr>
+    <div> 随着云计算、大数据、人工智能等新技术的兴起与发展,互联网已经深入影响着我们生活的方方面面。它正在改变消费者的生活方式、消费和行为习惯,“互联网的浪潮也正在改变互联网企业的运营管理方式和商务模式。众誉信息基于SaS、PaaS等移动互联平台,并结合在移动应用开发领域积累的多年经验和技术,持续聚焦服务,积极面对新挑战,为客户提供“端到缡”服务和高附加值服务,与客户共同成长。</div>
+</div>
+<div class="main"></div>
+<div class="botstyle" style="margin-top: 100px">
+    <div class="neirong">
+        <div>
+            <h3>服务项目</h3>
+            <a href="#">外包服务</a>
+            <a href="#">企业技能升级服务</a>
+        </div>
+        <div>
+            <h3>服务行业</h3>
+            <a href="#">互联网行业</a>
+            <a href="#">通信行业</a>
+            <a href="#">游戏行业</a>
+            <a href="#">金融行业</a>
+            <a href="#">房地产行业</a>
+        </div>
+        <div>
+            <h3>关于我们</h3>
+            <a href="#">企业文化</a>
+            <a href="#">企业介绍</a>
+            <a href="#">人员介绍</a>
+        </div>
+        <div>
+            <h3>合作企业</h3>
+            <a href="#">中国平安</a>
+            <a href="#">酷派集团</a>
+            <a href="#">唯品会</a>
+            <a href="#">鹏伟股份</a>
+        </div>
+        <div>
+            <h3>联系我们</h3>
+            <div>
+                <span><img src="../img/souji.png"></span>
+                <span>0755-26601867</span>
+            </div>
+            <div>
+                <span><img src="../img/diannao.png"></span>
+                <span>liangjianhui@zyxinxi.com</span>
+            </div>
+            <div>
+                <span><img src="../img/dinwei.png"></span>
+                <span>深圳市南山区留仙大道南山云谷新产业园山水楼B-211</span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

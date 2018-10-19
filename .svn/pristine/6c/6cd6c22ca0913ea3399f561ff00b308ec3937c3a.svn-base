@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../css/botstyle.css" type="text/css" rel="stylesheet">
+    <script src="../js/jQuery.js"></script>
+    <script src="../js/botstyle.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="botstyle">
+        <div class="neirong">
+            <div>
+                <h3>服务项目</h3>
+                    <a href="#">外包服务</a>
+                    <a href="#">企业技能升级服务<a>
+            </div>
+            <div>
+                <h3>服务行业</h3>
+                    <a href="#">互联网行业</a>
+                    <a href="#">通信行业<a>
+                    <a href="#">游戏行业</a>
+                    <a href="#">金融行业</a>
+                    <a href="#">房地产行业</a>
+            </div>
+            <div>
+                <h3>关于我们</h3>
+                    <a href="#">企业文化</a>
+                    <a href="#">企业介绍<a>
+                    <a href="#">人员介绍</a>
+            </div>
+            <div>
+                <h3>合作企业</h3>
+                <a href="#">中国平安</a>
+                <a href="#">酷派集团<a>
+                    <a href="#">唯品会</a>
+                    <a href="#">鹏伟股份</a>
+            </div>
+            <div>
+                <h3>联系我们</h3>
+                <div>
+                    <span><img src="../img/souji.png"></span>
+                    <span>0755-26601867</span>
+                </div>
+                <div>
+                    <span><img src="../img/diannao.png"></span>
+                    <span>liangjianhui@zyxinxi.com</span>
+                </div>
+                <div>
+                    <span><img src="../img/dinwei.png"></span>
+                    <span>深圳市南山区留仙大道南山云谷新产业园山水楼B-211</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

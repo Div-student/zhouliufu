@@ -1,0 +1,422 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.box{
+  border: 1px white solid;
+  width: 1346px;
+  height: 700px;
+  background-image: url(../img/zhuanjiabg1.png);
+  background-size: 100%;
+
+}
+.box > .header{
+  width: 1346px;
+  height: 66px;
+  background: rgba(0,0,0,.3);
+  position: relative;
+}
+.box > .header > img{
+  position: absolute;
+  top: 13px;
+  left: 223px;
+}
+.box > .header > ul{
+  list-style-type: none;
+  text-align: center;
+  margin-left: 390px;
+}
+.box > .header > ul > li{
+  line-height: 30px;
+  margin-top: 16px;
+  height: 30px;
+  display: inline-block;
+  color: white;
+  margin-left: 40px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.box > .header > ul > li:nth-child(5){
+  border-bottom: 2px cyan solid;
+  color: cyan;
+}
+.box > .title {
+  color: white;
+  font-size: 42px;
+  text-align: center;
+  margin: 190px 0 225px -23px;
+  font-weight: bold;
+}
+.box > .context{
+  color: rgba(0,255,255,.6);
+  text-align: center;
+  font-size: 12px;
+}
+.box > img{
+  margin-top: 20px;
+  margin-left: 652px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.into{
+  width: 1348px;
+  height: 165px;
+  text-align: center;
+  padding-top: 80px;
+}
+.into > div{
+  display: inline-block;
+  margin: 0 20px;
+
+}
+.into .jieshao{
+  font-size: 30px;
+  letter-spacing: 4px;
+  color: black;
+}
+.into .en{
+  font-size: 8px;
+  margin-top: 10px;
+}
+.into > div:first-child, .into > div:last-child{
+  width: 76px;
+  height: 5px;
+  background: black;
+  position: relative;
+  top: -40px;
+}
+.people{
+  width: 1346px;
+  height: 2231px;
+  background-image: url(../img/zhuanjiabg3.png);
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.people > div{
+  flex: 1;
+  position: relative;
+  margin-bottom: 2px;
+}
+.people > div:last-child > img{
+  position: absolute;
+  left: 270px;
+  bottom: 168px;
+}
+.people > div:nth-child(5) > img{
+  position: absolute;
+  left: 270px;
+  bottom: 168px;
+}
+.people > div:nth-child(4) > img{
+  position: absolute;
+  left: 270px;
+  bottom: 180px;
+}
+.people > div > img{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 270px;
+  bottom: 188px;
+}
+.people > div > div{
+  width: 56px;
+  height: 20px;
+  font-weight: bolder;
+  position: absolute;
+  top: 37px;
+  left: 480px;
+  display: inline-block;
+}
+.people > div:nth-child(3) > div{
+  top: 43px;
+}
+.people > div:nth-child(4) > div{
+  top: 46px;
+}
+.people > div:nth-child(5) > div{
+  top: 57px;
+}
+.people > div:nth-child(6) > div{
+  top: 60px;
+}
+.people > div > p1{
+  letter-spacing: 0;
+  display: inline-block;
+  font-size: 0.2rem!important;
+  position: absolute;
+  top: 70px;
+  left: 444px;
+}
+.people > div > p2{
+  letter-spacing: 0;
+  display: inline-block;
+  font-size: 0.2rem!important;
+  position: absolute;
+  top: 70px;
+  left: 444px;
+}
+.people > div > p3{
+  letter-spacing: 0;
+  display: inline-block;
+  font-size: 0.2rem!important;
+  position: absolute;
+  top: 70px;
+  left: 444px;
+}
+.people > div > p4{
+  letter-spacing: 0;
+  display: inline-block;
+  font-size: 0.2rem!important;
+  position: absolute;
+  top: 70px;
+  left: 444px;
+}
+.people > div > p5{
+  letter-spacing: 0;
+  display: inline-block;
+  font-size: 0.2rem!important;
+  position: absolute;
+  top: 70px;
+  left: 444px;
+}
+.people > div > p6{
+  letter-spacing: 0;
+  display: inline-block;
+  font-size: 0.2rem!important;
+  position: absolute;
+  top: 70px;
+  left: 444px;
+}
+.people > div > .em1{
+  font-style: normal;
+  width: 410px;
+  display: inline-block;
+  position: absolute;
+  top: 51px;
+  left: 608px;
+  color: white;
+  font-size: 10px;
+}
+.people > div > .em2{
+  font-style: normal;
+  width: 410px;
+  display: inline-block;
+  position: absolute;
+  top: 51px;
+  left: 620px;
+  color: white;
+  font-size: 10px;
+}
+.people > div > .em3{
+  font-style: normal;
+  width: 410px;
+  display: inline-block;
+  position: absolute;
+  top: 51px;
+  left: 630px;
+  color: white;
+  font-size: 10px;
+}
+.people > div > .em4{
+  font-style: normal;
+  width: 386px;
+  display: inline-block;
+  position: absolute;
+  top: 48px;
+  left: 625px;
+  color: white;
+  font-size: 10px;
+}
+.people > div > .em5{
+  font-style: normal;
+  width: 386px;
+  display: inline-block;
+  position: absolute;
+  top: 58px;
+  left: 625px;
+  color: white;
+  font-size: 10px;
+}
+.people > div > .em6{
+  font-style: normal;
+  width: 386px;
+  display: inline-block;
+  position: absolute;
+  top: 58px;
+  left: 625px;
+  color: white;
+  font-size: 10px;
+}
+.people > div > .b1{
+  width: 490px;
+  font-weight: normal;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 115px;
+  left: 530px;
+}
+.people > div > .b2{
+  width: 523px;
+  font-weight: normal;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 106px;
+  left: 537px;
+}
+.people > div > .b3{
+  width: 472px;
+  font-weight: normal;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 130px;
+  left: 537px;
+}
+.people > div > .b4{
+  width: 472px;
+  font-weight: normal;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 116px;
+  left: 546px;
+}
+.people > div > .b5{
+  width: 472px;
+  font-weight: normal;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 153px;
+  left: 546px;
+}
+.people > div > .b6{
+  width: 658px;
+  font-weight: normal;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 150px;
+  left: 546px;
+}
+.people > div > .span1{
+  display: inline-block;
+  width: 722px;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 244px;
+  left: 290px;
+}
+.people > div > .span2{
+  display: inline-block;
+  width: 722px;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 250px;
+  left: 290px;
+}
+.people > div > .span3{
+  display: inline-block;
+  width: 722px;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 244px;
+  left: 290px;
+}
+.people > div > .span4{
+  display: inline-block;
+  width: 722px;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 256px;
+  left: 290px;
+}
+.people > div > .span5{
+  display: inline-block;
+  width: 722px;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 272px;
+  left: 430px;
+}
+.people > div > .span6{
+  display: inline-block;
+  width: 722px;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 287px;
+  left: 290px;
+}
+
+.footer{
+  background: #434343;
+  width: 1346px;
+  height: 355px;
+  margin-top: -3px;
+}
+.footer>.content{
+  width: 1200px;
+  height: 355px;
+  margin: 0 auto;
+  color: white;
+}
+.footer>.content>ul{
+  margin-left: 110px;
+}
+.footer>.content>ul>li{
+  list-style: none;
+  float: left;
+  text-align: left;
+  cursor: pointer;
+}
+.footer>.content>ul>li p{
+  font-size: 14px;
+  padding-top:40px;
+  font-weight: bold;
+}
+.footer>.content>ul>li li{
+  font-size: 14px;
+  list-style: none;
+  padding-top:30px;
+}
+.footer>.content>ul>li:first-child{
+  margin-right: 65px;
+}
+.footer>.content>ul>li:nth-child(2){
+  margin-right: 122px;
+}
+.footer>.content>ul>li:nth-child(3){
+  margin-right: 130px;
+}
+.footer>.content>ul>li:nth-child(4){
+  margin-right: 125px;
+}
+.footer>.content>ul>li>ol>li div:first-child{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+.footer>.content>ul>li>ol>li div:last-child{
+  display: inline-block;
+  /* width: 250px; */
+  /* line-height: 50px; */
+  /* height: 50px; */
+}
+.footer>.content>ul>li:last-child li{
+  padding-top: 20px;
+}
+
+

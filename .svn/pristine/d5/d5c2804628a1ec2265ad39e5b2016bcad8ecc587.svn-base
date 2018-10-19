@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>找回密码</title>
+    <link rel="icon" href="../../png/QQ图片20180911154112.png">
+    <link type="text/css" href="../css/find.css" rel="stylesheet">
+    <script src="../javascript/jQuery.js"></script>
+</head>
+<body>
+    <!--背景-->
+    <div class="findbg">
+        <!--注册窗口-->
+        <div class="findy">
+            <!--注册选择-->
+            <div class="findxz">
+                通过手机找回
+            </div>
+            <!--注册页面-->
+            <div class="findym">
+                    <ul>
+                        <li>
+                            <img src="../imgs/shopping_cart_pic1.png">
+                            <input type="text" placeholder="请输入你的手机号">
+                        </li>
+                        <li>
+                            <img src="../imgs/shopping_cart_pic2.png">
+                            <input type="text" placeholder="请输入验证码">
+                            <span class="code">获取验证码</span>
+                        </li>
+                        <li>
+                            <img src="../imgs/shopping_cart_pic21.png">
+                            <input type="password" placeholder="6-20位大小写字母,数字组合">
+                        </li>
+                        <li>
+                            <img src="../imgs/shopping_cart_pic21.png">
+                            <input type="password" placeholder="再次输入密码">
+                        </li>
+                    </ul>
+                    <span>
+                        <input type="checkbox" id="tongyiz">
+                        <label for="tongyiz">我已阅读并同意《周六福用户协议》</label>
+                    </span>
+                    <a href="#">确认重置密码</a>
+                    <div>
+                        <a href="login.html">&gt;返回登录</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

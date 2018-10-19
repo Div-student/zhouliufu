@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/JQ.js"></script>
+    <script src="../js/header.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="header_content">
+        <img src="../img/logo.png" alt="">
+        <span class="header_list">
+        <span>首页</span>
+        <span>外包模式</span>
+        <span>企业技能服务</span>
+        <span>服务行业</span>
+        <span>专家介绍</span>
+        <span>合作案例</span>
+        <span>关于我们</span>
+      </span>
+    </div>
+</div>
+<div class="login">
+    <img src="../img/banner5.png" alt="">
+  <div class="hang">
+    <div></div>
+    <div class="fuwu">外包服务</div>
+    <div></div>
+    <div class="out">Outsourcing service</div>
+  </div>
+  <img src="../img/jiaofu.png" alt="">
+</div>
+<div class="login2">
+    <img src="../img/waibaobg.png" alt="">
+    <div class="img2">
+        <img src="../img/waibao.png" alt="">
+        <img src="../img/waibao2.png" alt="">
+        <img src="../img/waibao3.png" alt="">
+        <img src="../img/waibao4.png" alt="">
+    </div>
+</div>
+<div class="login3">
+    <img src="../img/qiye.png" alt="">
+</div>
+<div class="login4">
+    <div class="loginback1">
+        <img src="../img/c1.png" alt="">
+        <span>首都卡拉你上课哪里开始那是可能是打死你大量看到爱丽丝可能大理石可能的卡罗纳省的ka/lns淡蓝色但是对看上了的哪里是可能的爱死你了到了看书离开的那里是你打</span>
+    </div>
+    <div class="loginback2">
+        <img src="../img/c2.png" alt="">
+        <span>了卡卡桑你单独按时的lak/ns/dalnsd/拉克纳斯的/啊来看d/alknsd/las你打流水nda/lsnda/lskn/al啊打算打</span>
+    </div>
+    <div class="loginback3">
+        <img src="../img/c3.png" alt="">
+        <span>上的卡是打，是打算的绿卡算打拉力赛打开速度啦深刻的温家宝去我家阿萨的玩家大街上大王安康撒刷卡我卡</span>
+    </div>
+    <img src="../img/bg01.png" alt="">
+</div>
+<div class="login5">
+    <div class="title">
+        <div></div>
+        <div>服务行业</div>
+        <div></div>
+        <div style="padding-left: 35%">Out Service</div>
+        <span class="zi">算打爱丽丝打打了算打啊什么的按时的撒扩大卢卡斯领导卡死了的k</span>
+    </div>
+    <div class="right">
+        <div>新闻资讯
+            <div>x</div>
+        </div>
+        <div>示例代码安身立命alms的asmd/拉牧师的两岸三地安排时间的‘啊品味own的欧安算打， 是都没拿到八路军开始的吗</div>
+    </div>
+    <div class="center">
+        <div>通讯网行业</div>
+        <div>互联网行业</div>
+        <div>游戏行业</div>
+        <div>金融行业</div>
+        <div>房地产行业</div>
+        <span class="bthout">了解更多</span>
+    </div>
+</div>
+<div class="login6">
+    <div></div>
+    <div>合作案例</div>
+    <div></div>
+    <div>Case of cooperation</div>
+</div>
+</body>
+</html>

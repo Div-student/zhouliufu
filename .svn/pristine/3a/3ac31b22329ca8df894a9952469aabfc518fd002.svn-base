@@ -1,0 +1,9 @@
+.ttt img{
+    margin-bottom: 55px;
+}
+.ttt p {
+    margin-bottom: 80px;
+}
+article {
+    margin-bottom: 50px !important;
+}

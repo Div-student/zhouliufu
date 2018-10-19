@@ -1,0 +1,14 @@
+$(function(){
+  // $(".headernavy li span").hover(
+  //   function(){
+  //     $(this).css({"color":"#00ffea", "border-bottom":"1px solid #00ffea"})},
+  //     function(){}
+  //     )
+  $('.headernavy>ul>li:last-child').click(function () {
+      $(location).prop('href','../html/about-us.html')
+  })
+  $(".headernavy li span").click(function(){
+    $(".headernavy li span").css({"color":"white", "border-bottom":"none"}) 
+    $(this).css({"color":"#00ffea", "border-bottom":"1px solid #00ffea"})
+  })
+})

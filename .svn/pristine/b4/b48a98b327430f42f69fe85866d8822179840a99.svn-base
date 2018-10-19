@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/hezuo.css">
+    <script src="../js/JQ.js"></script>
+    <script src="../js/header.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="header_content">
+        <img src="../img/logo.png" alt="">
+        <span class="header_list">
+            <span>首页</span>
+            <span>外包模式</span>
+            <span>企业技能服务</span>
+            <span>服务行业</span>
+            <span>专家介绍</span>
+            <span>合作案例</span>
+            <span>关于我们</span>
+        </span>
+    </div>
+</div>
+<div class="nav">
+    <img src="../img/banner2.png" alt="">
+    <span>v</span>
+</div>
+<main>
+    <div class="body">
+        <div></div>
+        <div class="title">
+            <p>合作案例</p>
+            <span>Case of cooperation</span>
+        </div>
+        <div></div>
+    </div>
+    <div class="pingan">
+        <img src="../img/pinan.png" alt="">
+        <p>荣誉外包合作企业--中国平安</p>
+    </div>
+    <div class="map">
+        <img src="../img/banner3.png" alt="">
+    </div>
+    <div class="tabletext">
+            <div>
+                <span>市场地位</span>
+                <div class="text">在全球老牛逼了。世界500抢，贼几把厉害，可给你牛逼坏了</div>
+                <img src="../img/xinzhuan.png" alt="">
+            </div>
+            <div>
+                <span>实施成就</span>
+                <div class="text">在全球老牛逼了。世界500抢，贼几把厉害，可给你牛逼坏了</div>
+            </div>
+            <div>
+                <span>合作特性</span>
+                <div class="text">在全球老牛逼了。世界500抢，贼几把厉害，可给你牛逼坏了</div>
+                <img src="../img/xinzhuan.png" alt="">
+            </div>
+    </div>
+    <div class="pingan">
+        <img src="../img/kupai.png" alt="">
+        <p>荣誉外包合作企业--酷派</p>
+    </div>
+    <div class="tabletext">
+        <div>
+            <span>市场地位</span>
+            <div class="text">在全球老牛逼了。世界500抢，贼几把厉害，可给你牛逼坏了</div>
+            <img src="../img/xinzhuan.png" alt="">
+        </div>
+        <div>
+            <span>实施成就</span>
+            <div class="text">在全球老牛逼了。世界500抢，贼几把厉害，可给你牛逼坏了</div>
+        </div>
+        <div>
+            <span>合作特性</span>
+            <div class="text">在全球老牛逼了。世界500抢，贼几把厉害，可给你牛逼坏了</div>
+            <img src="../img/xinzhuan.png" alt="">
+        </div>
+    </div>
+    <div class="pingan">
+    <img src="../img/wph.png" alt="">
+    <p>荣誉外包合作企业--唯品会</p>
+</div>
+    <div class="tabletext">
+        <div>
+            <span>市场地位</span>
+            <div class="text">在全球老牛逼了。世界500抢，贼几把厉害，可给你牛逼坏了</div>
+            <img src="../img/xinzhuan.png" alt="">
+        </div>
+        <div>
+            <span>实施成就</span>
+            <div class="text">在全球老牛逼了。世界500抢，贼几把厉害，可给你牛逼坏了</div>
+        </div>
+        <div>
+            <span>合作特性</span>
+            <div class="text">在全球老牛逼了。世界500抢，贼几把厉害，可给你牛逼坏了</div>
+            <img src="../img/xinzhuan.png" alt="">
+        </div>
+    </div>
+    <div class="pingan">
+        <img src="../img/penwei.png" alt="">
+        <p>荣誉外包合作企业--唯品会</p>
+    </div>
+    <div class="tabletext">
+        <div>
+            <span>市场地位</span>
+            <div class="text">在全球老牛逼了。世界500抢，贼几把厉害，可给你牛逼坏了</div>
+            <img src="../img/xinzhuan.png" alt="">
+        </div>
+        <div>
+            <span>实施成就</span>
+            <div class="text">在全球老牛逼了。世界500抢，贼几把厉害，可给你牛逼坏了</div>
+        </div>
+        <div>
+            <span>合作特性</span>
+            <div class="text">在全球老牛逼了。世界500抢，贼几把厉害，可给你牛逼坏了</div>
+            <img src="../img/xinzhuan.png" alt="">
+        </div>
+    </div>
+    <div class="footer">众誉其他外包服务客服</div>
+    <div class="foot">
+        <table style="width: 800px">
+            <tr>
+                <td>顺丰科技</td>
+                <td>汇丰银行</td>
+                <td>鹏为股份</td>
+                <td>菜尚科技</td>
+                <td>广州亦能</td>
+            </tr>
+            <tr>
+                <td>赛宝</td>
+                <td>美的集团</td>
+                <td>越秀集团</td>
+                <td>步步高</td>
+                <td>中国北车</td>
+            </tr>
+            <tr>
+                <td>厦门35互联</td>
+                <td>广东移动</td>
+                <td>中国南车</td>
+                <td>杭州凯迪</td>
+                <td>贵州电网</td>
+            </tr>
+            <tr>
+                <td>上海阿卡炔</td>
+                <td>顺德移动</td>
+                <td>郑州思维</td>
+                <td>环球市场</td>
+                <td>云巅同方</td>
+            </tr>
+            <tr>
+                <td>阿尔斯通</td>
+                <td>汕头移动</td>
+                <td>广电运通</td>
+                <td>中心银港</td>
+                <td>阿尔卡特</td>
+            </tr>
+            <tr>
+                <td>深圳空管站</td>
+                <td>中国航信</td>
+                <td>玉龙酷派</td>
+                <td>柚子舍</td>
+                <td>心思科技</td>
+            </tr>
+        </table>
+    </div>
+    <div class="last">
+        <div class="last_content">
+            <ul>
+                <li>服务项目</li>
+                <li>外包服务</li>
+                <li>企业技能升级服务</li>
+            </ul>
+            <ul>
+                <li>服务行业</li>
+                <li>互联网行业</li>
+                <li>通信行业</li>
+                <li>游戏行业</li>
+                <li>金融行业</li>
+                <li>房地产行业</li>
+            </ul>
+            <ul>
+                <li>关于我们</li>
+                <li>企业文化</li>
+                <li>企业介绍</li>
+                <li>人员介绍</li>
+            </ul>
+            <ul>
+                <li>合作企业</li>
+                <li>中国平安</li>
+                <li>酷派集团</li>
+                <li>唯品会</li>
+                <li>鹏为股份</li>
+            </ul>
+            <ul class="lianxi">
+                <li>联系我们</li>
+                <li>
+                    <span><img src="../img/phone.png" alt=""></span>
+                    <span>0755-26601867</span>
+                </li>
+                <li>
+                    <span> <img src="../img/pc.png" alt=""></span>
+                    <span>lingjianhui@zyxinx</span>
+                </li>
+                <li>
+                    <span><img src="../img/iton.png" alt=""></span>
+                    <span>深圳市南山区留仙大道南山云谷新产业园山水楼B-211</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+</body>
+</html>

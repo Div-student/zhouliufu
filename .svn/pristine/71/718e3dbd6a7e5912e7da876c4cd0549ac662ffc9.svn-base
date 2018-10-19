@@ -1,0 +1,130 @@
+/*整体*/
+#content {
+    width: 1200px;
+    margin: auto;
+}
+/*指引*/
+.guide {
+    font-size: 16px;
+    color: #666666;
+    height: 50px;
+    line-height: 50px;
+}
+.guide > a {
+    text-decoration: none;
+    color: #666666;
+}
+/*展示*/
+.exhibit {
+    display: flex;
+    height: 776px;
+    position: relative;
+}
+/*展示左边*/
+.exhibit > .leftexh {
+    flex: 4;
+}
+.leftexh > .exhbg {
+    width: 550px;
+    height: 550px;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.leftexh > .exhlb {
+    height: 130px;
+    position: relative;
+}
+.leftj {
+    width: 5%;
+    height: 130px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+.leftj:after {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 15px;
+    background: #999;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 43%;
+    left: 14px;
+}
+.leftj:before {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 15px;
+    background: #999;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    left: 14px;
+}
+.rightj {
+    width: 5%;
+    height: 130px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+.rightj > a:after {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 15px;
+    background: #999;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    left: 14px;
+}
+.rightj > a:before {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 15px;
+    background: #999;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 43%;
+    left: 14px;
+}
+.exhlbt {
+    width: 90%;
+    height: 130px;
+    margin: auto;
+    display: flex;
+}
+.exhlbt > span {
+    display: inline-block;
+    flex: 1;
+    margin: auto;
+    text-align: center;
+}
+.exhlbt > span > img {
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+/*.exhlbt > span > img:hover {*/
+    /*border: 1px solid #dab866;*/
+/*}*/
+/*展示中间间隔*/
+.exhibit > .centerexh {
+    flex: 0.3;
+}
+/*展示右边*/
+.exhibit > .rightexh {
+    flex: 5;
+    background: blue;
+}

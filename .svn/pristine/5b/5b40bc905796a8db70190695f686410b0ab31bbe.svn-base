@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="../png/QQ图片20180911154112.png">
+  <title>个人中心</title>
+  <script src="../jQurey.main.js"></script>
+  <link rel="stylesheet" href="css/Geren.css">
+  <link rel="stylesheet" href="css/shoucang.css">
+
+  <!-- JS -->
+  <script>
+      $(function () {
+    // 循环戒指
+    var Jiezhi = [
+      {Jie: '- 求婚钻戒 -', XQ:'FOREVER系列 奢华款 50分 G色', btn:'取消收藏'},
+      {Jie: '- 求婚钻戒 -', XQ:'DARRY RING系列 结婚对戒 浪漫款', btn:'取消收藏'},
+      {Jie: '- 求婚钻戒 -', XQ:'FOREVER系列 奢华款 50分 G色', btn:'取消收藏'},
+      {Jie: '- 求婚钻戒 -', XQ:'FOREVER系列 奢华款 50分 G色', btn:'取消收藏'},
+      {Jie: '- 求婚钻戒 -', XQ:'FOREVER系列 奢华款 50分 G色', btn:'取消收藏'},
+      {Jie: '- 求婚钻戒 -', XQ:'FOREVER系列 奢华款 50分 G色', btn:'取消收藏'}
+    ]
+    $.each(Jiezhi, function(index, item){
+      var jie = $('<div class=meige><img src=../png/11.png><h3>'+item.Jie+'</h3><p>'+item.XQ+'</p><button>'+item.btn+'</button></div>')
+      $('.zhuangjie').append(jie)
+    })
+    // 第几页的循环
+    var yeshu = ['上一页','1','2','3','4','...','5','6','下一页', '确定']
+    $.each(yeshu, function (index1,item1) {
+      var shu = $('<a>'+ item1+'</a>')
+      $('.yeshua').append(shu)
+    })
+    $('a:last').before('<div><input type="text"></div>')
+    // 页数的高亮 
+    $('.yeshua a:eq(1)').addClass('daa')
+    $('.yeshua a').click(function() {
+      $('.yeshua a').removeClass('daa')
+      $(this).addClass('daa')
+      $('.yeshua a:eq(0),.yeshua a:eq(5),.yeshua a:eq(8),.yeshua a:eq(9)').removeClass('daa')
+    })
+    
+    // 别超了, 到底了
+    })
+  </script>
+</head>
+<body>
+  <!-- 最大的div -->
+  <div id="box">
+    <h3 class="hearH3">个人中心</h3>
+    <!-- 中间的box -->
+    <div class="Zbox">
+      <!-- 左边的box -->
+      <div class="left_box">
+          <div id="accordion">
+             <!-- 购物 -->
+                <p class="ul_p ">
+                  <img   src="../png/mycenter_icon1.png" alt="">
+                    购物
+                </p>
+               <div class="my_div">
+                <p>
+                    <ul>
+                        <li> <a href="Geren.html"> 我的购物车</a></li>
+                        <li><a href="shoucan.html">我的收藏</a> </li>
+                        <li><a href="order.html">我的预约到店</a> </li>
+                      </ul>
+                </p>
+              </div>
+               <!-- 订单中心 -->
+                  <p class="ul_p ">
+                      <img  src="../png/mycenter_icon2.png" alt="">
+                        订单中心
+                 </p>
+              <div>
+                <p>
+                    <ul>
+                        <li> <a href="Myindent.html">我的订单</a> </li>
+                        <li> <a href="appraise.html">评价/晒单</a> </li>
+                      </ul>
+                </p>
+              </div>
+                <!-- 会员中心 -->
+                <p class="ul_p ">
+                  <img  src="../png/mycenter_icon1.png" alt="">
+                    会员中心
+                 </p>
+              <div>
+                <p>
+                    <ul>
+                        <li> <a href="Linquan.html">领券中心</a> </li>
+                        <li> <a href="Myquan.html">我的优惠券</a> </li>
+                      </ul>
+                </p>
+              </div>
+              <!-- 账户设置 -->
+                  <p class="ul_p " >
+                      <img  src="../png/mycenter_icon1.png" alt="">
+                      账户设置
+                 </p>
+              <div>
+                <p>
+                    <ul>
+                        <li> <a href="ID.html">绑定账号</a> </li>
+                        <li style="border: none"> <a href="site.html">地址管理</a> </li>
+                      </ul>
+                </p>
+              </div>
+            </div>
+      </div>
+      <!-- 右边的box -->
+      <div class="right_box ">
+        <!-- 内边边距的box -->
+        <div class="padding_box">
+          <div class="my_h3">我的收藏</div>
+          <!-- 钻戒内容 -->
+          <div class="zhuangjie fd"></div>
+          <!-- 页数 -->
+          <div class="yeshua">
+            <span>
+                共72条,当前第1页
+            </span>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+</body>
+</html>

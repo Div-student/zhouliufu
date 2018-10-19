@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>周六福</title>
+  <link rel="icon" href="../../png/QQ图片20180911154112.png">
+  <link rel="stylesheet" href="../css/fenlei.css">
+  <script src="../../jQurey.main.js"></script>
+  <script src="../js/fenlei.js"></script>
+</head>
+<body>
+  <!--顶部-->
+  <!-- <header>
+    <div>
+      <span>登录</span>
+      <span>注册</span>
+    </div>
+    <div>
+      <span>购物车(0)</span>
+      <span>我的订单</span>
+      <span>个人中心</span>
+      <span>门店管理</span>
+      <span><img src="">4008-608388</span>
+    </div>
+  </header> -->
+  <header>
+  <!--顶部-->
+  <div class="header_top">
+      <div class="header_top_left"> <span>登录</span> <span>注册</span> </div>
+      <div class="header_top_right">
+          <span>购物车(0)</span>
+          <span>我的订单</span>
+          <span>个人中心</span>
+          <span>门店管理</span>
+          <span><img src="" alt="">4008-608388</span>
+      </div>
+  </div>
+  <div class="header_title">
+      <img src="../../png/logo.png" alt="">
+      <div class="header_title_right">
+          <span>深圳</span><span class="header_top_right_1">深圳周六福店</span><br>
+          <input type="text" placeholder="请搜索戒托试试">
+          <img src="" alt="">
+      </div>
+  </div>
+  <div class="header_menu">
+      <ul>
+          <li>首页</li>
+          <li>钻石定制</li>
+          <li>全部分类</li>
+          <li>系列</li>
+          <li>专卖店</li>
+          <li>搜索品牌</li>
+      </ul>
+  </div>
+</header>
+<!--系列吐司-->
+<div class="set_box">
+  <div class="set">
+    <div class="left_set">
+      <ul>
+        <li>
+          <h3>产品系列</h3>
+          <p>合一</p>
+          <p>链·爱</p>
+          <p>Mr.Right</p>
+          <p>LOVE CASTLE</p>
+          <p>招财纳福</p>
+          <p>一路有你</p>
+        </li>
+        <li>
+          <p>&nbsp;</p>
+          <p>么么哒</p>
+          <p>Running Diamond</p>
+          <p>耀·变</p>
+          <p>守护之光</p>
+          <p>THE ONE</p>
+          <p>爱的秘密</p>
+        </li>
+        <li>
+          <p>&nbsp;</p>
+          <p>爱の秘语</p>
+          <p>MY HEART</p>
+          <p>JUST YOU</p>
+        </li>
+      </ul>
+    </div>
+    <div class="right_set">
+      <img src="../../png/series_nav_top_down.jpg">
+      <div>
+        <span>如何测量手寸</span>
+        <span>如何挑选适合的戒指款式</span>
+        <span>如何选购戒托材质</span>
+        <span>匠心工艺</span>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--广告图片-->
+  <img src="../../png/widdingcustem.jpg" width="1366px" height="330px">
+  <!--分类表格-->
+  <div class="allSort">
+    <p>全部分类</p>
+    <!--默认显示列表-->
+    <div>
+      <ul>
+        <li>
+          <div><span>品类</span></div>
+          <div>
+            <p>
+             <span>情侣戒</span>
+             <span>男戒</span>
+             <span>女戒</span>
+             <span>耳饰</span>
+             <span>手饰</span>
+             <span>吊坠</span>
+           </p>
+         </div>
+        </li>
+        <li>
+          <div><span>主石大小</span></div>
+          <div>
+            <p>
+             <span>不限</span>
+             <span>301分以下</span>
+             <span>30-39分</span>
+             <span>40-49分</span>
+             <span>50-59分</span>
+             <span>59-99分</span>
+             <span>1克拉以上</span>
+           </p>
+         </div>
+        </li>
+        <li>
+           <div><span>价格</span></div>
+           <div>
+             <p>
+              <span>不限</span>
+              <span>3000以下</span>
+              <span>3000-6000</span>
+              <span>6000-10000</span>
+              <span>10000-20000</span>
+              <span>20000以上</span>
+            </p>
+          </div>
+        </li>
+        <li>
+           <div><span>材质</span></div>
+           <div>
+             <p>
+              <span>PT铂金</span>
+              <span>18K金</span>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--可显示隐藏列表-->
+    <div hidden>
+      <ul>
+        <li>
+          <div><span>镶口类型</span></div>
+          <div>
+            <p>
+              <span>天使之吻</span>
+              <span>牛头镶口</span>
+              <span>心形款</span>
+              <span>车花</span>
+              <span>多围一款</span>
+              <span>爪镶</span>
+              <span>排钻</span>
+              <span>花形款</span>
+            </p>
+          </div>
+        </li>
+        <li>
+          <div><span>臂形</span></div>
+          <div>
+            <p>
+              <span>直臂</span>
+              <span>扭臂</span>
+            </p>
+          </div>
+          </li>
+      </ul>
+    </div>
+    <div>
+      <span>清除筛选项</span><span class="open">展开更多</span>
+    </div>
+  </div>
+  <!--现货/定制-->
+  <div class="goods">
+    <span class="bord">现货速发</span>
+    <span>定制优选</span>
+  </div>
+  <!--货物导航-->
+  <div class="nav">
+    <div>
+      <button class="back">综合</button>
+      <button>钻重</button>
+      <button>净度</button>
+      <button>价格</button>
+    </div>
+    <div>
+      <span>共23456件商品</span>
+      <span>1/23</span>
+      <button>&lt;</button><button>&gt;</button>
+    </div>
+  </div>
+  <!--货品图片及详情-->
+  <div class="pic">
+    <div>
+      <img src="../../png/pro1.png" width="366px" height="366px">
+      <div class="sPic"><img src="../../png/pro1.png" width="90px" height="90px"></div>
+    </div>
+    <div>
+      <p>永恒之约1</p>
+      <p>￥55978.00</p>
+      <p>
+        <span>月销量:256</span>
+        <span>评论:321</span>
+      </p>
+    </div>
+  </div>
+  <!--跳转页面导航-->
+  <div class="jump">
+    共72条,当前第1页
+    <button>上一页</button>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+    <button>5</button>
+    <button>...</button>
+    <button>6</button>
+    <button>下一页</button>
+    <input type="text">
+    <button>确定</button>
+  </div>
+</body>
+</html>

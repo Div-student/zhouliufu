@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="box">
+        <div class="mainbox">
+            <div class="main">
+                <div class="top">
+                    <div class="top-navbar">
+                        <ul>
+                            <li class="active">
+                                <a href="#">首页</a>
+                            </li>
+                            <li>
+                                <a href="">外包模式</a>
+                            </li>
+                            <li class="">
+                                <a href="">企业升级技能服务</a>
+                            </li>
+                            <li>
+                                <a href="">服务行业</a>
+                            </li>
+                            <li>
+                                <a href="">专家介绍</a>
+                            </li>
+                            <li>
+                                <a href="">合作案例</a>
+                            </li>
+                            <li>
+                                <a href="">关于我们</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-content">
+                        <p class="top-content-title">众誉信息</p>
+                        <p class="top-content-msg">
+                            <span>专注于软件测试服务领域</span>
+                        </p>
+                        <p class="top-content-detail">
+                            国内首家专注于软件测试服务领域的企业，公司秉承<span>“专注”“创新<br>”“客户至上”</span>的原则为广大合作伙伴提供最优质的软件测试服务。
+                        </p>
+                    </div>
+                    <div class="top-slogan">
+                        众誉信息，<span>一个值得信赖的合作伙伴</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="outsourcing-service">
+            <div class="main" style="height:523px;">
+                <div class="outsourcing-service-heading">
+                    外包服务
+                </div>
+                <div class="outsourcing-service-smheading">
+                    Outsourcing service
+                </div>
+                <div class="outsourcing-service-logo">
+                    <img src="image/index/-jiaofu.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="about-more">
+            <div class="mainbox2" style="height:1016px;">
+                <div class="main">
+                    <div class="about-more-link">
+                        <a href="">了解更多</a>
+                        <a href="">了解更多</a>
+                        <a href="">了解更多</a>
+                        <a href="">了解更多</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="company-service-upgrade">
+            <div class="mainbox3">
+                <div class="main">
+                    <a href="">了解更多</a>
+                </div>
+            </div>
+        </div>
+        <div class="net-skill-about">
+            <div class="main">
+                <div>
+                    <div>
+                        <img src="image/index/icon1.png" alt="">
+                    </div>
+                    <div class="sm-text first-txt">
+                        DevOps前沿技术培训
+                    </div>
+                    <div class="sm-text">
+                        web应用的安全设计与开发实战
+                    </div>
+                    <div class="sm-text">
+                        Scrum敏捷软件开发管理企业级实训课
+                    </div>
+                    <div class="sm-text">
+                        PMP项目管理
+                    </div>
+                    <div class="sm-text">
+                        ASP.NET MVC5开发培训
+                    </div>
+                    <div class="sm-text">
+                        Web安全测试
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="image/index/icon2.png" alt="">
+                    </div>
+                    <div class="sm-text first-txt">
+                        Java EE性能调优技术实IT/软件研究
+                    </div>
+                    <div class="sm-text">
+                        项目管理
+                    </div>
+                    <div class="sm-text">
+                        Java企业应用进阶与实战
+                    </div>
+                    <div class="sm-text">
+                        Java企业应用系列开发培训
+                    </div>
+                    <div class="sm-text">
+                        Java SSH高级开发与应用实战
+                    </div>
+                    <div class="sm-text">
+                        HTML5与CSS3实战布局
+                    </div>
+                    <div class="sm-text">
+                        AngularJS开源框架开发实战
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="image/index/icon3.png" alt="">
+                    </div>
+                    <div class="sm-text first-txt">
+                        移动应用性能测试实战
+                    </div>
+                    <div class="sm-text">
+                        自动化测试体系建设与最佳实践
+                    </div>
+                    <div class="sm-text">
+                        移动应用测试体系方法与实践
+                    </div>
+                    <div class="sm-text">
+                        使用TFS构造测试管理平台
+                    </div>
+                    <div class="sm-text">
+                        软件安全测试
+                    </div>
+                    <div class="sm-text">
+                        软件性能测试
+                    </div>
+                    <div class="sm-text">
+                        软件测试管理
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="our-service">
+            <div class="main">
+                <div class="our-service-heading">
+                    服务行业
+                </div>
+                <div class="our-service-content">
+                    <div>Our Service</div>
+                    <div>
+                        &emsp;&emsp;&nbsp;&nbsp;&nbsp;众誉信息技术实世界领先的专注于外包服务，企业技能升级服务的</br> &nbsp;&nbsp;&nbsp;IT服务与技术解决方案提供商 。 我们在全球为互联网行业 、 通信行业</br>、游戏行业、金融行业、房地产行业等行业提供的一体化定向服务。
+                    </div>
+                </div>
+                <div class="our-service-detail">
+                    <div class="our-service-detail-images">
+                        <img src="image/index/iconalot.png" alt="">
+                    </div>
+                    <div class="our-service-detail-more">
+                        <a href="">了解更多</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="case-of-coorperation">
+            <div class="main">
+                <div class="case-of-coorperation-heading">
+                    <div>合作案例</div>
+                    <div>Case of cooperation</div>
+                </div>
+                <div class="case-of-coorperation-heading-content">
+                    <span>
+                        <img src="image/index/pingan.png" alt="">
+                    </span>
+                    <span>
+                        <img src="image/index/coolpad.png" alt="">
+                    </span>
+                    <span>
+                        <img src="image/index/vphui.png" alt="">
+                    </span>
+                    <span>
+                        <img src="image/index/pvey.png" alt="">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="main">
+                <ul>
+                    <li>
+                        服务项目
+                    </li>
+                    <li>
+                        外包服务
+                    </li>
+                    <li>
+                        企业技能升级服务
+                    </li>
+                </ul>
+                <ul class="ul-adjust">
+                    <li>
+                        服务行业
+                    </li>
+                    <li>互联网行业</li>
+                    <li>通信行业</li>
+                    <li>游戏行业</li>
+                    <li>金融行业</li>
+                    <li>房地产行业</li>
+                </ul>
+                <ul class="ul-adjust">
+                    <li>
+                         关于我们
+                    </li>
+                    <li>企业文化</li>
+                    <li>企业介绍</li>
+                    <li>人员介绍</li>
+                </ul>
+                <ul class="ul-adjust">
+                    <li>
+                         合作企业
+                    </li>
+                    <li>中国平安</li>
+                    <li>酷派集团</li>
+                    <li>唯品会</li>
+                    <li>鹏为股份</li>
+                </ul>
+                <ul>
+                    <li>联系我们</li>
+                    <li><span id="link-span1"></span>0755-26601867</li>
+                    <li><span id="link-span2"></span>lingjianhui@zyxinxi.com</li>
+                    <li>
+                        <span id="link-span3"></span>
+                        <span style="display:inline-block;line-height: 23px;">
+                            深圳市南山区留仙大道南山云谷新</br>产业园山水楼B-211
+                        </span> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

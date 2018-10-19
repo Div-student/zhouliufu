@@ -1,0 +1,9 @@
+$(function(){
+  $(".headernavy li").on(
+    {"mouseover": function(){
+      $(".headernavy li").css({"color":"white"})
+
+      $(this).css("color","#00ffea")}
+    }
+  )
+})

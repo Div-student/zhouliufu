@@ -1,0 +1,31 @@
+/* 清除浮动 */
+.clear:after{
+  content:"";
+  display: block;
+  height:0px;
+  width:0px;
+  clear: both;
+  visibility: hidden;
+}
+
+/* 公共样式 */
+p,ul,li,body{
+margin:0px;
+padding:0px;
+}
+li{
+list-style: none;
+}
+body,html{
+font-family: "微软雅黑","宋体",Arail,Tabhoma;
+font-size: 16px;
+text-align: left;
+color: #666;
+}
+a{
+text-decoration: none;
+}
+/* 隐藏样式 */
+.hidden{
+display:none;
+}

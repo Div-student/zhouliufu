@@ -1,0 +1,9 @@
+section>h3{
+    margin: 60px 0 30px;
+}
+section>p{
+    margin-bottom: 70px;
+}
+section{
+    width: 935px;
+}

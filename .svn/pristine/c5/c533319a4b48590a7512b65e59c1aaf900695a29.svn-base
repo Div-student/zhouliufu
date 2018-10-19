@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="../png/QQ图片20180911154112.png">
+  <title>个人中心</title>
+  <script src="../jQurey.main.js"></script>
+  <!-- 引入头部 -->
+  <link rel="stylesheet" href="../yqz/css/myhead.css">
+  <!-- 引入购物车 -->
+  <link rel="stylesheet" href="css/Geren.css">
+  <!-- 引入尾部 -->
+  <link rel="stylesheet" href="../yqz/css/myfoot.css">
+  <!-- jquery -->
+
+  <!-- JS -->
+  <script>
+      $(function () {
+    })
+  </script>
+</head>
+<body>
+  <!-- 最大的div -->
+  <div id="box">
+    <h3 class="hearH3">个人中心</h3>
+    <!-- 中间的box -->
+    <div class="Zbox">
+      <!-- 左边的box -->
+      <div class="left_box">
+          <div id="accordion">
+             <!-- 购物 -->
+                <p class="ul_p ">
+                  <img   src="../png/mycenter_icon1.png" alt="">
+                    购物
+                </p>
+               <div class="my_div">
+                <p>
+                    <ul>
+                        <li> <a href="Geren.html"> 我的购物车</a></li>
+                        <li><a href="shoucan.html">我的收藏</a> </li>
+                        <li><a href="order.html">我的预约到店</a> </li>
+                      </ul>
+                </p>
+              </div>
+               <!-- 订单中心 -->
+                  <p class="ul_p ">
+                      <img  src="../png/mycenter_icon2.png" alt="">
+                        订单中心
+                 </p>
+              <div>
+                <p>
+                    <ul>
+                        <li> <a href="Myindent.html">我的订单</a> </li>
+                        <li> <a href="appraise.html">评价/晒单</a> </li>
+                      </ul>
+                </p>
+              </div>
+                <!-- 会员中心 -->
+                <p class="ul_p ">
+                  <img  src="../png/mycenter_icon1.png" alt="">
+                    会员中心
+                 </p>
+              <div>
+                <p>
+                    <ul>
+                        <li> <a href="Linquan.html">领券中心</a> </li>
+                        <li> <a href="Myquan.html">我的优惠券</a> </li>
+                      </ul>
+                </p>
+              </div>
+              <!-- 账户设置 -->
+                  <p class="ul_p " >
+                      <img  src="../png/mycenter_icon1.png" alt="">
+                      账户设置
+                 </p>
+              <div>
+                <p>
+                    <ul>
+                        <li> <a href="ID.html">绑定账号</a> </li>
+                        <li style="border: none"> <a href="site.html">地址管理</a> </li>
+                      </ul>
+                </p>
+              </div>
+            </div>
+      </div>
+      <!-- 右边的box -->
+      <div class="right_box ">
+        <!-- 内边边距的box -->
+        <div class="padding_box">
+          <!-- 导航条 -->
+         <div class="my_h3">地址管理</div>
+         <div>地址</div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <footer class="foot">
+      <!--横线-->
+      <div class="line_1"></div>
+      <ul class=" list_1">
+          <li><span><img src="../png/foot-icon1.png" alt=""></span><br><br>专业认证</li>
+          <li><span><img src="../png/foot-icon2.png" alt=""></span><br><br>终身保养</li>
+          <li><span><img src="../png/foot-icon3.png" alt=""></span><br><br>以旧换新</li>
+          <li><span><img src="../png/foot-icon4.png" alt=""></span><br><br>7天退货</li>
+          <li><span><img src="../png/foot-icon5.png" alt=""></span><br><br>全国免运费</li>
+          <li><span><img src="../png/foot-icon6.png" alt=""></span><br><br>全程保险</li>
+      </ul>
+      <hr class="line_2">
+      <ul class="list_2">
+          <li>
+              <h3>新手指南</h3>
+              <p>注册新会员</p>
+              <p>购买流程</p>
+          </li>
+          <li>
+              <h3>会员中心</h3>
+              <p>如何成为会员</p>
+              <p>等级/优惠政策</p>
+              <p>会员卡申诉</p>
+          </li>
+          <li>
+              <h3>便捷配送</h3>
+              <p>配送方式</p>
+              <p>验货与签收</p>
+          </li>
+          <li>
+              <h3>无忧售后</h3>
+              <p>售后服务政策</p>
+              <p>退货/换货办理</p>
+              <p>商品核验</p>
+              <p>订单自动查询</p>
+          </li>
+          <li class="erweima">
+              <h3>关注我们</h3>
+              <div><img src="../png/erweima1.png" alt=""><br>新浪微博</div>
+              <div><img src="../png/erweima1.png" alt=""><br>官方微信</div>
+          </li>
+          <li class="contact">
+              <h3>联系我们</h3>
+              <div>
+                  <p><img src="../png/icon-phone.png" alt=""><span>4008-60838</span></p>
+                  <div class="changecolor"><span>9:30-17:30 周一至周五 </span><br><span>节假日除外</span></div>
+                  <p class="changecolor"><img src="../png/icon-mai.png" alt=""><span>8:15-23:45(全年无休)</span></p>
+              </div>
+  
+          </li>
+      </ul>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>周六福</title>
+    <script src="../js/jQuery.js" type="application/javascript"></script>
+    <script src="../js/myhead.js"></script>
+    <script src="../js/main.js"></script>
+    <link rel="stylesheet" href="../css/myhead.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/myfoot.css">
+</head>
+<body>
+<header id="header">
+    <!--顶部-->
+    <div class="header_top">
+        <div class="header_top_left"> <span>登录</span> <span>注册</span> </div>
+        <div class="header_top_right">
+            <span>购物车(0)</span>
+            <span>我的订单</span>
+            <span>个人中心 <img src="../../png/arrow-down.png" alt=""></span>
+            <span>门店管理 <img src="../../png/arrow-down.png" alt=""></span>
+            <span><img src="../../png/icon-phone.png" alt="">4008-608388</span>
+        </div>
+    </div>
+    <div class="header_title">
+        <img src="../../png/logo.png" alt="">
+        <div class="header_title_right">
+            <span><img src="../../png/icon-map.png" alt=""> 深圳</span>
+            <span class="header_top_right_1">深圳周六福店 <img src="../../png/arrow-down.png" alt=""></span><br>
+            <input type="text" placeholder="请搜索戒托试试">
+            <img id="logo" src="../../png/icon-seacher.png" alt="">
+        </div>
+    </div>
+    <div class="header_menu">
+        <ul>
+            <li>首页</li>
+            <li>钻石定制</li>
+            <li>全部分类</li>
+            <li>系列</li>
+            <li>专卖店</li>
+            <li>搜索品牌</li>
+        </ul>
+    </div>
+
+    <div class="header_pic">
+        <ul>
+            <li><a href="#"> <img class="didi" src="http://p5zcir255.bkt.clouddn.com/upload/20180518/97bb1aaada2c448686e50b2394ba2699" alt=""></a></li>
+            <li><a href="#"> <img class="didi" src="http://p5zcir255.bkt.clouddn.com/upload/20180518/5734aa9a826d40ce8924b3ad47691c1e" alt=""></a></li>
+            <li><a href="#"> <img class="didi" src="../../png/banner1.jpg" alt=""></a></li>
+        </ul>
+        <!--三个小圆点-->
+        <div><span></span><span></span><span></span></div>
+    </div>
+</header>
+</header>
+
+
+<!--中间内容部分-->
+<main>
+    <!--首页推荐-->
+    <div class="home">
+        <div class="title">首页推荐</div>
+        <!--图片-->
+        <div class="home_pic1">
+            <div>
+                <span>特卖</span>
+                <img class="changesize" src="../../png/pro1.png" alt="">
+                <div> <span>链爱.么么哒</span> <br> <span>￥9999.00</span> </div>
+            </div>
+            <div>
+                <span>特卖</span>
+                <img class="changesize" src="../../png/pro2.png" alt="">
+                <div> <span>链爱.么么哒</span> <br> <span>￥9999.00</span> </div>
+            </div>
+            <div>
+                <span>特卖</span>
+                <img class="changesize" src="../../png/pro3.png" alt="">
+                <div> <span>链爱.么么哒</span> <br> <span>￥9999.00</span> </div>
+            </div>
+        </div>
+        <!--大图-->
+        <div class="home_pic2">
+            <div class="gg1"></div>
+            <div class="gg2"></div>
+            <img src="../../png/pro4.png" alt="">
+        </div>
+    </div>
+    <!--系列产品-->
+    <div class="prodect">
+        <div class="title">系列产品</div>
+        <ul>
+            <li>合一</li>
+            <li>Runing Diamand</li>
+            <li>链·爱</li>
+            <li>耀·变</li>
+            <li>Mr.Right</li>
+            <li>更多></li>
+        </ul>
+        <div class="prodect_pic clearfloat">
+            <div class="prodect_pic_left">
+                <img class="changesize" src="../../png/pro5.png" alt="">
+                <div><span>￥8999</span> <br> <span>立即购买</span></div>
+            </div>
+            <div class="prodect_pic_right">
+                <div >
+                    <img class="changesize" src="../../png/pro6.png" alt="">
+                    <div> <span>夏日甜心1</span> <br> <span>￥9888.00</span> </div>
+                </div>
+                <div>
+                    <img class="changesize" src="../../png/pro7.png" alt="">
+                    <div> <span>夏日甜心1</span> <br> <span>￥9888.00</span> </div>
+                </div>
+                <div>
+                    <img class="changesize" src="../../png/pro8.png" alt="">
+                    <div> <span>夏日甜心1</span> <br> <span>￥9888.00</span> </div>
+                </div>
+                <div>
+                    <img class="changesize" src="../../png/pro9.png" alt="">
+                    <div> <span>夏日甜心1</span> <br> <span>￥9888.00</span> </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--专卖店-->
+    <div class="sell">
+        <div class="title">专卖店</div>
+        <!--<ul>-->
+            <!--<li>-->
+                <!--<div><span>请选择省</span><img src="../../png/arrow-down.png" alt=""></div>-->
+                <!--<ul></ul>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div><span>请选择市</span><img src="../../png/arrow-down.png" alt=""></div>-->
+                <!--<ul></ul>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div><span>请选择区</span><img src="../../png/arrow-down.png" alt=""></div>-->
+                <!--<ul></ul>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div><span>请选择门店</span><img src="../../png/arrow-down.png" alt=""></div>-->
+                <!--<ul></ul>-->
+            <!--</li>-->
+        <!--</ul>-->
+        <ul>
+            <li>
+                <label for="province"></label>
+                <select name="speed" id="speed">
+                    <option>北京</option>
+                    <option>上海</option>
+                    <option selected="selected">南京</option>
+                    <option>广州</option>
+                    <option>珠海</option>
+                </select>
+            </li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+        </ul>
+        <div class="sell_pic">
+            <img src="http://p5zcir255.bkt.clouddn.com/upload/20180408/63d5876889774e5380d12a9f47d77d6c" alt="">
+            <div>
+                <h3>周六福线下专卖店2</h3>
+                <div class="line3"></div>
+                <div><img src="../../png/icon-map.png" alt=""><span>深圳市南山区南海大道2163号来福士广场01层14号</span></div>
+                <div><img src="../../png/icon-phone2.png" alt=""><span>0755-38888888</span></div>
+                <a href="#">进店预约</a>
+            </div>
+        </div>
+    </div>
+    <!--形象视频-->
+    <div class="video">
+        <div class="title">形象视频</div>
+        <div class="video_main">
+            <div class="pic_box">
+                <div></div>
+                <img src="../../png/pro11.jpg" alt="">
+                <div></div>
+            </div>
+        </div>
+        <input id="post" type="button" value="试试获取后端">
+    </div>
+</main>
+
+<!--底部-->
+<footer class="foot">
+    <!--横线-->
+    <div class="line_1"></div>
+    <ul class=" list_1">
+        <li><span><img src="../../png/foot-icon1.png" alt=""></span><br><br>专业认证</li>
+        <li><span><img src="../../png/foot-icon2.png" alt=""></span><br><br>终身保养</li>
+        <li><span><img src="../../png/foot-icon3.png" alt=""></span><br><br>以旧换新</li>
+        <li><span><img src="../../png/foot-icon4.png" alt=""></span><br><br>7天退货</li>
+        <li><span><img src="../../png/foot-icon5.png" alt=""></span><br><br>全国免运费</li>
+        <li><span><img src="../../png/foot-icon6.png" alt=""></span><br><br>全程保险</li>
+    </ul>
+    <hr class="line_2">
+    <ul class="list_2">
+        <li>
+            <h3>新手指南</h3>
+            <p>注册新会员</p>
+            <p>购买流程</p>
+        </li>
+        <li>
+            <h3>会员中心</h3>
+            <p>如何成为会员</p>
+            <p>等级/优惠政策</p>
+            <p>会员卡申诉</p>
+        </li>
+        <li>
+            <h3>便捷配送</h3>
+            <p>配送方式</p>
+            <p>验货与签收</p>
+        </li>
+        <li>
+            <h3>无忧售后</h3>
+            <p>售后服务政策</p>
+            <p>退货/换货办理</p>
+            <p>商品核验</p>
+            <p>订单自动查询</p>
+        </li>
+        <li class="erweima">
+            <h3>关注我们</h3>
+            <div><img src="../../png/erweima1.png" alt=""><br>新浪微博</div>
+            <div><img src="../../png/erweima1.png" alt=""><br>官方微信</div>
+        </li>
+        <li class="contact">
+            <h3>联系我们</h3>
+            <div>
+                <p><img src="../../png/icon-phone.png" alt=""><span>4008-60838</span></p>
+                <div class="changecolor"><span>9:30-17:30 周一至周五 </span><br><span>节假日除外</span></div>
+                <p class="changecolor"><img src="../../png/icon-mai.png" alt=""><span>8:15-23:45(全年无休)</span></p>
+            </div>
+
+        </li>
+    </ul>
+</footer>
+
+</body>
+</html>

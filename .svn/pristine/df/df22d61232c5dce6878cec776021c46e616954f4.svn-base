@@ -1,0 +1,111 @@
+/**
+ * Created by THINK on 2018/9/14.
+ */
+$(function () {
+    $('.header').css({width:'100%',position:'ralative',height:'707px',
+        backgroundRepeat:'no-repeat',background:'cover',
+        backgroundImage:"url('../img/headbg.png')"})
+    $('.header>.header_top').css({height:'60px',background:'#001a3b',padding:'0 70px',
+        display:'flex',alignItems:'center',position:'relative'})
+    //遍历导航
+    var arr = ["首页","外包模式","企业服务技能升级","服务行业","专家介绍","合作案例","关于我们"];
+    $.each(arr,function (index,item) {
+        $('.header_top>span').append('<a>'+item+'</a>')
+    })
+    $('.header_top>span').css({fontSize:'16px',color:'white',display:'block',
+        position:'absolute',right:'70px'})
+    $('.header_top>span>a:eq(5)').css({color:'#00ffea',borderBottom:'solid 2px #00ffea'})
+    $('.header_top>span>a').css({marginLeft:'50px',cursor:'pointer'}).hover(function () {
+        $(this).css({color:'#00ffea',borderBottom:'solid 2px #00ffea'}).siblings().css({color:'white',borderBottom:'none'})
+    },function () {
+        $(this).css({color:'white',borderBottom:'none'})
+    })
+    $('.header>div').css({position:'relative',top:'50%',marginTop:'-100px',
+        color:'white',height:'200px',textAlign:'center'})
+    $('.header>div>p').css({fontSize:'45px',letterSpacing:'3px'})
+    $('.header>div>div').css({fontSize:'76px',letterSpacing:'5px'})
+    //下滑箭头
+    $('.header>span').css({position:'relative',top:'400px',left:'50%',
+        marginLeft:'-15px',display:'block',width:'30px',height:'30px',
+        border:'solid 2px white',borderRadius:'50%',cursor:'pointer'})
+    //$('.header>span:after').css({display:'block',content:'',width:'10px',
+    //    height:'2px',background:'red',transform:'rotate(45deg)',
+    //    position:'absolute'})
+    //$('.header>span:before').css({display:'block',content:'',width:'10px',
+    //    height:'2px',background:'red',transform:'rotate(-45deg)',
+    //    position:'absolute',top:'0'})
+})
+//main
+$(function () {
+    $('.main_title').css({margin:'60px auto',width:'420px',height:'80px',
+        textAlign:'center',position:'relative'})
+
+    $('.main_title>.content').css({background:'white',
+        positoin:'relative',marginLeft:'80px',fontSize:'42px',width:'260px'})
+    $('.main_title>.content>span').css({fontSize:'14px',display:'block'})
+    $('.main_title>.line_1').css({width:'80px',height:'3px',
+        background:'black',position:'relative',top:'30px'})
+    $('.main_title>.line_2').css({width:'80px',height:'3px',
+        background:'black',position:'absolute',top:'30px',right:'0'})
+})
+$(function () {
+    $('.pinganpic').css({position:'relative',height:'581px',backgroundImage:"url('../img/bodybg.png')"})
+    $('.main_section').css({marginBottom:'170px'})
+    $('.main_section>p').css({fontSize:'19px',textAlign:'center',
+        margin:'30px 0 50px'})
+    $('.main_section>.pic_title').css({margin:'0 auto',textAlign:'center'})
+    $('.pinganpic_title>ul').css({width:'1160px',margin:'30px auto',color:'#00ffea',
+        listStyle:'none',display:'flex',padding:'40px 0'})
+    $('.pinganpic_title>ul>li').css({flex:'1',textAlign:'center',
+        fontSize:'18px',fontFamily:'微软雅黑'})
+    $('.pinganpic_fixed').css({position:'absolute',width:'260px',height:'70px',
+        background:'rgba(0,17,33,.5)',color:'#fff',fontSize:'36px',top:'50%',marginTop:'-35px',
+        left:'50%', marginLeft:'-130px',textAlign:'center',lineHeight:'70px'})
+    $('.pinganpic_footer').css({width:'1110px',height:'160px',background:'rgba(0,17,33,.5)',
+        color:'#00ffea',fontSize:'18px',fontFamily:'微软雅黑',position:'relative',
+        margin:'270px auto',textAlign:'center'})
+    $('.pinganpic_footer>ul').css({padding:'20px',listStyle:'none'})
+    $('.pinganpic_footer>ul>li').css({display:'inline-block',listStyle:'none',margin:'8px'})
+
+    //企业的信息
+
+    $('.box').css({display:'flex',color:'white',width:'1000px',height:'120px',
+        alignItems:'center',background:'#1cc1c7',margin:'30px auto'})
+    $('.box>span:nth-child(odd)').css({fontSize:'37px',display:'inline-block',margin:'36px 50px'})
+    $('.box>span:nth-child(even)').css({display:'inline-block',width:'550px',fontSize:'18px',fontWeight:'bold',
+        marginLeft:'20px'})
+    $('.main_section_achievement>span:nth-child(even)').css({width:'670px'})
+    //市场定位 框里的刚刚
+    $('.main_section_market').each(function () {
+        $(this).append('<div class="bb"></div class="gg"><div></div>')
+    }).css({position:'relative'})
+    //$('.bb').css({width:'180px',height:'3px',background:'#fff',position:'absolute',right:'0',top:'80px'})
+    $('.gg').css({width:'90px',height:'3px',background:'red',position:'absolute',top:'100px'})
+
+})
+
+//其他企业
+$(function(){
+    $('.main_others').css({textAlign:'center',marginBottom:'100px'})
+    $('.main_others>p').css({fontSize:'27px',marginBottom:'50px'})
+    $('.main_others>.guest').css({marginLeft:'60px',width:'800px',margin:'0 auto',
+        textAlign:'left'})
+
+    var guestList =
+        [
+            '顺丰科技','汇丰银行','鹏为股份','莱尚科技','广州亿能',
+            '赛宝','美的集团','越秀集团','步步高','中国北车',
+            '厦门35互联','广东移动','中国南车','杭州凯捷','贵州电网',
+            '上海阿尔法','顺德移动','郑州思维','环球市场','云电同方',
+            '阿尔斯通','汕头移动','广电运通','中信银行','阿尔卡特',
+            '深圳空管站','中国航信','宇龙酷派','柚子舍','新思科技',
+            '深圳地税局','中山地税局','友邦保险','广州建设银行','易方达',
+            '平安科技','玫琳凯','深圳创梦天下'
+        ]
+    $.each(guestList,function (index,item) {
+        $('.guest').append('<div>'+item+'</div>')
+    })
+    $('.guest>div').css({width:'160px',display:'inline-block',fontSize:'20px',padding:'8px 0'})
+})
+
+

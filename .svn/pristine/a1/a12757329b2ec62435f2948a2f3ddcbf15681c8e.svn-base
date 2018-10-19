@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>外包服务</title>
+    <script src="../js/jq.js" type="application/javascript"></script>
+    <script src="../js/headstyle.js"></script>
+    <link rel="stylesheet" href="../css/wbfw.css">
+    <link rel="stylesheet" href="../css/wbfw_head.css">
+    <link rel="stylesheet" href="../css/botstyle.css">
+</head>
+<body>
+<div class="headstyle">
+    <div class="daohang">
+        <img src="../img/logo.png" alt="加载失败">
+        <div class="daohang-lian">
+        </div>
+    </div>
+</div>
+<div class="top">
+    <div class="top_text">
+        <div>2018</div>
+        <div></div>
+        <div>大数据时代</div>
+        <div>众誉是你不二的选择</div>
+        <div>我们邀请您，体验科匠中国的科技创新成果，一起感受移动互联网魅力。</div>
+        <div><img src="../img/tb1.png"></div>
+    </div>
+</div>
+<div class="main">
+    <div><div></div>外包服务<div></div></div>
+    <div>Outsourcing service</div>
+    <div><img src="../img/wbfw_jfms.png"></div>
+    <div class="hhh">
+        <div>在场外包</div>
+        <div>指在客户场外包服务</div>
+    </div>
+    <div class="hhh">
+        <div>离场外包</div>
+        <div>指交付地在供应商已建成的或根据客户要求新建的外包地</div>
+    </div>
+    <div class="hhh">
+        <div>离岸外包</div>
+        <div>指供应商在国内面向海外客户提供外包</div>
+    </div>
+    <div class="sss_box">
+        <div class="sss">
+            <div>
+                <div>人员外包</div>
+                <div>Personnel outsourcing</div>
+            </div>
+            <div>
+                <div>指客户自有人员与供应商人员混合编程，主要由客户方履行项目管理职责，供应商人员承担客户安排的交付工作。</div>
+            </div>
+        </div>
+        <div class="sss">
+            <div>
+                <div>项目整包</div>
+                <div>Personnel outsourcing</div>
+            </div>
+            <div>
+                <div>指供应商外包团队以独立团队形式存在，客户按约定的里程碑与要求进行验收即可，供应商按合同要求独立开展交付。供应商承担项目交付和人员管理的职责</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="botstyle">
+    <div class="neirong">
+        <div>
+            <h3>服务项目</h3>
+            <a href="#">外包服务</a>
+            <a href="#">企业技能升级服务</a>
+        </div>
+        <div>
+            <h3>服务行业</h3>
+            <a href="#">互联网行业</a>
+            <a href="#">通信行业</a>
+                <a href="#">游戏行业</a>
+                <a href="#">金融行业</a>
+                <a href="#">房地产行业</a>
+        </div>
+        <div>
+            <h3>关于我们</h3>
+            <a href="#">企业文化</a>
+            <a href="#">企业介绍</a>
+                <a href="#">人员介绍</a>
+        </div>
+        <div>
+            <h3>合作企业</h3>
+            <a href="#">中国平安</a>
+            <a href="#">酷派集团</a>
+                <a href="#">唯品会</a>
+                <a href="#">鹏伟股份</a>
+        </div>
+        <div>
+            <h3>联系我们</h3>
+            <div>
+                <span><img src="../img/souji.png"></span>
+                <span>0755-26601867</span>
+            </div>
+            <div>
+                <span><img src="../img/diannao.png"></span>
+                <span>liangjianhui@zyxinxi.com</span>
+            </div>
+            <div>
+                <span><img src="../img/dinwei.png"></span>
+                <span>深圳市南山区留仙大道南山云谷新产业园山水楼B-211</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="big"><img src="../img/big.png"></div>
+<div class="small"><img src="../img/small.png"></div>
+</body>
+</html>
